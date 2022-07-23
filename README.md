@@ -12,7 +12,7 @@ You can find here all the commands and cheatsheet that I have collected and cura
 | ----- | ----- |
 | React JS | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/React) |
 | Databases | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/Databases) |
-| DevOps Cloud Essentials  | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/DevOps-And-Cloud-Essentials) |
+| DevOps And Cloud Essentials  | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/DevOps-And-Cloud-Essentials) |
 | Markdown Rsources | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/Markdown-Resources) |
 
 #### About Me
