@@ -1,8 +1,12 @@
 #### React JS
 
-[Documentation by create-react-app.dev](https://create-react-app.dev/)      
+*You can see:*    
+- *[React_Docs](https://reactjs.org/docs/getting-started.html)*   
+- *Documentation by [create-react-app.dev](https://create-react-app.dev/)*   
+**OR,**   
+*You can see it in condensed form in [React Cheatsheat](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/React/React_Cheatsheat.md) Markdown*.   
 
 #### React File Structure
 
-[File Structure](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/React/React_File_Structure) [Credit- WebDevSimplified/react-folder-structure] for more information visit [https://youtu.be/UUga4-z7b6s](https://youtu.be/UUga4-z7b6s)     
+*[File Structure](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/React/React_File_Structure) [Credit- WebDevSimplified/react-folder-structure] for more information visit [https://youtu.be/UUga4-z7b6s](https://youtu.be/UUga4-z7b6s)*     
 
