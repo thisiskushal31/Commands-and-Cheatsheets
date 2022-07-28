@@ -16,7 +16,8 @@ You can find here all the commands and cheatsheet that I have collected and cura
 | CSS3 | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/Langauges/css) |
 | HTML5 | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/Langauges/html) |
 | JavaScript | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/Langauges/javascript) |
-| React JS | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/React) |
+| React JS | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/Web-Dev-Essentials/React) |
+| Node JS | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/Web-Dev-Essentials/nodejs) |
 | Databases | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/Databases) |
 | DevOps And Cloud Essentials  | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/DevOps-And-Cloud-Essentials) |
 | Markdown Resources | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/Markdown-Resources) |
