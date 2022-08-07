@@ -1,6 +1,6 @@
 ##### SQL
 
-[learnsql_Sql_cheatsheat](https://learnsql.com/blog/sql-basics-cheat-sheet/)         
+[LearnSQL-  SQL Cheatsheat](https://learnsql.com/blog/sql-basics-cheat-sheet/)         
 
 > [SQL_Documentation](https://www.w3schools.com/sql/)
 > [MySQL_CheetSheet By Buggy_Programmer](https://buggyprogrammer.com/mysql-cheatsheet-pdf/)
@@ -15,6 +15,11 @@
 
 ##### MongoDB
 
+[MongoDB CheatSheat by WebDev_Simplified](https://webdevsimplified.com/mongodb-cheat-sheet.html) Explained in his [Youtube Video](https://youtu.be/ofme2o29ngU)    
+[MongoDB CheatSheat by Traversy Media](https://gist.github.com/bradtraversy/f407d642bdc3b31681bc7e56d95485b6)        
+
+**Some Blogs**
+> [https://www.bmc.com/blogs/mongodb-operators/](https://www.bmc.com/blogs/mongodb-operators/)
 
 ##### Credits 
 > [Cheatography](https://cheatography.com/)
