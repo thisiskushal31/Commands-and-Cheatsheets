@@ -1,3 +1,3 @@
-### Markdown Badges
+### Markdown Resources
 
-[https://github.com/Ileriayo/markdown-badges](https://github.com/Ileriayo/markdown-badges#table-of-contents)         
+- [https://github.com/Ileriayo/markdown-badges](https://github.com/Ileriayo/markdown-badges#table-of-contents)
