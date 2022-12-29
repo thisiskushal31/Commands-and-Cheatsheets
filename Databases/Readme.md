@@ -3,7 +3,9 @@
 [LearnSQL-  SQL Cheatsheat](https://learnsql.com/blog/sql-basics-cheat-sheet/)         
 
 - [SQL_Documentation](https://www.w3schools.com/sql/)
-- [MySQL_CheetSheet By Buggy_Programmer](https://buggyprogrammer.com/mysql-cheatsheet-pdf/)
+- [SQL CheatSheet](./SQL/README.md)
+- [MySQL_CheatSheet By Buggy_Programmer](https://buggyprogrammer.com/mysql-cheatsheet-pdf/)
+
 
 ##### MySQL
 
