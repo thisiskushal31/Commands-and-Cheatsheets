@@ -6,6 +6,11 @@
 
 - List of [AWS Notes](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/DevOps-And-Cloud-Essentials/AWS-Notes)
 
+#### Docker and Kubernetes
+
+- [Docker Cheatsheat](https://github.com/wsargent/docker-cheat-sheet) by [Will Sargent](https://github.com/wsargent)
+- [Kubernetes Cheatsheat](https://www.bluematador.com/learn/kubectl-cheatsheet) by [bluematador](https://www.bluematador.com/)
+
 #### Cloud Native tools 
 
 - [CNCF Landscapes](https://landscape.cncf.io/) for CNCF Cloud Native Interactive Landscape
