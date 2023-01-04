@@ -11,6 +11,10 @@
 - [Docker Cheatsheat](https://github.com/wsargent/docker-cheat-sheet) by [Will Sargent](https://github.com/wsargent)
 - [Kubernetes Cheatsheat](https://www.bluematador.com/learn/kubectl-cheatsheet) by [bluematador](https://www.bluematador.com/)
 
+#### Linux Basic
+
+- [LINUX Commands Cheatsheat](https://xmind.app/m/WwtB/) by kPastor on Xmind
+
 #### Cloud Native tools 
 
 - [CNCF Landscapes](https://landscape.cncf.io/) for CNCF Cloud Native Interactive Landscape
