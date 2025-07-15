@@ -21,13 +21,4 @@ You can find here all the commands and cheatsheet that I have collected and cura
 | Databases | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/Databases) |
 | DevOps And Cloud Essentials  | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/DevOps-And-Cloud-Essentials) |
 | Markdown Resources | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/Markdown-Resources) |
-| Machine Learning | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/Machine-Learning) |
-
-#### About Me
-
-I am CS Undergraduate student learning Web Development and trying out trending technologies.      
-
-#### Contact Me
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thisiskushalgupta/)      
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/thisis_kushal)      
-[![github](https://img.shields.io/badge/github-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thisiskushal31/)             
+| Machine Learning | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/Machine-Learning) |            
