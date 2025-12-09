@@ -21,7 +21,7 @@ jobs:
             -d '{
               "event_type": "content-updated",
               "client_payload": {
-                "source_repo": "Datastructures-and-Algorithms",
+                "source_repo": "Commands-and-Cheatsheets",
                 "source_branch": "${{ github.ref_name }}",
                 "source_commit": "${{ github.sha }}",
                 "triggered_by": "${{ github.actor }}",
