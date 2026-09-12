@@ -8,8 +8,8 @@ GCP offers Internal Load Balancing for your TCP/UDP-based traffic. Internal Load
 
 In this lab, you create two managed instance groups in the same region. Then you configure and test an internal load balancer with the instances groups as the backends, as shown in this network diagram:
 
-<img src="../images/network_diagram_internal_load_balancer.png"
-    alt="network_diagram_internal_load_balancer.png"
+<img src="../Images/Network_Diagram_Internal_Load_Balancer.png"
+    alt="Network_Diagram_Internal_Load_Balancer.png"
     style="float: left; margin-right: 10px;" />
 
 
@@ -48,8 +48,8 @@ Create a firewall rule to allow HTTP traffic to the backends from the load balan
 
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_internal_load_balancer_01.png"
-    alt="lab_internal_load_balancer_01.png"
+<img src="../Images/Lab_Internal_Load_Balancer_01.png"
+    alt="Lab_Internal_Load_Balancer_01.png"
     style="float: left; margin-right: 10px;" />
 
 4. For tcp, specify port 80.
@@ -68,8 +68,8 @@ Health checks determine which instances of a load balancer can receive new conne
 
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_internal_load_balancer_02.png"
-    alt="lab_internal_load_balancer_02.png"
+<img src="../Images/Lab_Internal_Load_Balancer_02.png"
+    alt="Lab_Internal_Load_Balancer_02.png"
     style="float: left; margin-right: 10px;" />
 
 
@@ -100,8 +100,8 @@ An instance template is an API resource that you can use to create VM instances 
 
 6. Under Metadata, specify the following:
 
-<img src="../images/lab_internal_load_balancer_03.png"
-    alt="lab_internal_load_balancer_03.png"
+<img src="../Images/Lab_Internal_Load_Balancer_03.png"
+    alt="Lab_Internal_Load_Balancer_03.png"
     style="float: left; margin-right: 10px;" />
 
    > The startup-script-url specifies a script that is executed when instances are started. This script installs Apache and changes the welcome page to include the client IP and the name, region, and zone of the VM instance. You can explore this script [here](https://storage.googleapis.com/cloud-training/gcpnet/ilb/startup.sh).
@@ -124,8 +124,8 @@ An instance template is an API resource that you can use to create VM instances 
 
 8. For Network interfaces, specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_internal_load_balancer_04.png"
-    alt="lab_internal_load_balancer_04.png"
+<img src="../Images/Lab_Internal_Load_Balancer_04.png"
+    alt="Lab_Internal_Load_Balancer_04.png"
     style="float: left; margin-right: 10px;" />
 
 
@@ -155,8 +155,8 @@ Create a managed instance group in subnet-a (us-central1-a) and subnet-b (us-cen
 
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_internal_load_balancer_05.png"
-    alt="lab_internal_load_balancer_05.png"
+<img src="../Images/Lab_Internal_Load_Balancer_05.png"
+    alt="Lab_Internal_Load_Balancer_05.png"
     style="float: left; margin-right: 10px;" />
 
    > Managed instance groups offer autoscaling capabilities that allow you to automatically add or remove instances from a managed instance group based on increases or decreases in load. Autoscaling helps your applications gracefully handle increases in traffic and reduces cost when the need for resources is lower. Just define the autoscaling policy, and the autoscaler performs automatic scaling based on the measured load.
@@ -169,8 +169,8 @@ Create a managed instance group in subnet-a (us-central1-a) and subnet-b (us-cen
 
 6. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_internal_load_balancer_06.png"
-    alt="lab_internal_load_balancer_06.png"
+<img src="../Images/Lab_Internal_Load_Balancer_06.png"
+    alt="Lab_Internal_Load_Balancer_06.png"
     style="float: left; margin-right: 10px;" />
 
 7. Click Create.
@@ -187,8 +187,8 @@ Verify that VM instances are being created in both subnets and create a utility 
 
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_internal_load_balancer_07.png"
-    alt="lab_internal_load_balancer_07.png"
+<img src="../Images/Lab_Internal_Load_Balancer_07.png"
+    alt="Lab_Internal_Load_Balancer_07.png"
     style="float: left; margin-right: 10px;" />
 
 
@@ -200,8 +200,8 @@ Verify that VM instances are being created in both subnets and create a utility 
 
 7. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_internal_load_balancer_08.png"
-    alt="lab_internal_load_balancer_08.png"
+<img src="../Images/Lab_Internal_Load_Balancer_08.png"
+    alt="Lab_Internal_Load_Balancer_08.png"
     style="float: left; margin-right: 10px;" />
 
 8. Click Done.
@@ -251,8 +251,8 @@ Client IP, Server Location or Server Hostname?
 
 Configure the internal load balancer to balance traffic between the two backends (instance-group-1 in us-central1-a and instance-group-2 in us-central1-b), as illustrated in the network diagram:
 
-<img src="../images/network_diagram_configure_the_internal_load_balancer.png"
-    alt="network_diagram_configure_the_internal_load_balancer.png"
+<img src="../Images/Network_Diagram_Configure_the_Internal_Load_Balancer.png"
+    alt="Network_Diagram_Configure_the_Internal_Load_Balancer.png"
     style="float: left; margin-right: 10px;" />
 
 
@@ -277,8 +277,8 @@ The backend service monitors instance groups and prevents them from exceeding co
 
 2. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_internal_load_balancer_09.png"
-    alt="lab_internal_load_balancer_09.png"
+<img src="../Images/Lab_Internal_Load_Balancer_09.png"
+    alt="Lab_Internal_Load_Balancer_09.png"
     style="float: left; margin-right: 10px;" />
 
 3. Click Done.
@@ -293,8 +293,8 @@ The backend service monitors instance groups and prevents them from exceeding co
 
 8. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_internal_load_balancer_10.png"
-    alt="lab_internal_load_balancer_10.png"
+<img src="../Images/Lab_Internal_Load_Balancer_10.png"
+    alt="Lab_Internal_Load_Balancer_10.png"
     style="float: left; margin-right: 10px;" />
 
    > Health checks determine which instances can receive new connections. This HTTP health check polls instances every 5 seconds, waits up to 5 seconds for a response, and treats 2 successful or 2 failed attempts as healthy or unhealthy, respectively.
@@ -311,14 +311,14 @@ The backend service monitors instance groups and prevents them from exceeding co
 
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_internal_load_balancer_11.png"
-    alt="lab_internal_load_balancer_11.png"
+<img src="../Images/Lab_Internal_Load_Balancer_11.png"
+    alt="Lab_Internal_Load_Balancer_11.png"
     style="float: left; margin-right: 10px;" />
 
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_internal_load_balancer_12.png"
-    alt="lab_internal_load_balancer_12.png"
+<img src="../Images/Lab_Internal_Load_Balancer_12.png"
+    alt="Lab_Internal_Load_Balancer_12.png"
     style="float: left; margin-right: 10px;" />
 
 5. For Ports, type 80.

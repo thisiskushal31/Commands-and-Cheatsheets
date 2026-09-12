@@ -10,8 +10,8 @@ By the end of this lab, you will have 2 working instances of the Wordpress front
 
 SQL Lab Diagram
 
-<img src="../images/lab_Cloud_SQL_02.png"
-        alt="lab_Cloud_SQL_02.png"
+<img src="../Images/Lab_Cloud_SQL_02.png"
+        alt="Lab_Cloud_SQL_02.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -33,8 +33,8 @@ In this task, you configure a SQL server according to GCP best practices and cre
 3. Click Choose MySQL.
 4. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_SQL_03.png"
-        alt="lab_Cloud_SQL_03.png"
+<img src="../Images/Lab_Cloud_SQL_03.png"
+        alt="Lab_Cloud_SQL_03.png"
         style="float: left; margin-right: 10px;" />
 
 > **Note** the root password; it will be used in a later step and referred to as [ROOT_PASSWORD].
@@ -153,8 +153,8 @@ curl -H "Metadata-Flavor: Google" http://169.254.169.254/computeMetadata/v1/inst
 3. Click Let's Go.
 4. Specify the following, replacing [ROOT_PASSWORD] with the password you configured upon machine creation, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_SQL_04.png"
-        alt="lab_Cloud_SQL_04.png"
+<img src="../Images/Lab_Cloud_SQL_04.png"
+        alt="Lab_Cloud_SQL_04.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -162,8 +162,8 @@ curl -H "Metadata-Flavor: Google" http://169.254.169.254/computeMetadata/v1/inst
 
 SQL Proxy
 
-<img src="../images/lab_Cloud_SQL_05_SQL_proxy.png"
-        alt="lab_Cloud_SQL_05_SQL_proxy.png"
+<img src="../Images/Lab_Cloud_SQL_05_SQL_Proxy.png"
+        alt="Lab_Cloud_SQL_05_SQL_Proxy.png"
         style="float: left; margin-right: 10px;" />
 
 5. Click Submit.
@@ -197,8 +197,8 @@ By using Private IP, you will increase performance by reducing latency and minim
 
 7. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_SQL_06.png"
-        alt="lab_Cloud_SQL_06.png"
+<img src="../Images/Lab_Cloud_SQL_06.png"
+        alt="Lab_Cloud_SQL_06.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -211,8 +211,8 @@ By using Private IP, you will increase performance by reducing latency and minim
 
 SQL Proxy
 
-<img src="../images/lab_Cloud_SQL_07.png"
-        alt="lab_Cloud_SQL_07.png"
+<img src="../Images/Lab_Cloud_SQL_07.png"
+        alt="Lab_Cloud_SQL_07.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -223,6 +223,6 @@ In this lab, you created a Cloud SQL database and configured it to use both an e
 
 SQL Lab Diagram
 
-<img src="../images/lab_Cloud_SQL_08.png"
-        alt="lab_Cloud_SQL_08.png"
+<img src="../Images/Lab_Cloud_SQL_08.png"
+        alt="Lab_Cloud_SQL_08.png"
         style="float: left; margin-right: 10px;" />

@@ -270,7 +270,7 @@ AWS Certified Solutions Architect  Associate -  Notes
 | Software VPN                               | Software is optimized for handling NAT traffic   |
  #### Direct Connect
 * Predictable bandwidth
-* Predictable performance/consistent network experience
+* Predictable Performance/consistent network experience
 * Support for VLAN Trunking (802.1Q)
 * Can be partitioned into multiple Virtual Interfaces
 #### AWS VPN CloudHub

@@ -154,5 +154,5 @@ spec:
 ## References
 
 - similar Qwiklabs:
-   - [PCA Prep - **Update and Scale Out a Containerized Application on a Kubernetes Cluster**](https://github.com/Patechoc/GCP_memo/blob/master/cloud_architect/lab_graded_ScaleOut_containerized_app_on_GKE.md)
+   - [PCA Prep - **Update and Scale Out a Containerized Application on a Kubernetes Cluster**](https://github.com/Patechoc/GCP_memo/blob/master/cloud_architect/Lab_graded_ScaleOut_containerized_app_on_GKE.md)
    - [Challenge Qwiklabs: **Build and Deploy a Docker Image to a Kubernetes Cluster**](https://github.com/Patechoc/GCP_memo/tree/master/cloud_architect/challenge_GCP_Architecture/Build_and_Deploy_a_Docker_Image_to_a_Kubernetes_Cluster)

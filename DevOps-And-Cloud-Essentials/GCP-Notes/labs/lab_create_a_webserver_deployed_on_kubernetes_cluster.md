@@ -92,7 +92,7 @@ Kubernetes created a service and an external load balancer with a public IP addr
 
 View the new service:
 
-`kubectl get services`
+`kubectl get Services`
 
 You can use the displayed external IP address to test and contact the nginx container remotely.
 
@@ -112,7 +112,7 @@ Confirm that Kubernetes has updated the number of pods:
 
 Confirm that your external IP address has not changed:
 
-`kubectl get services`
+`kubectl get Services`
 
 Return to the web browser tab in which you viewed your cluster's external IP address. Refresh the page to confirm that the nginx web server is still responding.
 

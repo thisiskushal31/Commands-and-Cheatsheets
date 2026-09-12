@@ -91,42 +91,42 @@ This module covers **"Application Infrastruture Services Concepts"**:
 
 
 
-<img src="../images/pubsub.png"
-     alt="pubsub.png"
+<img src="../Images/Pubsub.png"
+     alt="Pubsub.png"
      style="float: left; margin-right: 10px;" />
 
 #### Benefits of Cloud Pub/Sub
 
-<img src="../images/pubsub_benefits.png"
-     alt="pubsub_benefits.png"
+<img src="../Images/Pubsub_Benefits.png"
+     alt="Pubsub_Benefits.png"
      style="float: left; margin-right: 10px;" />
 
 #### Basics of Pub/Sub
 
-<img src="../images/pubsub_basics.png"
-     alt="pubsub_basics.png"
+<img src="../Images/Pubsub_Basics.png"
+     alt="Pubsub_Basics.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/pubsub_basics_multiple_publishers_subscribers.png"
-     alt="pubsub_basics_multiple_publishers_subscribers.png"
+<img src="../Images/Pubsub_Basics_Multiple_Publishers_Subscribers.png"
+     alt="Pubsub_Basics_Multiple_Publishers_Subscribers.png"
      style="float: left; margin-right: 10px;" />
 
 #### Complexity handled by Pub/Sub 
 
-<img src="../images/pubsub_basics_complexity.png"
-     alt="pubsub_basics_complexity.png"
+<img src="../Images/Pubsub_Basics_Complexity.png"
+     alt="Pubsub_Basics_Complexity.png"
      style="float: left; margin-right: 10px;" />
 
 #### Integrations for publishing or subsribing
 
-<img src="../images/pubsub_integration_tools.png"
-     alt="pubsub_integration_tools.png"
+<img src="../Images/Pubsub_Integration_Tools.png"
+     alt="Pubsub_Integration_Tools.png"
      style="float: left; margin-right: 10px;" />
 
 #### Use cases for Pub/Sub
 
-<img src="../images/pubsub_use_cases.png"
-     alt="pubsub_use_cases.png"
+<img src="../Images/Pubsub_Use_Cases.png"
+     alt="Pubsub_Use_Cases.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -136,19 +136,19 @@ This module covers **"Application Infrastruture Services Concepts"**:
 
 #### Cloud Endpoints
 
-<img src="../images/API_Management_Cloud_Endpoints.png"
+<img src="../Images/API_Management_Cloud_Endpoints.png"
      alt="API_Management_Cloud_Endpoints.png"
      style="float: left; margin-right: 10px;" />
 
 Example: 
 
-<img src="../images/API_Management_Cloud_Endpoints_example.png.png"
+<img src="../Images/API_Management_Cloud_Endpoints_example.png.png"
      alt="API_Management_Cloud_Endpoints_example.png.png"
      style="float: left; margin-right: 10px;" />
 
 #### Apigee
 
-<img src="../images/API_Management_Apigee.png.png"
+<img src="../Images/API_Management_Apigee.png.png"
      alt="API_Management_Apigee.png.png"
      style="float: left; margin-right: 10px;" />
 
@@ -158,15 +158,15 @@ Example:
 
 #### A microservices architecture responding on triggers
 
-<img src="../images/Cloud_Functions.png.png"
+<img src="../Images/Cloud_Functions.png.png"
      alt="Cloud_Functions.png.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Cloud_Functions_definition.png"
+<img src="../Images/Cloud_Functions_definition.png"
      alt="Cloud_Functions_definition.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Cloud_Functions_.png"
+<img src="../Images/Cloud_Functions_.png"
      alt="Cloud_Functions_.png"
      style="float: left; margin-right: 10px;" />
 
@@ -181,7 +181,7 @@ Example:
 - In Cloud Functions, you have one single piece of code that accepts a limited input, executes **rapidly, produces some output, and then exits**.
 
 
-<img src="../images/Differences_Cloud_Functions_Cloud_Endpoints.png"
+<img src="../Images/Differences_Cloud_Functions_Cloud_Endpoints.png"
      alt="Differences_Cloud_Functions_Cloud_Endpoints.png"
      style="float: left; margin-right: 10px;" />
 
@@ -191,7 +191,7 @@ Example:
 
 1. In CloudShell:
 
-- `npm install --save @google-cloud/storage`
+- `npm install --save @google-cloud/Storage`
 - `mkdir ~/gcf_hello_world`
 
 2. Create `index.js`:
@@ -215,23 +215,23 @@ exports.helloGET = (req, res) => {
 [video](https://www.coursera.org/learn/gcp-infrastructure-containers-services/lecture/vvqmA/cloud-source-repositories)
 
 
-<img src="../images/Cloud_Source_Repositories.png.png"
+<img src="../Images/Cloud_Source_Repositories.png.png"
      alt="Cloud_Source_Repositories.png.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Cloud_Source_Repositories_definition.png.png"
+<img src="../Images/Cloud_Source_Repositories_definition.png.png"
      alt="Cloud_Source_Repositories_definition.png.png"
      style="float: left; margin-right: 10px;" />
      
 ### Specialty APIs
 
-<img src="../images/Specialty_APIs_long_list.png.png"
+<img src="../Images/Specialty_APIs_long_list.png.png"
      alt="Specialty_APIs_long_list.png.png"
      style="float: left; margin-right: 10px;" />
 
 Example: Cloud ML
 
-<img src="../images/Specialty_APIs_long_list_example_Cloud_ML.png.png"
+<img src="../Images/Specialty_APIs_long_list_example_Cloud_ML.png.png"
      alt="Specialty_APIs_long_list_example_Cloud_ML.png.png"
      style="float: left; margin-right: 10px;" />
 
@@ -244,7 +244,7 @@ Example: Cloud ML
 
 In this module, we will discuss Google App Engine. App Engine handles all the front end and back end scaling transparently. So all you need to do is focus on the application code.
 
-<img src="../images/AEngine.png"
+<img src="../Images/AEngine.png"
      alt="AppEngine.png"
      style="float: left; margin-right: 10px;" />
 
@@ -252,26 +252,26 @@ In this module, we will discuss Google App Engine. App Engine handles all the fr
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-containers-services/lecture/GNPSc/app-engine)
 
-<img src="../images/AppEngine_among_other_compute_services.png"
+<img src="../Images/AppEngine_among_other_compute_services.png"
      alt="AppEngine_among_other_compute_services.png"
      style="float: left; margin-right: 10px;" />
 
 ### Example of App Engine app
 
-<img src="../images/AppEngine_example_application.png"
+<img src="../Images/AppEngine_example_application.png"
      alt="AppEngine_example_application.png"
      style="float: left; margin-right: 10px;" />
 
 
 ### Microservices in App Engine
 
-<img src="../images/AppEngine_microservices.png"
-     alt="AppEngine_microservices.png"
+<img src="../Images/AppEngine_Microservices.png"
+     alt="AppEngine_Microservices.png"
      style="float: left; margin-right: 10px;" />
 
 ###  Choosing Flexible or Standard environment
 
-<img src="../images/AppEngine_choose_flexible_or_standard.png"
+<img src="../Images/AppEngine_choose_flexible_or_standard.png"
      alt="AppEngine_choose_flexible_or_standard.png"
      style="float: left; margin-right: 10px;" />
 
@@ -283,10 +283,10 @@ In this module, you'll be introduced to the concept of containers and you will l
 - [module overview video](https://www.coursera.org/learn/gcp-infrastructure-containers-services/lecture/WRIMr/module-overview-intro)
 - [module review video](https://www.coursera.org/learn/gcp-infrastructure-containers-services/lecture/gLy3G/module-3-review)
 
-<a href="https://www.youtube.com/watch?v=4ht22ReBjno" title="The Illustrated Children's Guide to Kubernetes"><img src="../images/k8s_children_book.jpeg" alt="The Illustrated Children's Guide to Kubernetes" /></a>
+<a href="https://www.youtube.com/watch?v=4ht22ReBjno" title="The Illustrated Children's Guide to Kubernetes"><img src="../Images/K8s_Children_Book.jpeg" alt="The Illustrated Children's Guide to Kubernetes" /></a>
 
 
-<a href="https://www.youtube.com/watch?v=O1pv70lPlNc" title="Phippy Goes to the Zoo: A Kubernetes Story - Matt Butcher & Karen Chu"><img src="../images/Phippy-Goes-to-the-Zoo.jpg" alt="Phippy Goes to the Zoo: A Kubernetes Story - Matt Butcher & Karen Chu" /></a>
+<a href="https://www.youtube.com/watch?v=O1pv70lPlNc" title="Phippy Goes to the Zoo: A Kubernetes Story - Matt Butcher & Karen Chu"><img src="../Images/Phippy-Goes-to-the-Zoo.jpg" alt="Phippy Goes to the Zoo: A Kubernetes Story - Matt Butcher & Karen Chu" /></a>
 
 
 ### Introduction to Containers.
@@ -303,19 +303,19 @@ Google Kubernetes Engine is actually a managed version of Kubernetes,
 
 #### Kubernetes Engine among other compute services
 
-<img src="../images/KubernetesEngine_among_other_compute_services.png"
+<img src="../Images/KubernetesEngine_among_other_compute_services.png"
      alt="KubernetesEngine_among_other_compute_services.png"
      style="float: left; margin-right: 10px;" />
 
 #### History of containerization
 
-<img src="../images/KubernetesEngine_history_of_containarization.png"
+<img src="../Images/KubernetesEngine_history_of_containarization.png"
      alt="KubernetesEngine_history_of_containarization.png"
      style="float: left; margin-right: 10px;" />
 
 #### Benefits of containerization
 
-<img src="../images/KubernetesEngine_benefits.png"
+<img src="../Images/KubernetesEngine_benefits.png"
      alt="KubernetesEngine_benefits.png"
      style="float: left; margin-right: 10px;" />
 
@@ -323,95 +323,95 @@ Google Kubernetes Engine is actually a managed version of Kubernetes,
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-containers-services/lecture/jZm1v/kubernetes-engine)
 
-<img src="../images/KubernetesEngine.png"
+<img src="../Images/KubernetesEngine.png"
      alt="KubernetesEngine.png"
      style="float: left; margin-right: 10px;" />
 
 
 #### K8s clusters:
 
-<img src="../images/KubernetesEngine_how_clusters.png"
+<img src="../Images/KubernetesEngine_how_clusters.png"
      alt="KubernetesEngine_how_clusters.png"
      style="float: left; margin-right: 10px;" />
 
 #### K8s master endpoint/node:
 
-<img src="../images/KubernetesEngine_how_master_endpoint.png"
+<img src="../Images/KubernetesEngine_how_master_endpoint.png"
      alt="KubernetesEngine_how_master_endpoint.png"
      style="float: left; margin-right: 10px;" />
 
 #### K8s Pods:
 
-<img src="../images/KubernetesEngine_how_PODs.png"
+<img src="../Images/KubernetesEngine_how_PODs.png"
      alt="KubernetesEngine_how_PODs.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/KubernetesEngine_how_PODs_share_storage.png"
+<img src="../Images/KubernetesEngine_how_PODs_share_storage.png"
      alt="KubernetesEngine_how_PODs_share_storage.png"
      style="float: left; margin-right: 10px;" />
 
 #### K8s Load Balancing using Labels:
 
-<img src="../images/KubernetesEngine_how_Load_Balancing_using_labels.png"
+<img src="../Images/KubernetesEngine_how_Load_Balancing_using_labels.png"
      alt="KubernetesEngine_how_Load_Balancing_using_labels.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/KubernetesEngine_how_Load_Balancing_using_labels_example.png"
+<img src="../Images/KubernetesEngine_how_Load_Balancing_using_labels_example.png"
      alt="KubernetesEngine_how_Load_Balancing_using_labels_example.png"
      style="float: left; margin-right: 10px;" />
 
 
 #### K8s Deployment: 
 
-<img src="../images/KubernetesEngine_how_Deployment.png"
+<img src="../Images/KubernetesEngine_how_Deployment.png"
      alt="KubernetesEngine_how_Deployment.png"
      style="float: left; margin-right: 10px;" />
 
 #### K8s Pods scheduled on nodes:
 
-<img src="../images/KubernetesEngine_how_PODs_Scheduled_on_nodes.png"
+<img src="../Images/KubernetesEngine_how_PODs_Scheduled_on_nodes.png"
      alt="KubernetesEngine_how_PODs_Scheduled_on_nodes.png"
      style="float: left; margin-right: 10px;" />
 
 
 #### K8s deployed with built-in resilience
 
-<img src="../images/KubernetesEngine_how_resiliency.png"
+<img src="../Images/KubernetesEngine_how_resiliency.png"
      alt="KubernetesEngine_how_resiliency.png"
      style="float: left; margin-right: 10px;" />
 
 #### K8s Rolling update:
 
-<img src="../images/KubernetesEngine_how_rolling_update.png"
+<img src="../Images/KubernetesEngine_how_rolling_update.png"
      alt="KubernetesEngine_how_rolling_update.png"
      style="float: left; margin-right: 10px;" />
 
 #### K8s support for IAM
 
-<img src="../images/KubernetesEngine_how_IAM.png"
+<img src="../Images/KubernetesEngine_how_IAM.png"
      alt="KubernetesEngine_how_IAM.png"
      style="float: left; margin-right: 10px;" />
 
 #### K8s multizone container cluster
 
-<img src="../images/KubernetesEngine_how_multizone_container_cluster.png"
+<img src="../Images/KubernetesEngine_how_multizone_container_cluster.png"
      alt="KubernetesEngine_how_multizone_container_cluster.png"
      style="float: left; margin-right: 10px;" />
 
 #### K8s Node Pools: instance groups in the k8s cluster
 
-<img src="../images/KubernetesEngine_node_pools.png"
+<img src="../Images/KubernetesEngine_node_pools.png"
      alt="KubernetesEngine_node_pools.png"
      style="float: left; margin-right: 10px;" />
 
 
 #### K8s more features
 
-<img src="../images/KubernetesEngine_more_features.png"
+<img src="../Images/KubernetesEngine_more_features.png"
      alt="KubernetesEngine_more_features.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/KubernetesEngine_more_features_cluster_federation.png"
+<img src="../Images/KubernetesEngine_more_features_cluster_federation.png"
      alt="KubernetesEngine_more_features_cluster_federation.png"
      style="float: left; margin-right: 10px;" />
 
@@ -421,17 +421,17 @@ Google Kubernetes Engine is actually a managed version of Kubernetes,
 
 Google Container Registry is an open-source Container Management System.
 
-<img src="../images/container_registry.png"
-     alt="container_registry.png"
+<img src="../Images/Container_Registry.png"
+     alt="Container_Registry.png"
      style="float: left; margin-right: 10px;" />
 
 ### Lab: Kubernetes Load Balancing (Overview and Objectives)
 
 - [lab overview video](https://www.coursera.org/learn/gcp-infrastructure-containers-services/lecture/xblOd/lab-kubernetes-load-balancing-overview-and-objectives)
-- [lab notes: Lab Kubernetes Load Balancing](../labs/Lab_Kubernetes_Load_Balancing.md)
+- [lab notes: Lab Kubernetes Load Balancing](../Labs/Lab_Kubernetes_Load_Balancing.md)
 - [lab review video](https://www.coursera.org/learn/gcp-infrastructure-containers-services/lecture/tD9bL/lab-kubernetes-load-balancing-review)
 
-<img src="../images/KubernetesEngine_lab.png"
+<img src="../Images/KubernetesEngine_lab.png"
      alt="KubernetesEngine_lab.png"
      style="float: left; margin-right: 10px;" />
 
@@ -448,6 +448,6 @@ In this lab:
 
 
 
-<img src="../images/containerization_comparison_differentiators.png"
-     alt="containerization_comparison_differentiators.png"
+<img src="../Images/Containerization_Comparison_Differentiators.png"
+     alt="Containerization_Comparison_Differentiators.png"
      style="float: left; margin-right: 10px;" />

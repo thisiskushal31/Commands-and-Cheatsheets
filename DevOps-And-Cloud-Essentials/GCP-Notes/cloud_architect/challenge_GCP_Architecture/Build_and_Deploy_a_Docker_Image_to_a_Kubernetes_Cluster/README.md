@@ -366,10 +366,10 @@ kubectl run ${IMAGE_NAME} --image=${IMAGE_NAME}:${TAG_NAME} --port=80
 
 ## References
 
-- Challenge taken from [Qwiklabs: **Update and Scale Out a Containerized Application on a Kubernetes Cluster**](https://github.com/Patechoc/GCP_memo/blob/master/cloud_architect/lab_graded_ScaleOut_containerized_app_on_GKE.md)
+- Challenge taken from [Qwiklabs: **Update and Scale Out a Containerized Application on a Kubernetes Cluster**](https://github.com/Patechoc/GCP_memo/blob/master/cloud_architect/Lab_graded_ScaleOut_containerized_app_on_GKE.md)
 - [Qwiklabs: **Kubernetes Load Balancing v1.5**](https://github.com/Patechoc/GCP_memo/blob/master/labs/Lab_Kubernetes_Load_Balancing.md)
-- [Qwiklabs: **Managing Deployments Using Kubernetes Engine**](https://github.com/Patechoc/GCP_memo/blob/master/cloud_architect/qwiklabs/Managing_Deployments_Using_Kubernetes_Engine.md)
-- [Qwiklabs: **Site Reliability Troubleshooting with Stackdriver APM**](https://github.com/Patechoc/GCP_memo/blob/master/cloud_architect/qwiklabs/Site_Reliability_Troubleshooting_with_Stackdriver_APM.md)
+- [Qwiklabs: **Managing Deployments Using Kubernetes Engine**](https://github.com/Patechoc/GCP_memo/blob/master/cloud_architect/Qwiklabs/Managing_Deployments_Using_Kubernetes_Engine.md)
+- [Qwiklabs: **Site Reliability Troubleshooting with Stackdriver APM**](https://github.com/Patechoc/GCP_memo/blob/master/cloud_architect/Qwiklabs/Site_Reliability_Troubleshooting_with_Stackdriver_APM.md)
 - [Blog post](https://blog.container-solutions.com/using-google-container-registry-with-kubernetes) on how to use kubernetes in practice
 - [Migrating workloads to different machine types](https://cloud.google.com/kubernetes-engine/docs/tutorials/migrating-node-pool)
 - [Kubernetes tutorial: **Exposing an External IP Address to Access an Application in a Cluster**](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/)

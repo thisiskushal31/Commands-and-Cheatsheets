@@ -188,22 +188,22 @@ Finally, we can view the Pods that were created as part of our Deployment. The s
 
 It's time to create a service for our auth deployment. You've already seen service manifest files, so we won't go into the details here. Use the kubectl create command to create the auth service.
 
-`kubectl create -f services/auth.yaml`
+`kubectl create -f Services/auth.yaml`
 
 Now, do the same thing to create and expose the hello Deployment.
 
 ```
 kubectl create -f deployments/hello.yaml
-kubectl create -f services/hello.yaml
+kubectl create -f Services/hello.yaml
 ```
 
 And one more time to create and expose the frontend Deployment.
 
 ```
 kubectl create secret generic tls-certs --from-file tls/
-kubectl create configmap nginx-frontend-conf --from-file=nginx/frontend.conf
+kubectl create configmap nginx-frontend-conf --from-file=Nginx/frontend.conf
 kubectl create -f deployments/frontend.yaml
-kubectl create -f services/frontend.yaml
+kubectl create -f Services/frontend.yaml
 ```
 
 > **Note**: You created a ConfigMap for the frontend.
@@ -254,8 +254,8 @@ You learned about Kubernetes deployments and how to manage & scale a group of Po
 
 Deployments support updating images to a new version through a rolling update mechanism. When a Deployment is updated with a new version, it creates a new ReplicaSet and slowly increases the number of replicas in the new ReplicaSet as it decreases the replicas in the old ReplicaSet.
 
-<img src="../../images/qwiklabs_ReplicaSet.png"
-     alt="qwiklabs_ReplicaSet.png"
+<img src="../../Images/Qwiklabs_ReplicaSet.png"
+     alt="Qwiklabs_ReplicaSet.png"
      style="float: left; margin-right: 10px;" />
 
 ### Trigger a rolling update
@@ -342,8 +342,8 @@ When you want to test a new deployment in production with a subset of your users
 
 A canary deployment consists of a separate deployment with your new version and a service that targets both your normal, stable deployment as well as your canary deployment.
 
-<img src="../../images/qwiklabs_canary_deployment.png"
-     alt="qwiklabs_canary_deployment.png"
+<img src="../../Images/Qwiklabs_Canary_Deployment.png"
+     alt="Qwiklabs_Canary_Deployment.png"
      style="float: left; margin-right: 10px;" />
 
 First, create a new canary deployment for the new version:
@@ -427,8 +427,8 @@ Rolling updates are ideal because they allow you to deploy an application slowly
 
 Kubernetes achieves this by creating two separate deployments; one for the old "blue" version and one for the new "green" version. Use your existing hello deployment for the "blue" version. The deployments will be accessed via a Service which will act as the router. Once the new "green" version is up and running, you'll switch over to using that version by updating the Service.
 
-<img src="../../images/qwiklabs_Blue-green_deployments.png"
-     alt="qwiklabs_Blue-green_deployments.png"
+<img src="../../Images/Qwiklabs_Blue_Green_Deployments.png"
+     alt="Qwiklabs_Blue_Green_Deployments.png"
      style="float: left; margin-right: 10px;" />
 
 > A major downside of blue-green deployments is that you will need to have at least 2x the resources in your cluster necessary to host your application. Make sure you have enough resources in your cluster before deploying both versions of the application at once.
@@ -439,7 +439,7 @@ Use the existing hello service, but update it so that it has a selector app:hell
 
 First update the service:
 
-`kubectl apply -f services/hello-blue.yaml`
+`kubectl apply -f Services/hello-blue.yaml`
 
 ### Updating using Blue-Green Deployment
 
@@ -498,7 +498,7 @@ Once you have a green deployment and it has started up properly, verify that the
 
 Now, update the service to point to the new version:
 
-`kubectl apply -f services/hello-green.yaml`
+`kubectl apply -f Services/hello-green.yaml`
 
 With the service is updated, the "green" deployment will be used immediately. You can now verify that the new version is always being used.
 
@@ -508,7 +508,7 @@ With the service is updated, the "green" deployment will be used immediately. Yo
 
 If necessary, you can roll back to the old version in the same way. While the "blue" deployment is still running, just update the service back to the old version.
 
-`kubectl apply -f services/hello-blue.yaml`
+`kubectl apply -f Services/hello-blue.yaml`
 
 Once you have updated the service, your rollback will have been successful. Again, verify that the right version is now being used:
 

@@ -119,7 +119,7 @@ This command creates a network load balancer to load-balance traffic to the thre
 
 1. Run the following:
 
-`kubectl get service nginx`
+`kubectl get service Nginx`
 
 Result (do not copy; this is example output):
 
@@ -151,7 +151,7 @@ For more information, see:
 
 1. To delete the service, run the following:
 
-`kubectl delete service nginx`
+`kubectl delete service Nginx`
 
 Result (do not copy; this is example output):
 
@@ -159,7 +159,7 @@ Result (do not copy; this is example output):
 
 2. To delete the replication controller and delete the pods (all of the nginx instances), run the following:
 
-`kubectl delete deployment nginx`
+`kubectl delete deployment Nginx`
 
 Result (do not copy; this is example output):
 
@@ -303,7 +303,7 @@ Note: You don't have to shut down the cluster. Qwiklabs will handle that for you
 
 2. To shut down and delete nginx, run the following:
 
-`kubectl delete deployment nginx`
+`kubectl delete deployment Nginx`
 
 3. To delete the cluster, run the following:
 

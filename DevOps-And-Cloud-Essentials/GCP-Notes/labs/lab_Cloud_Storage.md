@@ -74,8 +74,8 @@ In this lab, you learn how to perform the following tasks:
 2. Click Create bucket.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_storage_01.png"
-        alt="lab_Cloud_storage_01.png"
+<img src="../Images/Lab_Cloud_Storage_01.png"
+        alt="Lab_Cloud_Storage_01.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -536,8 +536,8 @@ cp setup.html firstlevel/secondlevel
 2. Click Create bucket.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_storage_02.png"
-        alt="lab_Cloud_storage_02.png"
+<img src="../Images/Lab_Cloud_Storage_02.png"
+        alt="Lab_Cloud_Storage_02.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -575,8 +575,8 @@ cp setup.html firstlevel/secondlevel
 2. Click Create.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_storage_03.png"
-        alt="lab_Cloud_storage_03.png"
+<img src="../Images/Lab_Cloud_Storage_03.png"
+        alt="Lab_Cloud_Storage_03.png"
         style="float: left; margin-right: 10px;" />
 
 

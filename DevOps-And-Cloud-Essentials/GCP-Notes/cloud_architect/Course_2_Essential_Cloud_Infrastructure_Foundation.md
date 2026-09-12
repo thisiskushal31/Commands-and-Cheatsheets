@@ -42,13 +42,13 @@ In this module, we will provide you with an introduction to GCP by building on w
 
 ### GCP infrastruture
 
-<img src="../images/GCP_services_continuum.png"
+<img src="../Images/GCP_services_continuum.png"
         alt="GCP_services_continuum.png"
         style="float: left; margin-right: 10px;" />
 
 Analogy of infrastructure and applications:
 
-<img src="../images/Analogy_infrastruture.png"
+<img src="../Images/Analogy_infrastruture.png"
         alt="Analogy_infrastruture.png"
         style="float: left; margin-right: 10px;" />
 
@@ -59,7 +59,7 @@ Analogy of infrastructure and applications:
 3. **The Augmented infrastruture**: the systems built on top of the essential infrastructure, for scaling and automation.
 4. **The application infrastructure**: consisted of containers and services specifically provided to make application development easy.
 
-<img src="../images/GCP_cloud_infrastructure_domains.png"
+<img src="../Images/GCP_cloud_infrastructure_domains.png"
         alt="GCP_cloud_infrastructure_domains.png"
         style="float: left; margin-right: 10px;" />
 
@@ -72,13 +72,13 @@ Ways to interact with GCP
 3. **CloudShell**: a browser-based terminal environment for GCP, accessible from the GCP console.
 
 
-<img src="../images/3_ways_to_interact_with_GCP.png"
+<img src="../Images/3_ways_to_interact_with_GCP.png"
         alt="3_ways_to_interact_with_GCP.png"
         style="float: left; margin-right: 10px;" />
 
 Working with other client libraries:
 
-<img src="../images/GCP_client_libraries.png"
+<img src="../Images/GCP_client_libraries.png"
         alt="GCP_client_libraries.png"
         style="float: left; margin-right: 10px;" />
 
@@ -86,7 +86,7 @@ Working with other client libraries:
 ### Lab 1: Console and Cloud Shell
 
 - video lab
-- [notes lab](../labs/lab_console_cloudshell.md)
+- [notes lab](../Labs/Lab_Console_Cloudshell.md)
 
 
 ### Projects
@@ -123,15 +123,15 @@ In this module, we start by introducing **Virtual Private Cloud (VPC)** which is
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-foundation/lecture/FyKc4/projects-networks-and-subnetworks)
 
-<img src="../images/Example_5_networks_and_interconnections.png"
+<img src="../Images/Example_5_networks_and_interconnections.png"
         alt="Example_5_networks_and_interconnections.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/Example_5_networks_and_interconnections_regions_and_zones.png"
+<img src="../Images/Example_5_networks_and_interconnections_regions_and_zones.png"
         alt="Example_5_networks_and_interconnections_regions_and_zones.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/Example_5_subnetworks_managing_resources.png"
+<img src="../Images/Example_5_subnetworks_managing_resources.png"
         alt="Example_5_subnetworks_managing_resources.png"
         style="float: left; margin-right: 10px;" />
 
@@ -139,11 +139,11 @@ In this module, we start by introducing **Virtual Private Cloud (VPC)** which is
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-foundation/lecture/VBh8c/ip-addresses)
 
-<img src="../images/IP_addresses.png"
+<img src="../Images/IP_addresses.png"
         alt="IP_addresses.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/External_IP_addresses_always_mapped_to_internal_IP_Addresses.png"
+<img src="../Images/External_IP_addresses_always_mapped_to_internal_IP_Addresses.png"
         alt="External_IP_addresses_always_mapped_to_internal_IP_Addresses.png"
         style="float: left; margin-right: 10px;" />
 
@@ -166,24 +166,24 @@ Compare and explore a complex GCP network structure.
 
 - you build a complex network topology
 
-<img src="../images/lab_network_diagram.png"
-        alt="lab_network_diagram.png"
+<img src="../Images/Lab_Network_Diagram.png"
+        alt="Lab_Network_Diagram.png"
         style="float: left; margin-right: 10px;" />
 
 - you will launch VMs in varius network/sub-networks
 
-<img src="../images/lab_network_launch_VMs_in_various_networks.png"
-        alt="lab_network_launch_VMs_in_various_networks.png"
+<img src="../Images/Lab_Network_Launch_VMs_in_Various_Networks.png"
+        alt="Lab_Network_Launch_VMs_in_Various_Networks.png"
         style="float: left; margin-right: 10px;" />
 
 - you will ping VMs accross the networks
 
-<img src="../images/lab_network_ping_various_part_of_network.png"
-        alt="lab_network_ping_various_part_of_network.png"
+<img src="../Images/Lab_Network_Ping_Various_Part_of_Network.png"
+        alt="Lab_Network_Ping_Various_Part_of_Network.png"
         style="float: left; margin-right: 10px;" />
 
 
-[lab. details](../labs/lab_complx_network_on_GCP.md)
+[lab. details](../Labs/Lab_Complx_Network_on_GCP.md)
 
 
 
@@ -213,14 +213,14 @@ So you can work globally or work at a very granular level if you want/need to.
 
 #### Need of increased Availability
 
-<img src="../images/networking_availability.png"
-        alt="networking_availability.png"
+<img src="../Images/Networking_Availability.png"
+        alt="Networking_Availability.png"
         style="float: left; margin-right: 10px;" />
 
 #### Globalization: Need of increased isolation against software/hardware failures
 
-<img src="../images/networking_globalization.png"
-        alt="networking_globalization.png"
+<img src="../Images/Networking_Globalization.png"
+        alt="Networking_Globalization.png"
         style="float: left; margin-right: 10px;" />
 
 #### Resources in differents regions/networks/projects & VPC Network Peering
@@ -228,8 +228,8 @@ So you can work globally or work at a very granular level if you want/need to.
 - **Region/Network/Proect isolated services** >>> preventing compromised of one part from spreading to other parts.
 - **VPC Network Peering** >>> Allows these services can still communicate over a private address space.
 
-<img src="../images/networking_globalization_different_subnets.png"
-        alt="networking_globalization_different_subnets.png"
+<img src="../Images/Networking_Globalization_Different_Subnets.png"
+        alt="Networking_Globalization_Different_Subnets.png"
         style="float: left; margin-right: 10px;" />
 
 #### Management Separation (different projects, within same zone)
@@ -238,8 +238,8 @@ VMs isolated into separate projects, but within the same zone, useful for **Iden
 
 You can assign different people to different roles (for management separation) for each project, limiting the access to the network they need access to.
 
-<img src="../images/networking_project_management.png"
-        alt="networking_project_management.png"
+<img src="../Images/Networking_Project_Management.png"
+        alt="Networking_Project_Management.png"
         style="float: left; margin-right: 10px;" />
 
 > This allows granular access management per sub-project for a better access control,
@@ -250,8 +250,8 @@ You can assign different people to different roles (for management separation) f
 
 #### Bastion host isolation
 
-<img src="../images/networking_bastion_host_isolation.png"
-        alt="networking_bastion_host_isolation.png"
+<img src="../Images/Networking_Bastion_Host_Isolation.png"
+        alt="Networking_Bastion_Host_Isolation.png"
         style="float: left; margin-right: 10px;" />
 
 #### NAT Gateway host isolation
@@ -260,8 +260,8 @@ Let's one network/project/"VM instance" to not access internet. Therefore this a
 
 The two networks do not have to be in the same project for this design to work.
 
-<img src="../images/networking_NAT_gateway_host_isolation.png"
-        alt="networking_NAT_gateway_host_isolation.png"
+<img src="../Images/Networking_NAT_Gateway_Host_Isolation.png"
+        alt="Networking_NAT_Gateway_Host_Isolation.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -271,12 +271,12 @@ The two networks do not have to be in the same project for this design to work.
 
 Removing the connection to the internet of a webserver meant to deliver services only to a corporate audience.
 
-<img src="../images/lab_network_bastion_host.png"
-        alt="lab_network_bastion_host.png"
+<img src="../Images/Lab_Network_Bastion_Host.png"
+        alt="Lab_Network_Bastion_Host.png"
         style="float: left; margin-right: 10px;" />
 
 
-[lab notes](../labs/lab_Networking_Bastion_host.md)
+[lab notes](../Labs/Lab_Networking_Bastion_Host.md)
 
 > There are other security alternatives to provide routine administration access to web server like using **Cloud VPN**, which is covered in a later course of this specialization.
 
@@ -304,35 +304,35 @@ This will be followed by an in-depth lab that explores many of the features and 
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-foundation/lecture/7Yk7C/compute-engine)
 
-<img src="../images/Compute_engine_in_GCP_Compute_spectrum.png"
+<img src="../Images/Compute_engine_in_GCP_Compute_spectrum.png"
         alt="Compute_engine_in_GCP_Compute_spectrum.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/Compute_engine_what_it_is.png"
+<img src="../Images/Compute_engine_what_it_is.png"
         alt="Compute_engine_what_it_is.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/Compute_engine_features.png"
+<img src="../Images/Compute_engine_features.png"
         alt="Compute_engine_features.png"
         style="float: left; margin-right: 10px;" />
 
 
 #### Compute options
 
-<img src="../images/Compute_engine_Compute_options.png"
+<img src="../Images/Compute_engine_Compute_options.png"
         alt="Compute_engine_Compute_options.png"
         style="float: left; margin-right: 10px;" />
 
 #### Disk (Storage) options
 
-<img src="../images/Compute_engine_Disk_options.png"
+<img src="../Images/Compute_engine_Disk_options.png"
         alt="Compute_engine_Disk_options.png"
         style="float: left; margin-right: 10px;" />
 
 
 #### Networking options
 
-<img src="../images/Compute_engine_Networking_options.png"
+<img src="../Images/Compute_engine_Networking_options.png"
         alt="Compute_engine_Networking_options.png"
         style="float: left; margin-right: 10px;" />
 
@@ -344,17 +344,17 @@ This will be followed by an in-depth lab that explores many of the features and 
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-foundation/lecture/2B8Tb/pricing-and-discounts) 
 
-<img src="../images/Compute_engine_pricing.png"
+<img src="../Images/Compute_engine_pricing.png"
         alt="Compute_engine_pricing.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/Compute_engine_pricing_VM_discounts.png"
+<img src="../Images/Compute_engine_pricing_VM_discounts.png"
         alt="Compute_engine_pricing_VM_discounts.png"
         style="float: left; margin-right: 10px;" />
 
 Example of cumulated usage for calculating **"sustained-use" discounts**: 
 
-<img src="../images/Compute_engine_pricing_VM_discounts_example_of_cumulated_usage.png"
+<img src="../Images/Compute_engine_pricing_VM_discounts_example_of_cumulated_usage.png"
         alt="Compute_engine_pricing_VM_discounts_example_of_cumulated_usage.png"
         style="float: left; margin-right: 10px;" />
 
@@ -363,36 +363,36 @@ Example of cumulated usage for calculating **"sustained-use" discounts**:
 [video](https://www.coursera.org/learn/gcp-infrastructure-foundation/lecture/CGmcv/vm-access-and-lifecycle)
 
 
-<img src="../images/Compute_engine_VM_access_Linux_Windows.png"
+<img src="../Images/Compute_engine_VM_access_Linux_Windows.png"
         alt="Compute_engine_VM_access_Linux_Windows.png"
         style="float: left; margin-right: 10px;" />
 
 VM lifecycle:
 
-<img src="../images/Compute_engine_VM_lifecycle.png"
+<img src="../Images/Compute_engine_VM_lifecycle.png"
         alt="Compute_engine_VM_lifecycle.png"
         style="float: left; margin-right: 10px;" />
 
 Changing VM's state from "running": 
 
-<img src="../images/Compute_engine_VM_change_of_state_from_running.png"
+<img src="../Images/Compute_engine_VM_change_of_state_from_running.png"
         alt="Compute_engine_VM_change_of_state_from_running.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/Compute_engine_VM_possible_auto_live_migration.png"
+<img src="../Images/Compute_engine_VM_possible_auto_live_migration.png"
         alt="Compute_engine_VM_possible_auto_live_migration.png"
         style="float: left; margin-right: 10px;" />
 
 Stopped VM (No charge):
 
-<img src="../images/Compute_engine_VM_stopped.png"
+<img src="../Images/Compute_engine_VM_stopped.png"
         alt="Compute_engine_VM_stopped.png"
         style="float: left; margin-right: 10px;" />
 
 #### Lab 1 Creating Virtual Machines
 
 - [video](https://www.coursera.org/learn/gcp-infrastructure-foundation/lecture/vc4nH/lab-1-creating-virtual-machines-overview-and-objectives)
-- [lab notes](../labs/lab_VMS_Linux_Windows.md)
+- [lab notes](../Labs/Lab_VMs_Linux_Windows.md)
 
 
 
@@ -402,20 +402,20 @@ Stopped VM (No charge):
 
 Compute engine 3 options to create VMs: 
 
-<img src="../images/Compute_engine_3_options_to_create_VMs.png"
+<img src="../Images/Compute_engine_3_options_to_create_VMs.png"
         alt="Compute_engine_3_options_to_create_VMs.png"
         style="float: left; margin-right: 10px;" />
 
 Compute engine 4 classes of VMs:
 
-<img src="../images/Compute_engine_4_classes_of_VMs.png"
+<img src="../Images/Compute_engine_4_classes_of_VMs.png"
         alt="Compute_engine_4_classes_of_VMs.png"
         style="float: left; margin-right: 10px;" />
 
 
 Compute engine 80% on preemptible VMs (24hours max):
 
-<img src="../images/Compute_engine_80%_on_preemptible_VMs.png"
+<img src="../Images/Compute_engine_80%_on_preemptible_VMs.png"
         alt="Compute_engine_80%_on_preemptible_VMs.png"
         style="float: left; margin-right: 10px;" />
 
@@ -426,11 +426,11 @@ There exists ways to monitr and restart preemptible VMs even though this doesn't
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-foundation/lecture/To7uo/images)
 
-<img src="../images/Compute_engine_disk_image.png"
+<img src="../Images/Compute_engine_disk_image.png"
         alt="Compute_engine_disk_image.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/Compute_engine_disk_image_private_or_public.png"
+<img src="../Images/Compute_engine_disk_image_private_or_public.png"
         alt="Compute_engine_disk_image_private_or_public.png"
         style="float: left; margin-right: 10px;" />
 
@@ -438,7 +438,7 @@ There exists ways to monitr and restart preemptible VMs even though this doesn't
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-foundation/lecture/5Ibi2/disk-options)
 
-<img src="../images/Compute_engine_disk_image_boot_image.png"
+<img src="../Images/Compute_engine_disk_image_boot_image.png"
         alt="Compute_engine_disk_image_boot_image.png"
         style="float: left; margin-right: 10px;" />
 
@@ -447,7 +447,7 @@ There exists ways to monitr and restart preemptible VMs even though this doesn't
 - bounded to their zone
 - dynamically resizable, even when running!
 
-<img src="../images/Compute_engine_disk_image_boot_image_persistent.png"
+<img src="../Images/Compute_engine_disk_image_boot_image_persistent.png"
         alt="Compute_engine_disk_image_boot_image_persistent.png"
         style="float: left; margin-right: 10px;" />
 
@@ -462,17 +462,17 @@ fastest, for low needs in memory.
 
 #### Summary
 
-<img src="../images/Compute_engine_disk_image_summary.png"
+<img src="../Images/Compute_engine_disk_image_summary.png"
         alt="Compute_engine_disk_image_summary.png"
         style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/Compute_engine_disk_max_disk_for_max_cores.png"
+<img src="../Images/Compute_engine_disk_max_disk_for_max_cores.png"
         alt="Compute_engine_disk_max_disk_for_max_cores.png"
         style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/Compute_engine_disk_differences_cloud_vs_physical_disks.png"
+<img src="../Images/Compute_engine_disk_differences_cloud_vs_physical_disks.png"
         alt="Compute_engine_disk_differences_cloud_vs_physical_disks.png"
         style="float: left; margin-right: 10px;" />
 
@@ -483,12 +483,12 @@ fastest, for low needs in memory.
 
 #### Moving an instance to a new zone
 
-<img src="../images/Compute_engine_actions_moving_zones.png"
+<img src="../Images/Compute_engine_actions_moving_zones.png"
         alt="Compute_engine_actions_moving_zones.png"
         style="float: left; margin-right: 10px;" />
  
 
-<img src="../images/Compute_engine_actions_moving_zones_automated.png"
+<img src="../Images/Compute_engine_actions_moving_zones_automated.png"
         alt="Compute_engine_actions_moving_zones_automated.png"
         style="float: left; margin-right: 10px;" />
 
@@ -496,31 +496,31 @@ fastest, for low needs in memory.
 
 ##### disk backup
 
-<img src="../images/Compute_engine_actions_snapshots_disk_backup.png"
+<img src="../Images/Compute_engine_actions_snapshots_disk_backup.png"
         alt="Compute_engine_actions_snapshots_disk_backup.png"
         style="float: left; margin-right: 10px;" />
 
 ##### data migration between zones
 
-<img src="../images/Compute_engine_actions_snapshots_data_migration.png"
+<img src="../Images/Compute_engine_actions_snapshots_data_migration.png"
         alt="Compute_engine_actions_snapshots_data_migration.png"
         style="float: left; margin-right: 10px;" />
 
 ##### change disk type (HDD <> SSD)
 
-<img src="../images/Compute_engine_actions_snapshots_change_disk_type.png"
+<img src="../Images/Compute_engine_actions_snapshots_change_disk_type.png"
         alt="Compute_engine_actions_snapshots_change_disk_type.png"
         style="float: left; margin-right: 10px;" />
 
 #### Safe snapshot preparation
 
-<img src="../images/Compute_engine_actions_safe_snapshots_preparation.png"
+<img src="../Images/Compute_engine_actions_safe_snapshots_preparation.png"
         alt="Compute_engine_actions_safe_snapshots_preparation.png"
         style="float: left; margin-right: 10px;" />
 
 #### Resize persistent disk
 
-<img src="../images/Compute_engine_actions_sresize_disk.png"
+<img src="../Images/Compute_engine_actions_sresize_disk.png"
         alt="Compute_engine_actions_sresize_disk.png"
         style="float: left; margin-right: 10px;" />
 
@@ -534,7 +534,7 @@ Build the infrastructure needed for production activities:
 - Backups
 - graceful shutdown/restart services
 
-[Lab notes](../labs/lab_VM_backups_application_in_production.md) & [video lab review](https://www.coursera.org/learn/gcp-infrastructure-foundation/lecture/0ZuCj/lab-2-working-with-virtual-machines-review)
+[Lab notes](../Labs/Lab_VM_backups_application_in_production.md) & [video lab review](https://www.coursera.org/learn/gcp-infrastructure-foundation/lecture/0ZuCj/lab-2-working-with-virtual-machines-review)
 
 
 ### Module 3 review

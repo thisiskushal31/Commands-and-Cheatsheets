@@ -131,11 +131,11 @@ The sample has the following layout:
 ```shell
 deployments/  /* Deployment manifests */
   ...
-nginx/        /* nginx config files */
+Nginx/        /* nginx config files */
   ...
 pods/         /* Pod manifests */
   ...
-services/     /* Services manifests */
+Services/     /* Services manifests */
   ...
 tls/          /* TLS certificates */
   ...
@@ -164,7 +164,7 @@ So what just happened? Behind the scenes Kubernetes created an external Load Bal
 
 List our services now using the kubectl get services command:
 
-`kubectl get services`
+`kubectl get Services`
 
 > Note: It may take a few seconds before the ExternalIP field is populated for your service. This is normal -- just re-run the kubectl get services command every few seconds until the field populates.
 
@@ -182,8 +182,8 @@ At the core of Kubernetes is the [Pod](http://kubernetes.io/docs/user-guide/pods
 
 Pods represent and hold a collection of one or more containers. Generally, if you have multiple containers with a hard dependency on each other, you package the containers inside a single pod.
 
-<img src="../../images/pod.jpeg"
-     alt="pod.jpeg"
+<img src="../../Images/Pod.jpeg"
+     alt="Pod.jpeg"
      style="float: left; margin-right: 10px;" />
 
 In this example there is a pod that contains the monolith and nginx containers.
@@ -329,8 +329,8 @@ What happens if you want to communicate with a set of Pods? When they get restar
 
 That's where Services come in. [Services](http://kubernetes.io/docs/user-guide/services/) provide stable endpoints for Pods.
 
-<img src="../../images/services.jpeg"
-     alt="services.jpeg"
+<img src="../../Images/Services.jpeg"
+     alt="Services.jpeg"
      style="float: left; margin-right: 10px;" />
 
 Services use labels to determine what Pods they operate on. If Pods have the correct labels, they are automatically picked up and exposed by our services.
@@ -362,7 +362,7 @@ Create the secure-monolith pods and their configuration data:
 
 ```shell
 kubectl create secret generic tls-certs --from-file tls/
-kubectl create configmap nginx-proxy-conf --from-file nginx/proxy.conf
+kubectl create configmap nginx-proxy-conf --from-file Nginx/proxy.conf
 kubectl create -f pods/secure-monolith.yaml
 ```
 
@@ -370,7 +370,7 @@ Now that you have a secure pod, it's time to expose the secure-monolith Pod exte
 
 Explore the monolith service configuration file:
 
-`cat services/monolith.yaml`
+`cat Services/monolith.yaml`
 
 (Output):
 
@@ -397,7 +397,7 @@ Things to note:
 2. Now you have to expose the nodeport here because this is how we'll forward external traffic from port 31000 to nginx (on port 443).
 Use the kubectl create command to create the monolith service from the monolith service configuration file:
 
-`kubectl create -f services/monolith.yaml`
+`kubectl create -f Services/monolith.yaml`
 
 (Output):
 
@@ -482,8 +482,8 @@ Bam! Houston, we have contact.
 
 The goal of this lab is to get you ready for scaling and managing containers in production. That's where [Deployments](http://kubernetes.io/docs/user-guide/deployments/#what-is-a-deployment) come in. Deployments are a declarative way to ensure that the number of Pods running is equal to the desired number of Pods, specified by the user.
 
-<img src="../../images/deployments.jpeg"
-     alt="deployments.jpeg"
+<img src="../../Images/Deployments.jpeg"
+     alt="Deployments.jpeg"
      style="float: left; margin-right: 10px;" />
 
 
@@ -491,8 +491,8 @@ The main benefit of Deployments is in abstracting away the low level details of 
 
 Let's look at a quick example:
 
-<img src="../../images/deployments_example.jpeg"
-     alt="deployments_example.jpeg"
+<img src="../../Images/Deployments_Example.jpeg"
+     alt="Deployments_Example.jpeg"
      style="float: left; margin-right: 10px;" />
 
 Pods are tied to the lifetime of the Node they are created on. In the example above, Node3 went down (taking a Pod with it). Insteading of manually creating a new Pod and finding a Node for it, your Deployment created a new Pod and started it on Node2.
@@ -551,21 +551,21 @@ Anyway, go ahead and create your deployment object:
 
 It's time to create a service for your auth deployment. Use the kubectl create command to create the auth service:
 
-`kubectl create -f services/auth.yaml`
+`kubectl create -f Services/auth.yaml`
 
 Now do the same thing to create and expose the hello deployment:
 
 ```shell
 kubectl create -f deployments/hello.yaml
-kubectl create -f services/hello.yaml
+kubectl create -f Services/hello.yaml
 ```
 
 And one more time to create and expose the frontend Deployment.
 
 ```shell
-kubectl create configmap nginx-frontend-conf --from-file=nginx/frontend.conf
+kubectl create configmap nginx-frontend-conf --from-file=Nginx/frontend.conf
 kubectl create -f deployments/frontend.yaml
-kubectl create -f services/frontend.yaml
+kubectl create -f Services/frontend.yaml
 ```
 
 > There is one more step to creating the frontend because you need to store some configuration data with the container.

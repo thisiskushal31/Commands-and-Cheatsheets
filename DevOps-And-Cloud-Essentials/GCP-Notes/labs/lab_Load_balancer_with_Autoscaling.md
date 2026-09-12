@@ -10,8 +10,8 @@ GCP HTTP(S) load balancing is implemented at the edge of Google's network in Goo
 
 In this lab, you configure an HTTP load balancer as shown in the diagram below. Then, you stress test the load balancer to demonstrate global load balancing and autoscaling.
 
-<img src="../images/network_diagram.png"
-    alt="network_diagram.png"
+<img src="../Images/Network_Diagram.png"
+    alt="Network_Diagram.png"
     style="float: left; margin-right: 10px;" />
 
 
@@ -43,8 +43,8 @@ Create a firewall rule to allow HTTP traffic to the backends.
 
 4. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_load_balancer_autoscaling_01.png"
-    alt="lab_load_balancer_autoscaling_01.png"
+<img src="../Images/Lab_Load_Balancer_Autoscaling_01.png"
+    alt="Lab_Load_Balancer_Autoscaling_01.png"
     style="float: left; margin-right: 10px;" />
 
 > Make sure to include the /0 in the Source IP ranges to specify all networks.
@@ -63,8 +63,8 @@ Health checks determine which instances of a load balancer can receive new conne
 
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_load_balancer_autoscaling_02.png"
-    alt="lab_load_balancer_autoscaling_02.png"
+<img src="../Images/Lab_Load_Balancer_Autoscaling_02.png"
+    alt="Lab_Load_Balancer_Autoscaling_02.png"
     style="float: left; margin-right: 10px;" />
 
 > Make sure to enter the two Source IP ranges individually and press SPACE between them.
@@ -85,8 +85,8 @@ Create a custom web server image for the backend of the load balancer.
 
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_load_balancer_autoscaling_03.png"
-    alt="lab_load_balancer_autoscaling_03.png"
+<img src="../Images/Lab_Load_Balancer_Autoscaling_03.png"
+    alt="Lab_Load_Balancer_Autoscaling_03.png"
     style="float: left; margin-right: 10px;" />
 
 4. Click Management, security, disks, networking, sole tenancy.
@@ -97,8 +97,8 @@ Create a custom web server image for the backend of the load balancer.
 
 7. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_load_balancer_autoscaling_04.png"
-    alt="lab_load_balancer_autoscaling_04.png"
+<img src="../Images/Lab_Load_Balancer_Autoscaling_04.png"
+    alt="Lab_Load_Balancer_Autoscaling_04.png"
     style="float: left; margin-right: 10px;" />
 
 > The network tag http-server ensures that the HTTP and Health Check firewall rules apply to this instance.
@@ -169,8 +169,8 @@ The software installation was successful. However, when a new VM is created usin
 
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_load_balancer_autoscaling_05.png"
-    alt="lab_load_balancer_autoscaling_05.png"
+<img src="../Images/Lab_Load_Balancer_Autoscaling_05.png"
+    alt="Lab_Load_Balancer_Autoscaling_05.png"
     style="float: left; margin-right: 10px;" />
 
 4. Click Create.
@@ -209,8 +209,8 @@ An instance template is an API resource that you can use to create VM instances 
 
 11. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_load_balancer_autoscaling_06.png"
-    alt="lab_load_balancer_autoscaling_06.png"
+<img src="../Images/Lab_Load_Balancer_Autoscaling_06.png"
+    alt="Lab_Load_Balancer_Autoscaling_06.png"
     style="float: left; margin-right: 10px;" />
 
 
@@ -226,8 +226,8 @@ Create a managed instance group in us-central1 and one in europe-west1.
 
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_load_balancer_autoscaling_07.png"
-    alt="lab_load_balancer_autoscaling_07.png"
+<img src="../Images/Lab_Load_Balancer_Autoscaling_07.png"
+    alt="Lab_Load_Balancer_Autoscaling_07.png"
     style="float: left; margin-right: 10px;" />
 
 > Managed instance groups offer autoscaling capabilities that allow you to automatically add or remove instances from a managed instance group based on increases or decreases in load. Autoscaling helps your applications gracefully handle increases in traffic and reduces cost when the need for resources is lower. You just define the autoscaling policy, and the autoscaler performs automatic scaling based on the measured load.
@@ -236,8 +236,8 @@ Create a managed instance group in us-central1 and one in europe-west1.
 
 5. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_load_balancer_autoscaling_08.png"
-    alt="lab_load_balancer_autoscaling_08.png"
+<img src="../Images/Lab_Load_Balancer_Autoscaling_08.png"
+    alt="Lab_Load_Balancer_Autoscaling_08.png"
     style="float: left; margin-right: 10px;" />
 
 > Health checks determine which instances can receive new connections. This HTTP health check polls instances every 5 seconds and waits up to 5 seconds for a response. The health check treats 2 successful attempts as healthy and 2 failed attempts as unhealthy.
@@ -258,8 +258,8 @@ Repeat the same procedure for europe-west1-mig in europe-west1:
 
 11. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_load_balancer_autoscaling_09.png"
-    alt="lab_load_balancer_autoscaling_09.png"
+<img src="../Images/Lab_Load_Balancer_Autoscaling_09.png"
+    alt="Lab_Load_Balancer_Autoscaling_09.png"
     style="float: left; margin-right: 10px;" />
 
 12. For Health check, select http-health-check (TCP).
@@ -289,8 +289,8 @@ Verify that VM instances are being created in both regions, and access their HTT
 
 Configure the HTTP load balancer to balance traffic between the two backends (us-central1-mig in us-central1 and europe-west1-mig in europe-west1) as illustrated in the network diagram:
 
-   <img src="../images/lab_load_balancer_autoscaling_10.png"
-    alt="lab_load_balancer_autoscaling_10.png"
+   <img src="../Images/Lab_Load_Balancer_Autoscaling_10.png"
+    alt="Lab_Load_Balancer_Autoscaling_10.png"
     style="float: left; margin-right: 10px;" />
 
 ### Start the configuration
@@ -316,8 +316,8 @@ Backend services direct incoming traffic to one or more attached backends. Each 
 3. Specify the following, and leave the remaining settings as their defaults:
 
 
-<img src="../images/lab_load_balancer_autoscaling_11.png"
-alt="lab_load_balancer_autoscaling_11.png"
+<img src="../Images/Lab_Load_Balancer_Autoscaling_11.png"
+alt="Lab_Load_Balancer_Autoscaling_11.png"
 style="float: left; margin-right: 10px;" />
 
 > This configuration means that the load balancer attempts to keep each instance of us-central1-mig at or below 50 requests per second (RPS).
@@ -328,8 +328,8 @@ style="float: left; margin-right: 10px;" />
 
 6. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_load_balancer_autoscaling_12.png"
-alt="lab_load_balancer_autoscaling_12.png"
+<img src="../Images/Lab_Load_Balancer_Autoscaling_12.png"
+alt="Lab_Load_Balancer_Autoscaling_12.png"
 style="float: left; margin-right: 10px;" />
 
 > This configuration means that the load balancer attempts to keep each instance of europe-west1-mig at or below 80% CPU utilization.
@@ -352,8 +352,8 @@ The host and path rules determine how your traffic will be directed. For example
 
 2. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_load_balancer_autoscaling_13.png"
-alt="lab_load_balancer_autoscaling_13.png"
+<img src="../Images/Lab_Load_Balancer_Autoscaling_13.png"
+alt="Lab_Load_Balancer_Autoscaling_13.png"
 style="float: left; margin-right: 10px;" />
 
 3. Click Done.
@@ -362,8 +362,8 @@ style="float: left; margin-right: 10px;" />
 
 5. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_load_balancer_autoscaling_14.png"
-alt="lab_load_balancer_autoscaling_14.png"
+<img src="../Images/Lab_Load_Balancer_Autoscaling_14.png"
+alt="Lab_Load_Balancer_Autoscaling_14.png"
 style="float: left; margin-right: 10px;" />
 
 6. Click Done.
@@ -403,8 +403,8 @@ Create a new VM to simulate a load on the HTTP load balancer. Then determine whe
 
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_load_balancer_autoscaling_15.png"
-alt="lab_load_balancer_autoscaling_15.png"
+<img src="../Images/Lab_Load_Balancer_Autoscaling_15.png"
+alt="Lab_Load_Balancer_Autoscaling_15.png"
 style="float: left; margin-right: 10px;" />
 
 > Because us-west1 is closer to us-central1 than to europe-west1, traffic should be forwarded only to us-central1-mig (unless the load is too high).

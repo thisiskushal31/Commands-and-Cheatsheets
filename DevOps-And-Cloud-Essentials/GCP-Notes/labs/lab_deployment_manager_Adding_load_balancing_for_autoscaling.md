@@ -456,8 +456,8 @@ Enter the following command into Cloud Shell Command Line.
 
 **Example Output (don't copy)**
 
-<img src="../images/lab_deployment_autoscaling_app_02.png"
-     alt="lab_deployment_autoscaling_app_02.png"
+<img src="../Images/Lab_Deployment_Autoscaling_App_02.png"
+     alt="Lab_Deployment_Autoscaling_App_02.png"
      style="float: left; margin-right: 10px;" />
 
 ## Configure the template
@@ -514,8 +514,8 @@ Verify that the deployment completed successfully. It should look something like
 
 **Example**
 
-<img src="../images/lab_deployment_autoscaling_app_03.png"
-     alt="lab_deployment_autoscaling_app_03.png"
+<img src="../Images/Lab_Deployment_Autoscaling_App_03.png"
+     alt="Lab_Deployment_Autoscaling_App_03.png"
      style="float: left; margin-right: 10px;" />
 
 Switch to the Console browser tab. Navigate to Navigation menu > Deployment Manager.
@@ -524,22 +524,22 @@ It should look something like this:
 
 **Example**
 
-<img src="../images/lab_deployment_autoscaling_app_04.png"
-     alt="lab_deployment_autoscaling_app_04.png"
+<img src="../Images/Lab_Deployment_Autoscaling_App_04.png"
+     alt="Lab_Deployment_Autoscaling_App_04.png"
      style="float: left; margin-right: 10px;" />
 
 If the deployment fails, it will generate an error message:
 
 **Example**
 
-<img src="../images/lab_deployment_autoscaling_app_05.png"
-     alt="lab_deployment_autoscaling_app_05.png"
+<img src="../Images/Lab_Deployment_Autoscaling_App_05.png"
+     alt="Lab_Deployment_Autoscaling_App_05.png"
      style="float: left; margin-right: 10px;" />
 
 Before you can attempt to launch the deployment again, you will need to navigate in Console to Navigation menu > Deployment Manager and select the failed deployment and delete it. Deployment Manager keeps the artifacts until you explicitly delete it, in case you need to investigate the cause of the failure.
 
-<img src="../images/lab_deployment_autoscaling_app_06.png"
-     alt="lab_deployment_autoscaling_app_06.png"
+<img src="../Images/Lab_Deployment_Autoscaling_App_06.png"
+     alt="Lab_Deployment_Autoscaling_App_06.png"
      style="float: left; margin-right: 10px;" />
 
 ## Enable the Health Checks
@@ -556,8 +556,8 @@ You will need to do some investigation of the load balancer, instances, and fire
 
 Here is an example:
 
-<img src="../images/lab_deployment_autoscaling_app_07.png"
-     alt="lab_deployment_autoscaling_app_07.png"
+<img src="../Images/Lab_Deployment_Autoscaling_App_07.png"
+     alt="Lab_Deployment_Autoscaling_App_07.png"
      style="float: left; margin-right: 10px;" />
 
 From the point of view of the load balancer, the health checks are failing and there are no healthy instances.
@@ -573,8 +573,8 @@ Note, until the backend servers are fully deployed, the Healthy column may indic
 Here is an example:
 
 
-<img src="../images/lab_deployment_autoscaling_app_08.png"
-     alt="lab_deployment_autoscaling_app_08.png"
+<img src="../Images/Lab_Deployment_Autoscaling_App_08.png"
+     alt="Lab_Deployment_Autoscaling_App_08.png"
      style="float: left; margin-right: 10px;" />
 
 From the point of view of the servers, they are just fine. And the servers are ready to receive traffic if a firewall rule targeted at the tag http permits the health check from the load balancer to forward traffic to the instances.
@@ -597,14 +597,14 @@ Since this is an HTTP(S) load balancer, you will need to enable TCP traffic from
 3. Click on Create Firewall Rule and specify the following:
 
 
-<img src="../images/lab_deployment_autoscaling_app_09.png"
-     alt="lab_deployment_autoscaling_app_09.png"
+<img src="../Images/Lab_Deployment_Autoscaling_App_09.png"
+     alt="Lab_Deployment_Autoscaling_App_09.png"
      style="float: left; margin-right: 10px;" />
 
 Here is an example:
 
-<img src="../images/lab_deployment_autoscaling_app_10.png"
-     alt="lab_deployment_autoscaling_app_10.png"
+<img src="../Images/Lab_Deployment_Autoscaling_App_10.png"
+     alt="Lab_Deployment_Autoscaling_App_10.png"
      style="float: left; margin-right: 10px;" />
 
 Click Create.
@@ -615,8 +615,8 @@ Click Create.
 * Click on echo-lb-service-urlmap
 * Healthy should now be 2/2. The firewall rule will take several minutes to activate and for the health checks to pass. Press refresh to see the changes
 
-<img src="../images/lab_deployment_autoscaling_app_11.png"
-     alt="lab_deployment_autoscaling_app_11.png"
+<img src="../Images/Lab_Deployment_Autoscaling_App_11.png"
+     alt="Lab_Deployment_Autoscaling_App_11.png"
      style="float: left; margin-right: 10px;" />
 
 ## Test the Echo LB service
@@ -651,8 +651,8 @@ Press return or refresh the browser several times. You should see the hostname c
 8. Click Save.
 
 
-<img src="../images/lab_deployment_autoscaling_app_12.png"
-     alt="lab_deployment_autoscaling_app_12.png"
+<img src="../Images/Lab_Deployment_Autoscaling_App_12.png"
+     alt="Lab_Deployment_Autoscaling_App_12.png"
      style="float: left; margin-right: 10px;" />
 
 ## Test autoscaling
@@ -664,8 +664,8 @@ Press return or refresh the browser several times. You should see the hostname c
 * Use the setting below.
 * Leave other settings at their defaults.
 
-<img src="../images/lab_deployment_autoscaling_app_13.png"
-     alt="lab_deployment_autoscaling_app_13.png"
+<img src="../Images/Lab_Deployment_Autoscaling_App_13.png"
+     alt="Lab_Deployment_Autoscaling_App_13.png"
      style="float: left; margin-right: 10px;" />
 
 Leave the remaining settings as their defaults, and click Create.
@@ -691,8 +691,8 @@ On the Console tab, go to Navigation menu > Compute Engine > Instance groups and
 
 This is an example of the utilization:
 
-<img src="../images/lab_deployment_autoscaling_app_14.png"
-     alt="lab_deployment_autoscaling_app_14.png"
+<img src="../Images/Lab_Deployment_Autoscaling_App_14.png"
+     alt="Lab_Deployment_Autoscaling_App_14.png"
      style="float: left; margin-right: 10px;" />
 
 This is not nearly enough traffic to trigger autoscaling at 5% average utilization. Increase the load from 1000 to 10,000 and run the command two or three more times.

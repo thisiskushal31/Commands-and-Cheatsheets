@@ -158,8 +158,8 @@ Navigate to and list the version2 examples:
 
 The main deployment manager configuration file is nodejs.yaml. It makes use of templates to generate infrastructure. The rest of the files are templates. Templates use variables defined in the nodejs.yaml configuration file to produce customized results.
 
-<img src="../../images/qwiklabs_Deployment_manager_full_prod_01.png"
-     alt="qwiklabs_Deployment_manager_full_prod_01.png"
+<img src="../../Images/Qwiklabs_Deployment_Manager_Full_Prod_01.png"
+     alt="Qwiklabs_Deployment_Manager_Full_Prod_01.png"
      style="float: left; margin-right: 10px;" />
 
 ### `frontend.py`
@@ -323,20 +323,20 @@ advanced-configuration-frontend-tp     compute.v1.targetPool            COMPLETE
 
 1. Go to **Compute Engine** > **Instance groups**.
 
-<img src="../../images/qwiklabs_Deployment_manager_full_prod_02.png"
-     alt="qwiklabs_Deployment_manager_full_prod_02.png"
+<img src="../../Images/Qwiklabs_Deployment_Manager_Full_Prod_02.png"
+     alt="Qwiklabs_Deployment_Manager_Full_Prod_02.png"
      style="float: left; margin-right: 10px;" />
 
 2. Click on advanced-configuration-frontend-igm.
 
-<img src="../../images/qwiklabs_Deployment_manager_full_prod_03.png"
-     alt="qwiklabs_Deployment_manager_full_prod_03.png"
+<img src="../../Images/Qwiklabs_Deployment_Manager_Full_Prod_03.png"
+     alt="Qwiklabs_Deployment_Manager_Full_Prod_03.png"
      style="float: left; margin-right: 10px;" />
 
 3. Click on the Details tab, then verify the maximum number of instances. 
 
-<img src="../../images/qwiklabs_Deployment_manager_full_prod_04.png"
-     alt="qwiklabs_Deployment_manager_full_prod_04.png"
+<img src="../../Images/Qwiklabs_Deployment_Manager_Full_Prod_04.png"
+     alt="Qwiklabs_Deployment_Manager_Full_Prod_04.png"
      style="float: left; margin-right: 10px;" />
 
 You'll see it has been set to 4.
@@ -399,14 +399,14 @@ Now that Stackdriver is running, you'll set up alerts and a dashboard.
 1. In the Stackdriver tab, click on **Uptime Checks** > **Uptime Checks Overview**. Click **Add Uptime Check**.
 2. Specify the following:
 
-<img src="../../images/qwiklabs_Deployment_manager_full_prod_05.png"
-     alt="qwiklabs_Deployment_manager_full_prod_05.png"
+<img src="../../Images/Qwiklabs_Deployment_Manager_Full_Prod_05.png"
+     alt="Qwiklabs_Deployment_Manager_Full_Prod_05.png"
      style="float: left; margin-right: 10px;" />
 
 3. Click Test to test the check:
 
-<img src="../../images/qwiklabs_Deployment_manager_full_prod_06.png"
-     alt="qwiklabs_Deployment_manager_full_prod_06.png"
+<img src="../../Images/Qwiklabs_Deployment_Manager_Full_Prod_06.png"
+     alt="Qwiklabs_Deployment_Manager_Full_Prod_06.png"
      style="float: left; margin-right: 10px;" />
 
 > If the test fails, make sure that the service is still working. Also check to see that the firewall rule exists and is correct.
@@ -416,8 +416,8 @@ Now that Stackdriver is running, you'll set up alerts and a dashboard.
 
 After the Uptime Check is saved, Stackdriver offers to create an alerting policy.
 
-<img src="../../images/qwiklabs_Deployment_manager_full_prod_07.png"
-     alt="qwiklabs_Deployment_manager_full_prod_07.png"
+<img src="../../Images/Qwiklabs_Deployment_Manager_Full_Prod_07.png"
+     alt="Qwiklabs_Deployment_Manager_Full_Prod_07.png"
      style="float: left; margin-right: 10px;" />
 
 ## Configure an alerting policy and notification
@@ -448,21 +448,21 @@ In a later step, you will trigger an event that will notify you via email.
 
 Configure the chart as follows:
 
-<img src="../../images/qwiklabs_Deployment_manager_full_prod_08.png"
-     alt="qwiklabs_Deployment_manager_full_prod_08.png"
+<img src="../../Images/Qwiklabs_Deployment_Manager_Full_Prod_08.png"
+     alt="Qwiklabs_Deployment_Manager_Full_Prod_08.png"
      style="float: left; margin-right: 10px;" />
 
 6. Click Save.
 7. Click on Add Chart to add another chart to the dashboard with the following 
 
-<img src="../../images/qwiklabs_Deployment_manager_full_prod_09.png"
-     alt="qwiklabs_Deployment_manager_full_prod_09.png"
+<img src="../../Images/Qwiklabs_Deployment_Manager_Full_Prod_09.png"
+     alt="Qwiklabs_Deployment_Manager_Full_Prod_09.png"
      style="float: left; margin-right: 10px;" />
 
 8. Click Save DMDash should look like this:
 
-<img src="../../images/qwiklabs_Deployment_manager_full_prod_10.png"
-     alt="qwiklabs_Deployment_manager_full_prod_10.png"
+<img src="../../Images/Qwiklabs_Deployment_Manager_Full_Prod_10.png"
+     alt="Qwiklabs_Deployment_Manager_Full_Prod_10.png"
      style="float: left; margin-right: 10px;" />
 
 ## Create a test VM with ApacheBench

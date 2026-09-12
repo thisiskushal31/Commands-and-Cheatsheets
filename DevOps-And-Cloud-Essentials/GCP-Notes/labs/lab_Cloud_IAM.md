@@ -58,8 +58,8 @@ Make sure you are on the Username 1 GCP Console tab.
 3. Click Create bucket.
 4. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_IAM_01.png"
-        alt="lab_Cloud_IAM_01.png"
+<img src="../Images/Lab_Cloud_IAM_01.png"
+        alt="Lab_Cloud_IAM_01.png"
         style="float: left; margin-right: 10px;" />
 
 > Note the bucket name: it will be used in a later step and referred to as [YOUR_BUCKET_NAME]
@@ -165,8 +165,8 @@ In this part of the lab, you assign narrow permissions to service accounts and l
 
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_IAM_02.png"
-        alt="lab_Cloud_IAM_02.png"
+<img src="../Images/Lab_Cloud_IAM_02.png"
+        alt="Lab_Cloud_IAM_02.png"
         style="float: left; margin-right: 10px;" />
 
 4. Click Save.
@@ -179,8 +179,8 @@ You now give the entire organization at Altostrat the Compute Engine Admin role.
 2. Click Add.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_IAM_03.png"
-        alt="lab_Cloud_IAM_03.png"
+<img src="../Images/Lab_Cloud_IAM_03.png"
+        alt="Lab_Cloud_IAM_03.png"
         style="float: left; margin-right: 10px;" />
 
 4. Click Save.
@@ -195,8 +195,8 @@ You now give the entire organization at Altostrat the Compute Engine Admin role.
 2. Click Create.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_IAM_04.png"
-        alt="lab_Cloud_IAM_04.png"
+<img src="../Images/Lab_Cloud_IAM_04.png"
+        alt="Lab_Cloud_IAM_04.png"
         style="float: left; margin-right: 10px;" />
 
 4. Click Create.

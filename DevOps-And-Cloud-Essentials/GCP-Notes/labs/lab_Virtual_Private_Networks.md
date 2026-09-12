@@ -102,8 +102,8 @@ Reserve one static IP address for each VPN gateway.
 
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_VPN_01.png"
-    alt="lab_Cloud_VPN_01.png"
+<img src="../Images/Lab_Cloud_VPN_01.png"
+    alt="Lab_Cloud_VPN_01.png"
     style="float: left; margin-right: 10px;" />
 
 4. Click Reserve.
@@ -114,8 +114,8 @@ Reserve one static IP address for each VPN gateway.
 
 6. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_VPN_02.png"
-    alt="lab_Cloud_VPN_02.png"
+<img src="../Images/Lab_Cloud_VPN_02.png"
+    alt="Lab_Cloud_VPN_02.png"
     style="float: left; margin-right: 10px;" />
 
 7. Click Reserve.
@@ -132,14 +132,14 @@ Reserve one static IP address for each VPN gateway.
 
 4. Specify the following in the VPN gateway section, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_VPN_03.png"
-    alt="lab_Cloud_VPN_03.png"
+<img src="../Images/Lab_Cloud_VPN_03.png"
+    alt="Lab_Cloud_VPN_03.png"
     style="float: left; margin-right: 10px;" />
 
 5. Specify the following in the Tunnels section, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_VPN_04.png"
-    alt="lab_Cloud_VPN_04.png"
+<img src="../Images/Lab_Cloud_VPN_04.png"
+    alt="Lab_Cloud_VPN_04.png"
     style="float: left; margin-right: 10px;" />
 
 
@@ -161,15 +161,15 @@ Reserve one static IP address for each VPN gateway.
 
 3. Specify the following in the VPN gateway section, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Cloud_VPN_05.png"
-    alt="lab_Cloud_VPN_05.png"
+<img src="../Images/Lab_Cloud_VPN_05.png"
+    alt="Lab_Cloud_VPN_05.png"
     style="float: left; margin-right: 10px;" />
 
 4. Specify the following in the Tunnels section, and leave the remaining settings as their defaults:
 
 
-<img src="../images/lab_Cloud_VPN_06.png"
-    alt="lab_Cloud_VPN_06.png"
+<img src="../Images/Lab_Cloud_VPN_06.png"
+    alt="Lab_Cloud_VPN_06.png"
     style="float: left; margin-right: 10px;" />
 
    Make sure to replace [VPN-1-STATIC-IP] with your reserved IP address for us-central1.
