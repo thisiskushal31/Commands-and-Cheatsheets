@@ -83,7 +83,7 @@ Both sure beat the old way where you bought everything in advance based on lots 
 
 What about SaaS? Of course, Google's popular applications like, Google Search, Gmail, Google Docs and Google Drive are Software as a Service applications in that they're consumed directly over the internet by end users (e.g. GSuite).
 
-<img src="../images/GCP_IaaS_PaaS_FaaS.png"
+<img src="../Images/GCP_IaaS_PaaS_FaaS.png"
      alt="GCP_IaaS_PaaS_FaaS.png"
      style="float: left; margin-right: 10px;" />
 
@@ -91,7 +91,7 @@ article: https://cloud.google.com/blog/products/gcp/time-to-hello-world-vms-vs-c
 
 ## GCP Multi-regions, Regions & Zones
 
-<img src="../images/GCP_regions_zones.png"
+<img src="../Images/GCP_regions_zones.png"
      alt="GCP_regions_zones.png"
      style="float: left; margin-right: 10px;" />
 
@@ -110,7 +110,7 @@ Per second billing is offered for a virtual machine use through Compute Engine a
 
 [video](https://www.coursera.org/learn/gcp-fundamentals/lecture/2K73n/multi-layered-security-approach)
 
-<img src="../images/GCP_security.png"
+<img src="../Images/GCP_Security.png"
      alt="GCP_regions_zones.png"
      style="float: left; margin-right: 10px;" />
 
@@ -135,7 +135,7 @@ GCP customers use IM to implement least privilege, and it makes everybody happie
 - through the **APIs**,
 - and through a **mobile app**.
 
-<img src="../images/Google_Security.png"
+<img src="../Images/Google_Security.png"
      alt="Google_Security.png"
      style="float: left; margin-right: 10px;" />
 
@@ -148,18 +148,18 @@ When you build an application on your on-premises infrastructure, you're respons
 
 [video #2](https://www.coursera.org/learn/gcp-fundamentals/lecture/K85Wf/the-google-cloud-platform-resource-hierarchy)
 
-<img src="../images/GCP_organization_heirarchy.png"
+<img src="../Images/GCP_organization_heirarchy.png"
      alt="GCP_organization_heirarchy.png"
      style="float: left; margin-right: 10px;" />
 
 <table >
 	<tbody>
 		<tr>
-			<td><img src="../images/GCP_resource_hierarchy.png"
+			<td><img src="../Images/GCP_resource_hierarchy.png"
                     alt="GCP_resource_hierarchy.png"
                     style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/Projects_in_a_Folder.png"
+			<td><img src="../Images/Projects_in_a_Folder.png"
                     alt="Projects_in_a_Folder.png"
                     style="float: left; margin-right: 10px;" />
             </td>
@@ -171,11 +171,11 @@ When you build an application on your on-premises infrastructure, you're respons
      
 
 Policies are inherated downwards in the hierarchy.
-<img src="../images/GCP_project_identifiers.png"
+<img src="../Images/GCP_project_identifiers.png"
      alt="GCP_project_identifiers.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Example_without_folders.png"
+<img src="../Images/Example_without_folders.png"
      alt="Example_without_folders.png   "
      style="float: left; margin-right: 10px;" />
 
@@ -195,8 +195,8 @@ IAM lets administrators authorize who can take action on specific resources. An 
 - a **"can do what" part**: The "can do what" part is defined by an IAM role. An IAM role is a collection of permissions. Most of the time, to do any meaningful operations, you need more than one permission. For example, to manage instances in a project, you need to create, delete, start, stop, and change an instance. So the permissions are **grouped together into a role** that makes them easier to manage. 
 - and an **"on which resource" part**: 
 
-<img src="../images/roles_in_IAM.png"
-     alt="roles_in_IAM.png"
+<img src="../Images/Roles_in_IAM.png"
+     alt="Roles_in_IAM.png"
      style="float: left; margin-right: 10px;" />
 **3 kinds of roles in Cloud IAM**
 
@@ -217,8 +217,8 @@ Fortunately, GCP IAM provides a finer grained types of roles. GCP services offer
 
 What if you want to give permissions to a Compute Engine virtual machine, rather than to a person? Then you would use a service account.
 
-<img src="../images/service_accounts.png"
-     alt="service_accounts.png"
+<img src="../Images/Service_Accounts.png"
+     alt="Service_Accounts.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -226,7 +226,7 @@ What if you want to give permissions to a Compute Engine virtual machine, rather
 
 [video](https://www.coursera.org/learn/gcp-fundamentals/lecture/hIpvL/interacting-with-google-cloud-platform)
 
-<img src="../images/GCP_4_ways_interactions.png"
+<img src="../Images/GCP_4_ways_interactions.png"
      alt="GCP_4_ways_interactions.png"
      style="float: left; margin-right: 10px;" />
 
@@ -263,7 +263,7 @@ The way a lot of people get started with GCP is:
 - to define their own Virtual Private Cloud inside their first GCP project,
 - or they can simply choose the default VPC and get started with that.
 
-<img src="../images/VPC_regions_subnets.png"
+<img src="../Images/VPC_regions_subnets.png"
      alt="VPC_regions_subnets.png"
      style="float: left; margin-right: 10px;" />
 
@@ -293,7 +293,7 @@ The way a lot of people get started with GCP is:
 - **VPC Peering** to interconnect outside your project 2 VPCs on GCP. And **Shared VPC** would provide the IAM functionalities to specify Who can access What.
 - **Cloud Load Balancing**: Google Cloud Load Balancing allows you to balance HTTP-based traffic across multiple Compute Engine regions.
 
-<img src="../images/Cloud_Load_balancing.png"
+<img src="../Images/Cloud_Load_balancing.png"
      alt="Cloud_Load_balancing.png"
      style="float: left; margin-right: 10px;" />
 
@@ -305,42 +305,42 @@ The way a lot of people get started with GCP is:
 ### Create a VM with gcloud in Cloud Shell
 
 Create the new VM in the same region, but in another zone, setting `us-central1-c` as the new default zone:
-<img src="../images/VM_gcloud.png"
+<img src="../Images/VM_gcloud.png"
      alt="VM_gcloud.png"
      style="float: left; margin-right: 10px;" />
 
 SSH the new VM:
-<img src="../images/VM_ping_ssh.png"
+<img src="../Images/VM_ping_ssh.png"
      alt="VM_ping_ssh.png"
      style="float: left; margin-right: 10px;" />
 
 
 Install a simple webserver and edit its homepage on the new VM:
-<img src="../images/VM_install_simple_webserver.png"
+<img src="../Images/VM_install_simple_webserver.png"
      alt="VM_install_simple_webserver.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/VM_edit_webserver_homepage.png"
+<img src="../Images/VM_edit_webserver_homepage.png"
      alt="VM_edit_webserver_homepage.png"
      style="float: left; margin-right: 10px;" />
 
 
 Check that the running webserver serves the homepage locally on the new VM:
 
-<img src="../images/VM_check_webser_serves_local_homepage.png"
+<img src="../Images/VM_check_webser_serves_local_homepage.png"
      alt="VM_check_webser_serves_local_homepage.png"
      style="float: left; margin-right: 10px;" />
 
 Check that the running webserver serves the homepage from the other VM on the same VPC:
 
-<img src="../images/VM1_seeing_homepage_of_VM2.png"
+<img src="../Images/VM1_seeing_homepage_of_VM2.png"
      alt="VM1_seeing_homepage_of_VM2.png"
      style="float: left; margin-right: 10px;" />
 
 
 ### Lab about Compute Engine
 
-[notes](../labs/lab_create_VMs_with_Compute_Engine.md) 
+[notes](../Labs/Lab_Create_VMs_with_Compute_Engine.md) 
 
 
 
@@ -349,7 +349,7 @@ Check that the running webserver serves the homepage from the other VM on the sa
 
 [video](https://www.coursera.org/learn/gcp-fundamentals/lecture/18wEV/introduction-to-google-cloud-platform-storage-options)
 
-<img src="../images/Storage_COMPARISON.png"
+<img src="../Images/Storage_COMPARISON.png"
      alt="Storage_COMPARISON.png"
      style="float: left; margin-right: 10px;" />
 
@@ -381,19 +381,19 @@ Cloud Storage objects are immutable
 - "multi-regional" & "regional" are high-performance object classes
 - "nearline" & "coldline" are backup/archivable storage
 
-<img src="../images/Cloud_Storage_interactions_4classes.png"
+<img src="../Images/Cloud_Storage_interactions_4classes.png"
      alt="Cloud_Storage_interactions_4classes.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Storage_CloudStorage_bring_data_in.png"
+<img src="../Images/Storage_CloudStorage_bring_data_in.png"
      alt="Storage_CloudStorage_bring_data_in.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Storage_CloudStorage_interactions_with_other_GCP_services.png"
+<img src="../Images/Storage_CloudStorage_interactions_with_other_GCP_services.png"
      alt="Storage_CloudStorage_interactions_with_other_GCP_services.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Storage_CloudStorage_buckets.png"
+<img src="../Images/Storage_CloudStorage_buckets.png"
      alt="Storage_CloudStorage_buckets.png"
      style="float: left; margin-right: 10px;" />
 
@@ -403,7 +403,7 @@ Cloud Storage objects are immutable
 
 Definition: Google CLoud (fully-managed) NoSQL, BigData, database service for TeraBytes applications (up to PetaBytes of data).
 
-<img src="../images/Storage_BigTable_interactions.png"
+<img src="../Images/Storage_BigTable_interactions.png"
      alt="Storage_BigTable_interactions.png"
      style="float: left; margin-right: 10px;" />
 
@@ -432,7 +432,7 @@ Definition: Google Spanner is horizontally scalable Relational Database Manageme
 
 [video](https://www.coursera.org/learn/gcp-fundamentals/lecture/yboF1/demonstration-getting-started-with-cloud-storage-and-cloud-sql)
 
-[notes](../labs/lab_create_blog_with_Cloud_Storage_Cloud_SQL_and_Compute_Engine.md) 
+[notes](../Labs/Lab_Create_Blog_with_Cloud_Storage_Cloud_SQL_and_Compute_Engine.md) 
 
 ## Containers, Kubernetes, and Kubernetes Engine
 
@@ -441,12 +441,12 @@ Definition: Google Spanner is horizontally scalable Relational Database Manageme
 
 ### Containers
 
-<img src="../images/containers_IaaS.png"
-     alt="containers_IaaS.png"
+<img src="../Images/Containers_IaaS.png"
+     alt="Containers_IaaS.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/containers_containers.png"
-     alt="containers_containers.png"
+<img src="../Images/Containers_Containers.png"
+     alt="Containers_Containers.png"
      style="float: left; margin-right: 10px;" />
 
 It scales like PaaS, but gives you nearly the same flexibility as IaaS.
@@ -455,22 +455,22 @@ With this abstraction, your code is ultra portable, and you can treat the OS and
 
 <table >
 		<tr>
-			<td><img src="../images/containers_python_app.png"
-                    alt="containers_python_app.png"
+			<td><img src="../Images/Containers_Python_App.png"
+                    alt="Containers_Python_App.png"
                     style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/containers_python_requirements.png"
-                    alt="containers_python_requirements.png"
+			<td><img src="../Images/Containers_Python_Requirements.png"
+                    alt="Containers_Python_Requirements.png"
                     style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/containers_dockerfile.png"
-                    alt="containers_dockerfile.png"
+			<td><img src="../Images/Containers_Dockerfile.png"
+                    alt="Containers_Dockerfile.png"
                     style="float: left; margin-right: 10px;" />
             </td>
 		</tr>
 		<tr>
-			<td><img src="../images/containers_build_run_container.png"
-                    alt="containers_build_run_container.png"
+			<td><img src="../Images/Containers_Build_Run_Container.png"
+                    alt="Containers_Build_Run_Container.png"
                     style="float: left; margin-right: 10px;" />
             </td>
 		</tr>
@@ -496,16 +496,16 @@ GKE clusters:
 
 <table >
 		<tr>
-			<td><img src="../images/containers_k8s_cluster.png"
-                    alt="containers_k8s_cluster.png"
+			<td><img src="../Images/Containers_K8s_Cluster.png"
+                    alt="Containers_K8s_Cluster.png"
                     style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/containers_k8s_configure_with_GKE.png"
-                    alt="containers_k8s_configure_with_GKE.png"
+			<td><img src="../Images/Containers_K8s_Configure_with_GKE.png"
+                    alt="Containers_K8s_Configure_with_GKE.png"
                     style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/containers_k8s_POD_containers.png"
-                    alt="containers_k8s_POD_containers.png"
+			<td><img src="../Images/Containers_K8s_POD_Containers.png"
+                    alt="Containers_K8s_POD_Containers.png"
                     style="float: left; margin-right: 10px;" />
             </td>
 		</tr>
@@ -515,16 +515,16 @@ One way to run a container in a POD in Kubernetes is to use `kubectl`:
 
 <table >
 		<tr>
-			<td><img src="../images/containers_k8s_kubectl.png"
-                    alt="containers_k8s_kubectl.png"
+			<td><img src="../Images/Containers_K8s_Kubectl.png"
+                    alt="Containers_K8s_Kubectl.png"
                     style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/containers_k8s_kubectl_networking.png"
-                    alt="containers_k8s_kubectl_networking.png"
+			<td><img src="../Images/Containers_K8s_Kubectl_Networking.png"
+                    alt="Containers_K8s_Kubectl_Networking.png"
                     style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/containers_k8s_kubectl_simple_loadbalancer.png"
-                    alt="containers_k8s_kubectl_simple_loadbalancer.png"
+			<td><img src="../Images/Containers_K8s_Kubectl_Simple_Loadbalancer.png"
+                    alt="Containers_K8s_Kubectl_Simple_Loadbalancer.png"
                     style="float: left; margin-right: 10px;" />
             </td>
 		</tr>
@@ -532,20 +532,20 @@ One way to run a container in a POD in Kubernetes is to use `kubectl`:
 
 To get the IP of the load balancer:
 
-<img src="../images/containers_k8s_kubectl_get_IPs.png"
-                    alt="containers_k8s_kubectl_get_IPs.png"
+<img src="../Images/Containers_K8s_Kubectl_Get_IPs.png"
+                    alt="Containers_K8s_Kubectl_Get_IPs.png"
                     style="float: left; margin-right: 10px;" />
 
 To scale the deployment:
 
 <table >
 		<tr>
-			<td><img src="../images/containers_k8s_kubectl_scale_deployment.png"
-                    alt="containers_k8s_kubectl_scale_deployment.png"
+			<td><img src="../Images/Containers_K8s_Kubectl_Scale_Deployment.png"
+                    alt="Containers_K8s_Kubectl_Scale_Deployment.png"
                     style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/containers_k8s_kubectl_autoscale_deployment.png"
-                    alt="containers_k8s_kubectl_autoscale_deployment.png"
+			<td><img src="../Images/Containers_K8s_Kubectl_Autoscale_Deployment.png"
+                    alt="Containers_K8s_Kubectl_Autoscale_Deployment.png"
                     style="float: left; margin-right: 10px;" />
             </td>
 		</tr>
@@ -556,20 +556,20 @@ the real strength of Kubernetes comes when you **work in a declarative way**. In
 
 <table >
 		<tr>
-			<td><img src="../images/containers_k8s_kubectl_configuration_file.png"
-                    alt="containers_k8s_kubectl_configuration_file.png"
+			<td><img src="../Images/Containers_K8s_Kubectl_Configuration_File.png"
+                    alt="Containers_K8s_Kubectl_Configuration_File.png"
                     style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/containers_k8s_kubectl_configuration_file_app_nginx.png"
-                    alt="containers_k8s_kubectl_configuration_file_app_nginx.png"
+			<td><img src="../Images/Containers_K8s_Kubectl_Configuration_File_App_Nginx.png"
+                    alt="Containers_K8s_Kubectl_Configuration_File_App_Nginx.png"
                     style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/containers_k8s_kubectl_configuration_file_app_nginx_scale_3_to_5.png"
-                    alt="containers_k8s_kubectl_configuration_file_app_nginx_scale_3_to_5.png"
+			<td><img src="../Images/Containers_K8s_Kubectl_Configuration_File_App_Nginx_Scale_3_to_5.png"
+                    alt="Containers_K8s_Kubectl_Configuration_File_App_Nginx_Scale_3_to_5.png"
                     style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/containers_k8s_kubectl_run_configuration_file.png"
-                    alt="containers_k8s_kubectl_run_configuration_file.png"
+			<td><img src="../Images/Containers_K8s_Kubectl_Run_Configuration_File.png"
+                    alt="Containers_K8s_Kubectl_Run_Configuration_File.png"
                     style="float: left; margin-right: 10px;" />
             </td>
 		</tr>
@@ -577,26 +577,26 @@ the real strength of Kubernetes comes when you **work in a declarative way**. In
 
 Watch the PODs come online:
 
-<img src="../images/containers_k8s_kubectl_watch_PODs_come_onine.png"
-                    alt="containers_k8s_kubectl_watch_PODs_come_onine.png"
+<img src="../Images/Containers_K8s_Kubectl_Watch_PODs_Come_Onine.png"
+                    alt="Containers_K8s_Kubectl_Watch_PODs_Come_Onine.png"
                     style="float: left; margin-right: 10px;" />
 
 Which ones are deployed?
 
-<img src="../images/containers_k8s_kubectl_watch_PODs_deployed.png"
-                    alt="containers_k8s_kubectl_watch_PODs_deployed.png"
+<img src="../Images/Containers_K8s_Kubectl_Watch_PODs_Deployed.png"
+                    alt="Containers_K8s_Kubectl_Watch_PODs_Deployed.png"
                     style="float: left; margin-right: 10px;" />
 
 Find out the external IP of the service(s):
 
-<img src="../images/containers_k8s_kubectl_watch_PODs_get_IPs.png"
-                    alt="containers_k8s_kubectl_watch_PODs_get_IPs.png"
+<img src="../Images/Containers_K8s_Kubectl_Watch_PODs_Get_IPs.png"
+                    alt="Containers_K8s_Kubectl_Watch_PODs_Get_IPs.png"
                     style="float: left; margin-right: 10px;" />
 
 And hit a public IP from a client:
 
-<img src="../images/containers_k8s_kubectl_watch_PODs_hit_IPs_from_client.png"
-                    alt="containers_k8s_kubectl_watch_PODs_hit_IPs_from_client.png"
+<img src="../Images/Containers_K8s_Kubectl_Watch_PODs_Hit_IPs_from_Client.png"
+                    alt="Containers_K8s_Kubectl_Watch_PODs_Hit_IPs_from_Client.png"
                     style="float: left; margin-right: 10px;" />
 
 What happens when you want to upload a new version of your app?
@@ -609,8 +609,8 @@ New PODs will get created according to your update strategy:
 
 > Here's an example configuration that will create a new version of your pods one-by-one, and wait for a new pod to be available before destroying one of the old pods.
 
-<img src="../images/containers_k8s_kubectl_update_code_rollout.png"
-                    alt="containers_k8s_kubectl_update_code_rollout.png"
+<img src="../Images/Containers_K8s_Kubectl_Update_Code_Rollout.png"
+                    alt="Containers_K8s_Kubectl_Update_Code_Rollout.png"
                     style="float: left; margin-right: 10px;" />
 
 ### Lab: Containers / Kubernetes / GKE
@@ -620,7 +620,7 @@ New PODs will get created according to your update strategy:
 > _There are a lot of features in Kubernetes and GKE we haven't even touched on, such as configuring health checks, setting session affinity, managing different rollout strategies, and deploying pods across regions for high availability. But for now, that's enough. In this module, you've learned how to build a run containerized applications, orchestrate and scale them on a cluster, and deploy them using rollouts. Now you'll see how to do it in a demo and practice it in a lab exercise._
 
 - [video: lab](https://www.coursera.org/learn/gcp-fundamentals/lecture/umRjO/demo-getting-started-with-kubernetes-engine)
-- [notes lab](../labs/lab_create_a_webserver_deployed_on_kubernetes_cluster.md) 
+- [notes lab](../Labs/Lab_Create_a_Webserver_Deployed_on_Kubernetes_Cluster.md) 
 
 
 ## App Engine
@@ -646,7 +646,7 @@ App Engine:
 - Runtime for Java, Python, PHP and Go
 
 
-<img src="../images/AppEngine_Standard_example_workflow.png"
+<img src="../Images/AppEngine_Standard_example_workflow.png"
         alt="AppEngine_Standard_example_workflow.png"
         style="float: left; margin-right: 10px;" />
 
@@ -659,13 +659,13 @@ App Engine:
 
 ### Comparison Standard vs Flexible
 
-<img src="../images/AppEngine_Comparison_standard_flexible.png"
+<img src="../Images/AppEngine_Comparison_standard_flexible.png"
         alt="AppEngine_Comparison_standard_flexible.png"
         style="float: left; margin-right: 10px;" />
 
 ### Comparison App Engine vs Kubernetes Engine
 
-<img src="../images/AppEngine_Comparison_app_engine_vs_Kubernetes_engine.png"
+<img src="../Images/AppEngine_Comparison_app_engine_vs_Kubernetes_engine.png"
         alt="AppEngine_Comparison_app_engine_vs_Kubernetes_engine.png"
         style="float: left; margin-right: 10px;" />
 
@@ -684,17 +684,17 @@ Google provides 2 APIs-related approach:
 <table >
 	<tbody>
 		<tr>
-			<td><img src="../images/API_Cloud_Endpoints.png"
+			<td><img src="../Images/API_Cloud_Endpoints.png"
                     alt="API_Cloud_Endpoints.png"
                     style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/API_Cloud_Endpoints_managed_Proxy.png"
+			<td><img src="../Images/API_Cloud_Endpoints_managed_Proxy.png"
                     alt="API_Cloud_Endpoints_managed_Proxy.png"
                     style="float: left; margin-right: 10px;" />
             </td>
 		</tr>
 		<tr>
-			<td><img src="../images/API_Cloud_Endpoints_supported_platforms.png"
+			<td><img src="../Images/API_Cloud_Endpoints_supported_platforms.png"
                     alt="API_Cloud_Endpoints_supported_platforms.png"
                     style="float: left; margin-right: 10px;" />
             </td>
@@ -703,7 +703,7 @@ Google provides 2 APIs-related approach:
 </table>
 
 
-<img src="../images/API_ApigeeEdge.png"
+<img src="../Images/API_ApigeeEdge.png"
                     alt="API_ApigeeEdge.png"
                     style="float: left; margin-right: 10px;" />
 
@@ -715,7 +715,7 @@ Many users of Apigee Edge are providing a software service to other companies an
 ### Lab: Getting Started with App Engine
 
 - [video](https://www.coursera.org/learn/gcp-fundamentals/lecture/T1C9J/demonstration-getting-started-with-app-engine)
-- [notes lab](../labs/lab_deploy_appengine_webapp.md)
+- [notes lab](../Labs/Lab_Deploy_AppEngine_Webapp.md)
 
 
 ## Development in the cloud
@@ -746,11 +746,11 @@ You can't run an application stably without monitoring. Monitoring lets you figu
 
 Stackdriver is GCP's tool for monitoring, logging and diagnostics.
 
-<img src="../images/Monitoring_StackDriver.png"
+<img src="../Images/Monitoring_StackDriver.png"
         alt="Monitoring_StackDriver.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/Monitoring_StackDriver_services.png"
+<img src="../Images/Monitoring_StackDriver_services.png"
         alt="Monitoring_StackDriver_services.png"
         style="float: left; margin-right: 10px;" />
 
@@ -771,7 +771,7 @@ Stackdriver is GCP's tool for monitoring, logging and diagnostics.
 - [video #6](https://www.coursera.org/learn/gcp-fundamentals/lecture/x2zsd/google-cloud-machine-learning-platform)
 - [video #7](https://www.coursera.org/learn/gcp-fundamentals/lecture/VwUfz/machine-learning-apis)
 
-<img src="../images/BigData_ML_tools.png"
+<img src="../Images/BigData_ML_tools.png"
         alt="BigData_ML_tools.png"
         style="float: left; margin-right: 10px;" />
 
@@ -779,7 +779,7 @@ Stackdriver is GCP's tool for monitoring, logging and diagnostics.
 
 - [video #2](https://www.coursera.org/learn/gcp-fundamentals/lecture/gP7vk/google-cloud-big-data-platform)
 
-<img src="../images/BigData_ML_Dataproc.png"
+<img src="../Images/BigData_ML_Dataproc.png"
         alt="BigData_ML_Dataproc.png"
         style="float: left; margin-right: 10px;" />
 
@@ -794,19 +794,19 @@ Stackdriver is GCP's tool for monitoring, logging and diagnostics.
 <table >
 	<tbody>
 		<tr>
-			<td><img src="../images/BigData_ML_Dataflow.png"
+			<td><img src="../Images/BigData_ML_Dataflow.png"
         alt="BigData_ML_Dataflow.png"
         style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/BigData_ML_Dataflow_pipelines.png"
+			<td><img src="../Images/BigData_ML_Dataflow_pipelines.png"
         alt="BigData_ML_Dataflow_pipelines.png"
         style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/BigData_ML_Dataflow_ETL_tool.png"
+			<td><img src="../Images/BigData_ML_Dataflow_ETL_tool.png"
         alt="BigData_ML_Dataflow_ETL_tool.png"
         style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/BigData_ML_Dataflow_orchestration.png"
+			<td><img src="../Images/BigData_ML_Dataflow_orchestration.png"
         alt="BigData_ML_Dataflow_orchestration.png"
         style="float: left; margin-right: 10px;" />
             </td>
@@ -814,7 +814,7 @@ Stackdriver is GCP's tool for monitoring, logging and diagnostics.
 	</tbody>
 </table>
 
-<img src="../images/BigData_ML_Dataflow_pipeline_example.png"
+<img src="../Images/BigData_ML_Dataflow_pipeline_example.png"
         alt="BigData_ML_Dataflow_pipeline_example.png"
         style="float: left; margin-right: 10px;" />
 
@@ -826,15 +826,15 @@ Stackdriver is GCP's tool for monitoring, logging and diagnostics.
 <table >
 	<tbody>
 		<tr>
-			<td><img src="../images/BigData_ML_BigQuery.png"
+			<td><img src="../Images/BigData_ML_BigQuery.png"
         alt="BigData_ML_BigQuery.png"
         style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/BigData_ML_BigQuery_fully_managed.png"
+			<td><img src="../Images/BigData_ML_BigQuery_fully_managed.png"
         alt="BigData_ML_BigQuery_fully_managed.png"
         style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/BigData_ML_BigQuery_global_service.png"
+			<td><img src="../Images/BigData_ML_BigQuery_global_service.png"
         alt="BigData_ML_BigQuery_global_service.png"
         style="float: left; margin-right: 10px;" />
             </td>
@@ -850,11 +850,11 @@ Stackdriver is GCP's tool for monitoring, logging and diagnostics.
 <table >
 	<tbody>
 		<tr>
-			<td><img src="../images/BigData_ML_PubSub.png"
+			<td><img src="../Images/BigData_ML_PubSub.png"
         alt="BigData_ML_PubSub.png"
         style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/BigData_ML_PubSub_usage.png"
+			<td><img src="../Images/BigData_ML_PubSub_usage.png"
         alt="BigData_ML_PubSub_usage.png"
         style="float: left; margin-right: 10px;" />
             </td>
@@ -866,11 +866,11 @@ Stackdriver is GCP's tool for monitoring, logging and diagnostics.
 <table >
 	<tbody>
 		<tr>
-			<td><img src="../images/BigData_ML_Datalab.png"
+			<td><img src="../Images/BigData_ML_Datalab.png"
         alt="BigData_ML_Datalab.png"
         style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/BigData_ML_Datalab_interactions.png"
+			<td><img src="../Images/BigData_ML_Datalab_interactions.png"
         alt="BigData_ML_Datalab_interactions.png"
         style="float: left; margin-right: 10px;" />
             </td>
@@ -883,7 +883,7 @@ Stackdriver is GCP's tool for monitoring, logging and diagnostics.
 
 - [video #6](https://www.coursera.org/learn/gcp-fundamentals/lecture/x2zsd/google-cloud-machine-learning-platform)
 
-<img src="../images/BigData_ML_ML_platform.png"
+<img src="../Images/BigData_ML_ML_platform.png"
         alt="BigData_ML_ML_platform.png"
         style="float: left; margin-right: 10px;" />
 
@@ -895,11 +895,11 @@ Stackdriver is GCP's tool for monitoring, logging and diagnostics.
 <table >
 	<tbody>
 		<tr>
-			<td><img src="../images/BigData_ML_API_Vision.png"
+			<td><img src="../Images/BigData_ML_API_Vision.png"
         alt="BigData_ML_API_Vision.png"
         style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/BigData_ML_API_Vision_aplications.png"
+			<td><img src="../Images/BigData_ML_API_Vision_aplications.png"
         alt="BigData_ML_API_Vision_aplications.png"
         style="float: left; margin-right: 10px;" />
             </td>
@@ -911,11 +911,11 @@ Stackdriver is GCP's tool for monitoring, logging and diagnostics.
 <table >
 	<tbody>
 		<tr>
-			<td><img src="../images/BigData_ML_API_Natural_Language.png"
+			<td><img src="../Images/BigData_ML_API_Natural_Language.png"
         alt="BigData_ML_API_Natural_Language.png"
         style="float: left; margin-right: 10px;" />
             </td>
-			<td><img src="../images/BigData_ML_API_Natural_Language_applications.png"
+			<td><img src="../Images/BigData_ML_API_Natural_Language_applications.png"
         alt="BigData_ML_API_Natural_Language_applications.png"
         style="float: left; margin-right: 10px;" />
             </td>
@@ -924,18 +924,18 @@ Stackdriver is GCP's tool for monitoring, logging and diagnostics.
 </table>
 
 
-<img src="../images/BigData_ML_API_Translation.png"
+<img src="../Images/BigData_ML_API_Translation.png"
         alt="BigData_ML_API_Translation.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/BigData_ML_API_VideoBeta.png"
+<img src="../Images/BigData_ML_API_VideoBeta.png"
         alt="BigData_ML_API_VideoBeta.png"
         style="float: left; margin-right: 10px;" />
 
 ### lab: Getting Started with BigQuery
 
 - [video lab](https://www.coursera.org/learn/gcp-fundamentals/lecture/V6Daj/demonstration-getting-started-with-bigquery)
-- [notes lab](../labs/lab_load_data_and_query_BigQuery.md)
+- [notes lab](../Labs/Lab_Load_Data_and_Query_BigQuery.md)
 
 
 ## Summary
@@ -944,30 +944,30 @@ Stackdriver is GCP's tool for monitoring, logging and diagnostics.
 
 - GCP: a continuum of servces from **"managed infrastructure"** to **"dynamic infrastructure"**
 
-<img src="../images/summary_GCP_continuum_managed_to_dynamic_infrastructure.png"
-        alt="summary_GCP_continuum_managed_to_dynamic_infrastructure.png"
+<img src="../Images/Summary_GCP_Continuum_Managed_to_Dynamic_Infrastructure.png"
+        alt="Summary_GCP_Continuum_Managed_to_Dynamic_Infrastructure.png"
         style="float: left; margin-right: 10px;" />
 
 - GCP offers a variety of Load balancers:
 
-<img src="../images/various_load_balancing_services.png"
-        alt="various_load_balancing_services.png"
+<img src="../Images/Various_Load_Balancing_Services.png"
+        alt="Various_Load_Balancing_Services.png"
         style="float: left; margin-right: 10px;" />
 
 - GCP offers various ways to interconnect other networks to it:
 
-<img src="../images/Interconnect_other_network_to_GCP.png"
+<img src="../Images/Interconnect_other_network_to_GCP.png"
         alt="Interconnect_other_network_to_GCP.png"
         style="float: left; margin-right: 10px;" />
 
 - GCP offers various type of storage:
 
-<img src="../images/various_storages.png"
-        alt="various_storages.png"
+<img src="../Images/Various_Storages.png"
+        alt="Various_Storages.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/various_storages_classes.png"
-        alt="various_storages_classes.png"
+<img src="../Images/Various_Storages_Classes.png"
+        alt="Various_Storages_Classes.png"
         style="float: left; margin-right: 10px;" />
 
 

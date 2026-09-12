@@ -155,8 +155,8 @@ The class uses a **tiered design model to organize the learning**. And along the
 
 Speaking of examples, the example solutions in the class exercises are intended to get you thinking about **design**. There are adequate solutions but not perfect solutions, you'll probably think of ways to improve on these solutions and come up with your own designs that are better and that's exactly what we want you to do, to learn to develop your own designs.
 
-<img src="../images/design_and_process.png"
-     alt="design_and_process.png"
+<img src="../Images/Design_and_Process.png"
+     alt="Design_and_Process.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -173,9 +173,9 @@ Speaking of examples, the example solutions in the class exercises are intended 
 
 Learned in the labs:
 
-<img src="../images/course_6_design_and_process_list_labs.png"
-     alt="course_6_design_and_process_list_labs.png"
-     style="float: left; margin-right: 10px;" />
+<img src="../Images/Course_6_Design_and_Process_List_Labs.png"
+     alt="Course_6_Design_and_Process_List_Labs.png"
+     style="float: left; margin-right: 10px;" /> 
 
 
 ## Modules covered
@@ -227,7 +227,7 @@ After introducing a layered model, the module discusses three concepts that are 
 - measurement,
 - and requirements.
 
-<img src="../images/Design_process_rough_design.png"
+<img src="../Images/Design_process_rough_design.png"
      alt="Design_process_rough_design.png"
      style="float: left; margin-right: 10px;" />
 
@@ -249,31 +249,31 @@ After introducing a layered model, the module discusses three concepts that are 
     - Business logic layer (Compute)
     - Data layer (Storage)
 
-    <img src="../images/Design_process_3-tier_architecture.png"
+    <img src="../Images/Design_process_3-tier_architecture.png"
         alt="Design_process_3-tier_architecture.png"
         style="float: left; margin-right: 10px;" />
 
 5. Resiliency, scalability and disaster recovery
 
-    <img src="../images/Design_process_understand_disaster_resiliency.png"
+    <img src="../Images/Design_process_understand_disaster_resiliency.png"
         alt="Design_process_understand_disaster_resiliency.png"
         style="float: left; margin-right: 10px;" />
 
 6. Security
 
-    <img src="../images/Design_process_security.png"
-        alt="Design_process_security.png"
+    <img src="../Images/Design_process_Security.png"
+        alt="Design_process_Security.png"
         style="float: left; margin-right: 10px;" />
 
 7. Budget, Capacity planning and cost optimization
 
-    <img src="../images/Design_process_budget.png"
+    <img src="../Images/Design_process_budget.png"
         alt="Design_process_budget.png"
         style="float: left; margin-right: 10px;" />
 
 8. Deployment, monitoring, alerting and incident response
 
-    <img src="../images/Design_process_deployment_types.png"
+    <img src="../Images/Design_process_deployment_types.png"
         alt="Design_process_deployment_types.png"
         style="float: left; margin-right: 10px;" />
 
@@ -282,11 +282,11 @@ After introducing a layered model, the module discusses three concepts that are 
 
 (always remember to try new instead of re-using old)
 
-<img src="../images/Design_process_Recency_assess.png"
+<img src="../Images/Design_process_Recency_assess.png"
      alt="Design_process_Recency_assess.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Design_process_summary.png"
+<img src="../Images/Design_process_summary.png"
      alt="Design_process_summary.png"
      style="float: left; margin-right: 10px;" />
 
@@ -305,7 +305,7 @@ For example, compare two sets of directions:
 
 The second instruction requires you to remember that you've passed the market, so it's **stateful**. Whereas the first one does not require you to remember anything, so it's **stateless**. Whether a system is stateful or stateless has a lot of influence on design. And in particular, you have to decide where to store state information, how to retrieve it, and what to do if it's lost.
 
-<img src="../images/Design_process_statefull_stateless.png"
+<img src="../Images/Design_process_statefull_stateless.png"
      alt="Design_process_statefull_stateless.png"
      style="float: left; margin-right: 10px;" />
 
@@ -314,7 +314,7 @@ Analogy with kitchen:
 - you could build everything yourself (the protein, the vegetables, make the sauce, ...). That gives you **more control** by centralizing everything and allow you to forsee the problem before it gets to the end state. **Problem is scaling**.
 - in a stateless approach, it's easier to handle scaling and distribution.
 
-<img src="../images/Design_process_statefull_stateless_cook_analogy.png"
+<img src="../Images/Design_process_statefull_stateless_cook_analogy.png"
      alt="Design_process_statefull_stateless_cook_analogy.png"
      style="float: left; margin-right: 10px;" />
 
@@ -323,29 +323,29 @@ So what are your states? What kind of information should be stored? Where can we
 
 Best state is **NO states**. 
 
-<img src="../images/Design_process_where_storing_information.png"
+<img src="../Images/Design_process_where_storing_information.png"
      alt="Design_process_where_storing_information.png"
      style="float: left; margin-right: 10px;" />
 
 How do dal with states?
 
-<img src="../images/Design_process_deal_with_states.png"
+<img src="../Images/Design_process_deal_with_states.png"
      alt="Design_process_deal_with_states.png"
      style="float: left; margin-right: 10px;" />
 
 **Avoid hotspots**. Instead, push them to a backend.
 
-<img src="../images/Design_process_states_Avoid_hotpsots.png"
+<img src="../Images/Design_process_states_Avoid_hotpsots.png"
      alt="Design_process_states_Avoid_hotpsots.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Design_process_states_Avoid_hotpsots_push_to_backend.png"
+<img src="../Images/Design_process_states_Avoid_hotpsots_push_to_backend.png"
      alt="Design_process_states_Avoid_hotpsots_push_to_backend.png"
      style="float: left; margin-right: 10px;" />
 
 You could use **cache**, but that might become overloaded, so to overcome that,  distribute the states onto several backend with load-balancing.
 
-<img src="../images/Design_process_states_distribute_backend_instead_of_cache.png"
+<img src="../Images/Design_process_states_distribute_backend_instead_of_cache.png"
      alt="Design_process_states_distribute_backend_instead_of_cache.png"
      style="float: left; margin-right: 10px;" />
 
@@ -363,7 +363,7 @@ Backend:
 - backend also stateless, also made of pre-emptible machines, pushing data to "a static **stateful** cluster". This stateful cluster is charted, replicated.
 
 
-<img src="../images/Design_process_states_design_fitting_many_solutions.png"
+<img src="../Images/Design_process_states_design_fitting_many_solutions.png"
      alt="Design_process_states_design_fitting_many_solutions.png"
      style="float: left; margin-right: 10px;" />
 
@@ -380,7 +380,7 @@ How you should measure your service and discuss the terms we use to describe tho
 
 As the designer of your service, it's up to you to define **how your service should look and feel to your users**. It's equally important **to establish metrics that tell your users what they can expect from your service in terms of reliability and performance**. We'll call this the service level
 
-<img src="../images/Design_process_Service_level.png"
+<img src="../Images/Design_process_Service_level.png"
      alt="Design_process_Service_level.png"
      style="float: left; margin-right: 10px;" />
 
@@ -392,7 +392,7 @@ To define a service level, you need to identify what the users care about.
     We'll call this the Service Level Objective or SLO.
 3. **Service Level Agreements (SLA)**: Finally, some services are so critical that a formal business agreement will exist between the provider and the users to guarantee a specific behavior and to compensate the users if the service fails to meet this expectation.
 
-<img src="../images/Design_process_Service_level_agreements.png"
+<img src="../Images/Design_process_Service_level_agreements.png"
      alt="Design_process_Service_level_agreements.png"
      style="float: left; margin-right: 10px;" />
 
@@ -404,7 +404,7 @@ Chances are that you've seen terms like Service Level Agreement or SLA. Perhaps 
  1. the user can't directly measure those internal factors because they are on the outside of the system.
  2. utilization isn't really an effective measure of the the usability of a system. Instead, utilization is a metric best used by auto-scalars to maintain a consistent user experience
 
-<img src="../images/Design_process_Example_SLI.png"
+<img src="../Images/Design_process_Example_SLI.png"
      alt="Design_process_Example_SLI.png"
      style="float: left; margin-right: 10px;" />
 
@@ -414,14 +414,14 @@ Example SLI:
 - they have no idea of the load of CPUs, and they don't care!
 
 
-<img src="../images/Design_process_Example_SLI_example.png"
+<img src="../Images/Design_process_Example_SLI_example.png"
      alt="Design_process_Example_SLI_example.png"
      style="float: left; margin-right: 10px;" />
 
 
  To provide an accurate measurement of the latency a user would experience, we need to monitor additional systems. In this case, we need to know the true latency of our application. We must account for the latency of a load balancer and of the data server. Note that in this case, we don't have visibility to the user's Internet connection. So, our SLI will be the end-to-end latency from the front-end web load balancer through our service and then back to the data server
 
-<img src="../images/Design_process_Example_SLI_additional_metrics.png"
+<img src="../Images/Design_process_Example_SLI_additional_metrics.png"
      alt="Design_process_Example_SLI_additional_metrics.png"
      style="float: left; margin-right: 10px;" />
 
@@ -431,26 +431,26 @@ Example SLI:
 Once we've identified what the users care about, we need to quantify those thresholds of pain. This is represented as the Service Level Objective or SLO. The SLO is a threshold value for an SLI, and the result should be set at the lowest or poorest level of service, where the users will still consider the service to be in good working order. That's to say, the SLO represents the point at which the user would consider opening a support ticket because the service failed to meet his or her expectation.
 
 
-<img src="../images/Design_process_Example_SLO.png"
+<img src="../Images/Design_process_Example_SLO.png"
      alt="Design_process_Example_SLO.png"
      style="float: left; margin-right: 10px;" />
 
 Determining an SLO:
 
-<img src="../images/Design_process_Determining_SLO.png"
+<img src="../Images/Design_process_Determining_SLO.png"
      alt="Design_process_Determining_SLO.png"
      style="float: left; margin-right: 10px;" />
 
 
 When designing your SLOs, it's important to **put reality above utopia**. While we'd love to have a service that is up 100 percent of the time, that also means that the service can never be updated. Google has adopted an error budget methodology. Instead of assuming that every service will run perfectly, services are given error budgets for the SLOs that operates a bit like spending money. Each service starts with a set amount of errors that are considered normal and expected. Any errors in excess of this budget are considered outages. So, the goal is to perform all the system maintenance and updates within this budget. As the days go by each month, the error budget is replenished, giving the development and operations team the breathing room needed to implement changes and apply updates.
 
-<img src="../images/Design_process_Reality_in_service_levels.png"
+<img src="../Images/Design_process_Reality_in_service_levels.png"
      alt="Design_process_Reality_in_service_levels.png"
      style="float: left; margin-right: 10px;" />
 
  it's important to ensure that all SLOs are based on the user experience, rather than an internal system metric. For example, if a service becomes unavailable at 03:00 AM, but no one notices, perhaps the SLO shouldn't be based on a 24-hour day. 
 
-<img src="../images/Design_process_Determining_SLO_alerts_on_UX.png"
+<img src="../Images/Design_process_Determining_SLO_alerts_on_UX.png"
      alt="Design_process_Determining_SLO_alerts_on_UX.png"
      style="float: left; margin-right: 10px;" />
 
@@ -458,14 +458,14 @@ When designing your SLOs, it's important to **put reality above utopia**. While 
 
 Going one step further, we have SLAs. As previously mentioned, some services are so critical that the loss of the service could represent loss of money for the customer or even loss of life in extreme situations such as, autonomous cars or air traffic control. These contracts define an even more restrictive level of service that is lower or poorer than what is defined in the SLO. The key difference here is that the SLO is a soft target used by the owner of the service to set expectations. The SLA is a business contract that grants a user compensation if the service falls below a certain threshold. Therefore, developers and operations team strive to maintain the SLO, which inherently meets the SLA figures.
 
-<img src="../images/Design_process_Example_SLI_SLO_SLA.png"
+<img src="../Images/Design_process_Example_SLI_SLO_SLA.png"
      alt="Design_process_Example_SLI_SLO_SLA.png"
      style="float: left; margin-right: 10px;" />
 
 
 An SLA is not the minimum point at which a services is considered usable. There are some services that are so mission-critical, that the service provider must provide a written guarantee, that the service will perform above a certain specification. That specification is the SLA, and breaking the SLA grants compensation from the provider to the users. Keep in mind, not all services have SLAs, but all services should have an SLO. It's also possible that providers might not publicly disclose their SLOs for fear that users might incorrectly associate the SLO with an SLA.
 
-<img src="../images/Design_process_Example_SLA.png"
+<img src="../Images/Design_process_Example_SLA.png"
      alt="Design_process_Example_SLA.png"
      style="float: left; margin-right: 10px;" />
 
@@ -474,7 +474,7 @@ An SLA is not the minimum point at which a services is considered usable. There 
 
 If you don't know your user, how can you establish what they find important and acceptable? The answer comes from marketing concept used when developing user interfaces. The user persona. A user persona is an abstract representation of how a certain set of users will use your service. For instance, the power user, the casual user, the road where you are in, the inpatient user. User personas can help you determine the SLIs and the SLOs for your service by understanding how each group will actually use your service.
 
-<img src="../images/Design_process_User_persona.png"
+<img src="../Images/Design_process_User_persona.png"
      alt="Design_process_User_persona.png"
      style="float: left; margin-right: 10px;" />
 
@@ -494,25 +494,25 @@ Requirements or items that are important to the business, business goals. Requir
 > * Do they have problems?
 > * ... 
 
-<img src="../images/Design_process_questions_for_gathering_requirements.png"
+<img src="../Images/Design_process_questions_for_gathering_requirements.png"
      alt="Design_process_questions_for_gathering_requirements.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Specify constraints: time, data , users
      
-<img src="../images/Design_process_questions_for_time_data.png"
+<img src="../Images/Design_process_questions_for_time_data.png"
      alt="Design_process_questions_for_time_data.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Scaling requirements: backend, frontend
 
-<img src="../images/Design_process_questions_scaling_requirements.png"
+<img src="../Images/Design_process_questions_scaling_requirements.png"
      alt="Design_process_questions_scaling_requirements.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Size requirements
 
-<img src="../images/Design_process_questions_size_requirements.png"
+<img src="../Images/Design_process_questions_size_requirements.png"
      alt="Design_process_questions_size_requirements.png"
      style="float: left; margin-right: 10px;" />
 
@@ -524,8 +524,8 @@ This can limit your choice in the type of tools, implementation you will have to
 
 This lesson introduces the Thumbnail photo service, an example application, that will evolve and design throughout the class. This lesson focuses on applying the principles that were learned in the previous lessons in this module. In this case, we're going to introduce a very basic photo service.
 
-<img src="../images/app_photo_service.png"
-     alt="app_photo_service.png"
+<img src="../Images/App_Photo_Service.png"
+     alt="App_Photo_Service.png"
      style="float: left; margin-right: 10px;" />
 
 #### Gather requirements
@@ -537,26 +537,26 @@ This lesson introduces the Thumbnail photo service, an example application, that
 * size
 * availability
 
-<img src="../images/app_photo_service_gather_requirements.png"
-     alt="app_photo_service_gather_requirements.png"
+<img src="../Images/App_Photo_Service_Gather_Requirements.png"
+     alt="App_Photo_Service_Gather_Requirements.png"
      style="float: left; margin-right: 10px;" />
 
 #### Business logic
 
-<img src="../images/app_photo_service_gather_busines_logic.png"
-     alt="app_photo_service_gather_busines_logic.png"
+<img src="../Images/App_Photo_Service_Gather_Busines_Logic.png"
+     alt="App_Photo_Service_Gather_Busines_Logic.png"
      style="float: left; margin-right: 10px;" />
 
 #### From logic, define Services Levels (SLIs, SLOs)
 
-<img src="../images/app_photo_service_SLO.png"
-     alt="app_photo_service_SLO.png"
+<img src="../Images/App_Photo_Service_SLO.png"
+     alt="App_Photo_Service_SLO.png"
      style="float: left; margin-right: 10px;" />
 
 #### Process: test before & during launch
 
-<img src="../images/app_photo_service_tests.png"
-     alt="app_photo_service_tests.png"
+<img src="../Images/App_Photo_Service_Tests.png"
+     alt="App_Photo_Service_Tests.png"
      style="float: left; margin-right: 10px;" />
 
 Pre-production tests:
@@ -624,25 +624,25 @@ Microservices are a specific kind of service-oriented architecture or SOA that l
 Microservices design is a popular approach to applications and this lesson explores how microservices work and support on the Google Cloud Platform for microservices.
 
 
-<img src="../images/Design_process_business_logic_microservices.png"
-     alt="Design_process_business_logic_microservices.png"
+<img src="../Images/Design_process_business_logic_Microservices.png"
+     alt="Design_process_business_logic_Microservices.png"
      style="float: left; margin-right: 10px;" />
 
 #### Benefits of microservives
 
-<img src="../images/Design_process_business_logic_microservices_benefits_drawbacks.png"
+<img src="../Images/Design_process_business_logic_microservices_benefits_drawbacks.png"
      alt="Design_process_business_logic_microservices_benefits_drawbacks.png"
      style="float: left; margin-right: 10px;" />
 
 #### How microservices complicate business logic?
 
-<img src="../images/Design_process_business_logic_microservices_how_much_more_complex.png"
+<img src="../Images/Design_process_business_logic_microservices_how_much_more_complex.png"
      alt="Design_process_business_logic_microservices_how_much_more_complex.png"
      style="float: left; margin-right: 10px;" />
 
 #### When using microservices make sense?
 
-<img src="../images/Design_process_business_logic_microservices_use_when_make_sense.png"
+<img src="../Images/Design_process_business_logic_microservices_use_when_make_sense.png"
      alt="Design_process_business_logic_microservices_use_when_make_sense.png"
      style="float: left; margin-right: 10px;" />
 
@@ -650,20 +650,20 @@ Microservices design is a popular approach to applications and this lesson explo
 
 ##### Cloud Functions
 
-<img src="../images/Design_process_business_logic_microservices_cloud_functions.png"
+<img src="../Images/Design_process_business_logic_microservices_cloud_functions.png"
      alt="Design_process_business_logic_microservices_cloud_functions.png"
      style="float: left; margin-right: 10px;" />
 
 
 ##### Cloud Functions example: translate text in an image
 
-<img src="../images/Design_process_business_logic_microservices_cloud_functions_example.png"
+<img src="../Images/Design_process_business_logic_microservices_cloud_functions_example.png"
      alt="Design_process_business_logic_microservices_cloud_functions_example.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Cloud Functions example: implementation on GAE & limitations
 
-<img src="../images/Design_process_business_logic_microservices_cloud_functions_example_in_GAE.png"
+<img src="../Images/Design_process_business_logic_microservices_cloud_functions_example_in_GAE.png"
      alt="Design_process_business_logic_microservices_cloud_functions_example_in_GAE.png"
      style="float: left; margin-right: 10px;" />
 
@@ -671,85 +671,85 @@ Microservices design is a popular approach to applications and this lesson explo
 
 https://12factor.net/
 
-<img src="../images/Design_process_12-factor.png"
+<img src="../Images/Design_process_12-factor.png"
      alt="Design_process_12-factor.png"
      style="float: left; margin-right: 10px;" />
 
 ##### GCP development tools matching 12-factor methodology
 
-<img src="../images/Design_process_12-factor_GCP_tools.png"
+<img src="../Images/Design_process_12-factor_GCP_tools.png"
      alt="Design_process_12-factor_GCP_tools.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Design_process_12-factor_GCP_tools_2.png"
+<img src="../Images/Design_process_12-factor_GCP_tools_2.png"
      alt="Design_process_12-factor_GCP_tools_2.png"
      style="float: left; margin-right: 10px;" />
 
 Storing states in your environment
 
-<img src="../images/Design_process_12-factor_GCP_tools_storing_states.png"
+<img src="../Images/Design_process_12-factor_GCP_tools_storing_states.png"
      alt="Design_process_12-factor_GCP_tools_storing_states.png"
      style="float: left; margin-right: 10px;" />
 
 #### Mapping computing needs to platform products
 
-<img src="../images/Design_process_12-factor_where_to_get_CPUs.png"
+<img src="../Images/Design_process_12-factor_where_to_get_CPUs.png"
      alt="Design_process_12-factor_where_to_get_CPUs.png"
      style="float: left; margin-right: 10px;" />
 
 Think of **App Engine** first, then **K8s** if you need more control on the scaling, or **Compute Engine** as a last resort.
 
-<img src="../images/Design_process_12-factor_think_about_appengine_first.png"
+<img src="../Images/Design_process_12-factor_think_about_appengine_first.png"
      alt="Design_process_12-factor_think_about_appengine_first.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Design_process_12-factor_think_about_appengine_code_first.png"
+<img src="../Images/Design_process_12-factor_think_about_appengine_code_first.png"
      alt="Design_process_12-factor_think_about_appengine_code_first.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Design_process_12-factor_think_about_k8s_second.png"
+<img src="../Images/Design_process_12-factor_think_about_k8s_second.png"
      alt="Design_process_12-factor_think_about_k8s_second.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Design_process_12-factor_think_about_ComputeEngine_third.png"
+<img src="../Images/Design_process_12-factor_think_about_ComputeEngine_third.png"
      alt="Design_process_12-factor_think_about_ComputeEngine_third.png"
      style="float: left; margin-right: 10px;" />
 
 
 #### Compute System Provisioning
 
-<img src="../images/Design_process_compute_system_provisioning.png"
+<img src="../Images/Design_process_compute_system_provisioning.png"
      alt="Design_process_compute_system_provisioning.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Prefer & plan for horizontal scaling
 
-<img src="../images/Design_process_compute_system_provisioning_how_to_grow.png"
+<img src="../Images/Design_process_compute_system_provisioning_how_to_grow.png"
      alt="Design_process_compute_system_provisioning_how_to_grow.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Pros/Cons of horizontal scaling
 
-<img src="../images/Design_process_compute_system_provisioning_prefer_horizontal_scaling.png"
+<img src="../Images/Design_process_compute_system_provisioning_prefer_horizontal_scaling.png"
      alt="Design_process_compute_system_provisioning_prefer_horizontal_scaling.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Horizontal scaling design
 
-<img src="../images/Design_process_compute_system_provisioning_horizontal_scaling_design.png"
+<img src="../Images/Design_process_compute_system_provisioning_horizontal_scaling_design.png"
      alt="Design_process_compute_system_provisioning_horizontal_scaling_design.png"
      style="float: left; margin-right: 10px;" />
 
 
 ##### Horizontal scaling tradeoffs: latency, capacity, scalability, cost
 
-<img src="../images/Design_process_compute_system_provisioning_horizontal_scaling_tradeoffs.png"
+<img src="../Images/Design_process_compute_system_provisioning_horizontal_scaling_tradeoffs.png"
      alt="Design_process_compute_system_provisioning_horizontal_scaling_tradeoffs.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Design first, dimension later
 
-<img src="../images/Design_process_compute_system_provisioning_design_first_dimension_later.png"
+<img src="../Images/Design_process_compute_system_provisioning_design_first_dimension_later.png"
      alt="Design_process_compute_system_provisioning_design_first_dimension_later.png"
      style="float: left; margin-right: 10px;" />
 
@@ -766,48 +766,48 @@ Think of **App Engine** first, then **K8s** if you need more control on the scal
 - What opportunities does this offer for improving the design?
 
 
-<img src="../images/app_photo_service_slow.png"
-     alt="app_photo_service_slow.png"
+<img src="../Images/App_Photo_Service_Slow.png"
+     alt="App_Photo_Service_Slow.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/app_photo_service_problem.png"
-     alt="app_photo_service_problem.png"
+<img src="../Images/App_Photo_Service_Problem.png"
+     alt="App_Photo_Service_Problem.png"
      style="float: left; margin-right: 10px;" />
 
 #### Systematic logical troubleshooting
 
-<img src="../images/app_photo_service_problem_troubleshooting.png"
-     alt="app_photo_service_problem_troubleshooting.png"
+<img src="../Images/App_Photo_Service_Problem_Troubleshooting.png"
+     alt="App_Photo_Service_Problem_Troubleshooting.png"
      style="float: left; margin-right: 10px;" />
 
 #### Collaboration & communication
 
-<img src="../images/app_photo_service_problem_troubleshooting_collaboration.png"
-     alt="app_photo_service_problem_troubleshooting_collaboration.png"
+<img src="../Images/App_Photo_Service_Problem_Troubleshooting_Collaboration.png"
+     alt="App_Photo_Service_Problem_Troubleshooting_Collaboration.png"
      style="float: left; margin-right: 10px;" />
 
 #### Break down business logic on the photo service
 
-<img src="../images/app_photo_service_slow_breakdown.png"
-     alt="app_photo_service_slow_breakdown.png"
+<img src="../Images/App_Photo_Service_Slow_Breakdown.png"
+     alt="App_Photo_Service_Slow_Breakdown.png"
      style="float: left; margin-right: 10px;" />
 
 #### Identify the attributes of the different services?
 
-<img src="../images/app_photo_service_slow_breakdown_identify_attributes_Services.png"
-     alt="app_photo_service_slow_breakdown_identify_attributes_Services.png"
+<img src="../Images/App_Photo_Service_Slow_Breakdown_Identify_Attributes_Services.png"
+     alt="App_Photo_Service_Slow_Breakdown_Identify_Attributes_Services.png"
      style="float: left; margin-right: 10px;" />
 
 #### Segregate services for better performance and scalability
 
-<img src="../images/app_photo_service_slow_segregates_Services.png"
-     alt="app_photo_service_slow_segregates_Services.png"
+<img src="../Images/App_Photo_Service_Slow_Segregates_Services.png"
+     alt="App_Photo_Service_Slow_Segregates_Services.png"
      style="float: left; margin-right: 10px;" />
 
 #### What about our Service Level Objectives (SLOs) and Indicators (SLIs)
 
-<img src="../images/app_photo_service_slow_new_SLO_SLI.png"
-     alt="app_photo_service_slow_new_SLO_SLI.png"
+<img src="../Images/App_Photo_Service_Slow_New_SLO_SLI.png"
+     alt="App_Photo_Service_Slow_New_SLO_SLI.png"
      style="float: left; margin-right: 10px;" />
 
 ### Design challenge #1: Log aggregation
@@ -817,12 +817,12 @@ This lesson introduces a related independent design problem, the **log files**.
 On the original single virtual machine solution, all of the log files were stored on the instance. As the design changes, new complications are introduced into the design of a log system. To meet troubleshooting requirements, the separate logs will need to be aggregated onto a single system. Watch the lesson that describes the problem and then come up with your own solution. When you're ready, continue the lesson to see a sample solution. Remember that the sample solution is not the best possible solution, it's just an example, your design might be better
 
 
-<img src="../images/challenge_log_files.png"
-     alt="challenge_log_files.png"
+<img src="../Images/Challenge_Log_Files.png"
+     alt="Challenge_Log_Files.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/challenge_log_files_segregated.png"
-     alt="challenge_log_files_segregated.png"
+<img src="../Images/Challenge_Log_Files_Segregated.png"
+     alt="Challenge_Log_Files_Segregated.png"
      style="float: left; margin-right: 10px;" />
 
 What that means is, we have two different log entries now, one for the web and one for the application. They do share a common session ID fields so we need to have a process that will join those together for troubleshooting.
@@ -830,18 +830,18 @@ What that means is, we have two different log entries now, one for the web and o
 
  we have logs on two servers, we're going to aggregate them into a single log. So, the solution here is to design a logging server. This server will accept logs, perhaps we're just using sys log fluid d or something else like that, maybe even Kafka. So, in this case we're going to create, let's call this a Python script. We're just going to whip something together, we're going to have a daily cron job that's going to take all these log files and it's going to aggregate them. So, it's purpose is to ingest that data to open the log files together, so it pushes them together. Then we need to transform them. So, even though they're all in one file, we're going to transform them and join them on that session ID. Then we're going to output that data and now we have aggregate log files. Then the daily cron job will go ahead and repeat itself. So, every 24 hours, we will have combined logs. 
 
-<img src="../images/challenge_log_files_segregated_implement_logging_server.png"
-     alt="challenge_log_files_segregated_implement_logging_server.png"
+<img src="../Images/Challenge_Log_Files_Segregated_Implement_Logging_Server.png"
+     alt="Challenge_Log_Files_Segregated_Implement_Logging_Server.png"
      style="float: left; margin-right: 10px;" />
 
 **New business logic:**
 
-<img src="../images/challenge_log_files_segregated_implement_logging_server_new_business_logic.png"
-     alt="challenge_log_files_segregated_implement_logging_server_new_business_logic.png"
+<img src="../Images/Challenge_Log_Files_Segregated_Implement_Logging_Server_New_Business_Logic.png"
+     alt="Challenge_Log_Files_Segregated_Implement_Logging_Server_New_Business_Logic.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/challenge_log_files_slow_new_business_logic_output_numbers_for design.png"
-     alt="challenge_log_files_slow_new_business_logic_output_numbers_for design.png"
+<img src="../Images/Challenge_Log_Files_Slow_New_Business_Logic_Output_Numbers_for_Design.png"
+     alt="Challenge_Log_Files_Slow_New_Business_Logic_Output_Numbers_for_Design.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -868,7 +868,7 @@ In this lab you will...
 * Test the new service.
 
 - [video lab overview](https://www.coursera.org/learn/cloud-infrastructure-design-process/lecture/V7NHs/deployment-manager-package-and-deploy)
-- [lab notes](../labs/lab_design_and_process_develop_and_deploy_a_service_with_deployment_manager.md)
+- [lab notes](../Labs/Lab_Design_and_Process_Develop_and_Deploy_a_Service_with_Deployment_Manager.md)
 
 
 
@@ -882,7 +882,7 @@ The data layer covers the storage and retrieval of data, including the mechanism
 
 The data layer includes; the data persistent mechanisms, such as the database services and storage services, and the data access layer, which encapsulates the persistent mechanisms and exposes the data.
 
-<img src="../images/Data_layer_design_data_layer.png"
+<img src="../Images/Data_layer_design_data_layer.png"
      alt="Data_layer_design_data_layer.png"
      style="float: left; margin-right: 10px;" />
 
@@ -893,7 +893,7 @@ The data layer includes; the data persistent mechanisms, such as the database se
 There are many ways to characterize data such as structured or unstructured, persistent or ephemeral. This lesson focuses on characterizing data based on what the user cares about. Most often, the user doesn't care about the underlying technology, but about whether the data is accessible when they need it. And whether the data they retrieve is the same data they stored and not modified or altered.
 
 
-<img src="../images/dummyData_layer_design_data_integrity.png"
+<img src="../Images/dummyData_layer_design_data_integrity.png"
      alt="dummyData_layer_design_data_integrity.png"
      style="float: left; margin-right: 10px;" />
 
@@ -909,7 +909,7 @@ If their data's not there, it might as well be gone.
 
 However, as an engineer, persistence and access are very separate. Access, basically, is a loss of data access, is very important to users, but that doesn't mean that our data is gone. Persistence and proactive detection and rapid recovery is really what our goal is. If there is data that is somehow lost we want to be able to get it back, **recover it maybe using version controls or backups**. **Or some kind of failover mechanism**.
 
-<img src="../images/Data_layer_design_data_transaction_property.png"
+<img src="../Images/Data_layer_design_data_transaction_property.png"
      alt="Data_layer_design_data_transaction_property.png"
      style="float: left; margin-right: 10px;" />
 
@@ -929,7 +929,7 @@ Now if you want pure consistency, then we get into what we call ACID transaction
 
 #### What are the data consistency requirements?
 
-<img src="../images/Data_layer_design_data_consistency_requirements.png"
+<img src="../Images/Data_layer_design_data_consistency_requirements.png"
      alt="Data_layer_design_data_consistency_requirements.png"
      style="float: left; margin-right: 10px;" />
 
@@ -941,7 +941,7 @@ Now if you want pure consistency, then we get into what we call ACID transaction
 - velocity
 - privacy
 
-<img src="../images/Data_layer_design_data_consistency_requirements_what_to_optimize.png"
+<img src="../Images/Data_layer_design_data_consistency_requirements_what_to_optimize.png"
      alt="Data_layer_design_data_consistency_requirements_what_to_optimize.png"
      style="float: left; margin-right: 10px;" />
 
@@ -957,7 +957,7 @@ This lesson covers the most **common methods for getting data into the cloud**.
 
 #### GCS migration tools: console, gsutil, JSON API
 
-<img src="../images/Data_layer_design_Data_migration_tools_on_GCP.png"
+<img src="../Images/Data_layer_design_Data_migration_tools_on_GCP.png"
      alt="Data_layer_design_Data_migration_tools_on_GCP.png"
      style="float: left; margin-right: 10px;" />
 
@@ -972,7 +972,7 @@ So there's a few ways that we do this:
 
 #### GCS migration tools for large transfers: Cloud Storage Transfer Service
 
-<img src="../images/Data_layer_design_Data_migration_tools_on_GCP_large_trasnfers.png"
+<img src="../Images/Data_layer_design_Data_migration_tools_on_GCP_large_trasnfers.png"
      alt="Data_layer_design_Data_migration_tools_on_GCP_large_trasnfers.png"
      style="float: left; margin-right: 10px;" />
 
@@ -980,7 +980,7 @@ Now we also have a commercial service, well not a commercial, but it's a service
 
 #### GCS migration tools for large transfers without network: Google Transfer Appliance
 
-<img src="../images/Data_layer_design_Data_migration_tools_on_GCP_trasnfers_appliance.png"
+<img src="../Images/Data_layer_design_Data_migration_tools_on_GCP_trasnfers_appliance.png"
      alt="Data_layer_design_Data_migration_tools_on_GCP_trasnfers_appliance.png"
      style="float: left; margin-right: 10px;" />
 
@@ -988,7 +988,7 @@ Now of course, the size always does matter and if you need to be transferring hu
  
 #### GCS migration tools scal-up table
 
-<img src="../images/Data_layer_design_Data_migration_tools_summary_table_scaleup.png"
+<img src="../Images/Data_layer_design_Data_migration_tools_summary_table_scaleup.png"
 alt="Data_layer_design_Data_migration_tools_summary_table_scaleup.png"
 style="float: left; margin-right: 10px;" />
 
@@ -997,7 +997,7 @@ Here's a fun little table to kind of give you an idea. When you really start to 
 
 #### Data ingestion tools
 
-<img src="../images/Data_layer_design_Data_ingestion_tools.png"
+<img src="../Images/Data_layer_design_Data_ingestion_tools.png"
      alt="Data_layer_design_Data_ingestion_tools.png"
      style="float: left; margin-right: 10px;" />
 
@@ -1021,45 +1021,45 @@ This lesson provides a general **method to narrow down the list of candidates st
 
 #### Choose a storage solution between: DISK, MOBILE or CLOUD solutions
 
-<img src="../images/Data_layer_design_GCP_solution_Disk-or-Mobile-or-Cloud.png"
+<img src="../Images/Data_layer_design_GCP_solution_Disk-or-Mobile-or-Cloud.png"
      alt="Data_layer_design_GCP_solution_Disk-or-Mobile-or-Cloud.png"
      style="float: left; margin-right: 10px;" />
 
 #### Choose a storage solution for unstructured data on Cloud Storage: regional, multi-regional, nearline, coldline
 
-<img src="../images/Data_layer_design_Coud_Storage_regional_coldline_nearline.png"
+<img src="../Images/Data_layer_design_Coud_Storage_regional_coldline_nearline.png"
      alt="Data_layer_design_Coud_Storage_regional_coldline_nearline.png"
      style="float: left; margin-right: 10px;" />
 
 #### Choose a storage solution for analytics: BigQuery
 
-<img src="../images/Data_layer_design_Why_choose_BigQuery.png"
+<img src="../Images/Data_layer_design_Why_choose_BigQuery.png"
      alt="Data_layer_design_Why_choose_BigQuery.png"
      style="float: left; margin-right: 10px;" />
 
 #### Choose a storage solution for SQL (scalable or not): Clud SQL or Spanner
 
-<img src="../images/Data_layer_design_Why_choose_if_SQL.png"
+<img src="../Images/Data_layer_design_Why_choose_if_SQL.png"
      alt="Data_layer_design_Why_choose_if_SQL.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Data_layer_design_Why_choose_if_SQL_scalable.png"
+<img src="../Images/Data_layer_design_Why_choose_if_SQL_scalable.png"
      alt="Data_layer_design_Why_choose_if_SQL_scalable.png"
      style="float: left; margin-right: 10px;" />
 
 #### Choose a storage solution for NoSQL: Cloud Datastore
 
-<img src="../images/Data_layer_design_Why_choose_if_NoSQL.png"
+<img src="../Images/Data_layer_design_Why_choose_if_NoSQL.png"
      alt="Data_layer_design_Why_choose_if_NoSQL.png"
      style="float: left; margin-right: 10px;" />
 
 #### Choose a storage solution: decision tree & summary table
 
-<img src="../images/Data_layer_design_GCP_solution_decision_tree.png"
+<img src="../Images/Data_layer_design_GCP_solution_decision_tree.png"
      alt="Data_layer_design_GCP_solution_decision_tree.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Data_layer_design_GCP_solution_summary_table.png"
+<img src="../Images/Data_layer_design_GCP_solution_summary_table.png"
      alt="Data_layer_design_GCP_solution_summary_table.png"
      style="float: left; margin-right: 10px;" />
 
@@ -1077,16 +1077,16 @@ Occasionally, the service simply fails to produce the smaller preview image. Thi
 
 #### Business problem
 
-<img src="../images/app_photo_service_intermittent_outages.png"
-     alt="app_photo_service_intermittent_outages.png"
+<img src="../Images/App_Photo_Service_Intermittent_Outages.png"
+     alt="App_Photo_Service_Intermittent_Outages.png"
      style="float: left; margin-right: 10px;" />
 
 
 
 #### Systematic logical troubleshooting
 
-<img src="../images/app_photo_service_intermittent_outages_analysis.png"
-     alt="app_photo_service_intermittent_outages_analysis.png"
+<img src="../Images/App_Photo_Service_Intermittent_Outages_Analysis.png"
+     alt="App_Photo_Service_Intermittent_Outages_Analysis.png"
      style="float: left; margin-right: 10px;" />
 
 - systematic & logical troubleshooting
@@ -1097,12 +1097,12 @@ The team has determined that the root problem, is the persistent disk on the app
 
 #### Break down business logic on the photo service
 
-<img src="../images/app_photo_service_refreshed_business_logic.png"
-     alt="app_photo_service_refreshed_business_logic.png"
+<img src="../Images/App_Photo_Service_Refreshed_Business_Logic.png"
+     alt="App_Photo_Service_Refreshed_Business_Logic.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/app_photo_service_business_logic_with_bottleneck.png"
-     alt="app_photo_service_business_logic_with_bottleneck.png"
+<img src="../Images/App_Photo_Service_Business_Logic_with_Bottleneck.png"
+     alt="App_Photo_Service_Business_Logic_with_Bottleneck.png"
      style="float: left; margin-right: 10px;" />
 
 with 1 millions pictures per day, we need to move from our local file system to Cloud Storage for scalability.
@@ -1117,8 +1117,8 @@ Now, how are we going to measure this? While our service level indicators are go
 
 Now, one of the things that our IOs do, is they are allocated an error budget. As long as they stay within that budget, then they can work on future things. But if they're unable to remain within their error budget during the month, then they will have to focus on automation and tools, and whatever it takes, to ensure that they can now meet that error budget month after month before they can work on new things, or just simply take a break, right? Because that's really the goal, you don't want your SRE is working full time. They should only be working about half the time and if they are, it should be either responding to requests or developing for future uses. Take the job of a firefighter, they're always on-call, always on edge, but they're not physically working all the time. If you did that, then they wouldn't be able to offer that same kind of response.
 
-<img src="../images/app_photo_service_outages_new_service_levels.png"
-     alt="app_photo_service_outages_new_service_levels.png"
+<img src="../Images/App_Photo_Service_Outages_New_Service_Levels.png"
+     alt="App_Photo_Service_Outages_New_Service_Levels.png"
      style="float: left; margin-right: 10px;" />
 
 ### Design challenge #2: Complication
@@ -1132,26 +1132,26 @@ This leads to **another problem in the log aggregation system**: The log aggrega
 Your challenge is to **modify the log aggregation design to avoid or overcome this issue**. Watch the lesson that describes the problem, then come up with your own solution. When you're ready, continue the lesson to see a sample solution. Remember that the sample solution is not the best possible solution. it's just an example and your design might 
 
 
-<img src="../images/app_photo_service_capacity_problem_for_log_aggregation.png"
-     alt="app_photo_service_capacity_problem_for_log_aggregation.png"
+<img src="../Images/App_Photo_Service_Capacity_Problem_for_Log_Aggregation.png"
+     alt="App_Photo_Service_Capacity_Problem_for_Log_Aggregation.png"
      style="float: left; margin-right: 10px;" />
 
 **Business logic**
 
-<img src="../images/app_photo_service_capacity_problem_for_log_aggregation_new_business_logic.png"
-     alt="app_photo_service_capacity_problem_for_log_aggregation_new_business_logic.png"
+<img src="../Images/App_Photo_Service_Capacity_Problem_for_Log_Aggregation_New_Business_Logic.png"
+     alt="App_Photo_Service_Capacity_Problem_for_Log_Aggregation_New_Business_Logic.png"
      style="float: left; margin-right: 10px;" />
 
 - Why not **GCS** for aggregating this log files?
 
-<img src="../images/app_photo_service_capacity_problem_for_log_aggregation_properties.png"
-     alt="app_photo_service_capacity_problem_for_log_aggregation_properties.png"
+<img src="../Images/App_Photo_Service_Capacity_Problem_for_Log_Aggregation_Properties.png"
+     alt="App_Photo_Service_Capacity_Problem_for_Log_Aggregation_Properties.png"
      style="float: left; margin-right: 10px;" />
 
 - Why not **Bigtable** for aggregating this log files?
 
-<img src="../images/app_photo_service_capacity_problem_for_log_aggregation_Bigtable.png"
-     alt="app_photo_service_capacity_problem_for_log_aggregation_Bigtable.png"
+<img src="../Images/App_Photo_Service_Capacity_Problem_for_Log_Aggregation_Bigtable.png"
+     alt="App_Photo_Service_Capacity_Problem_for_Log_Aggregation_Bigtable.png"
      style="float: left; margin-right: 10px;" />
 
 ## Presentation Layer Design
@@ -1182,7 +1182,7 @@ So, network configuration for data transfer within the service, all is going to 
 
 ##### Impact of Location
 
-<img src="../images/Presentation_layer_Network_location.png"
+<img src="../Images/Presentation_layer_Network_location.png"
      alt="Presentation_layer_Network_location.png"
      style="float: left; margin-right: 10px;" />
 
@@ -1192,19 +1192,19 @@ So the location of resources within the cloud is, within the cloud network, I sh
 
 So the technology that allows you to control the network location of resources used by your service is going to be called Load balancing. Now load balancing in our world is a little bit different. So, basically what it does, it's getting user traffic to the application servers with capacity in the closest region to that customer. Unless you know if you have no load balancing sometimes it's going to be internal distribution of traffic across a multiple servers inside of your application infrastructure. It can also trigger auto scaling, but we also provide global load balancers. And that gives you a single external IP address that can locate, or I should say, that can send traffic to any geographical location that's closest to your individual user. We offer many different kinds of load balancing services and they're each optimized for each different use case
 
-<img src="../images/Presentation_layer_Network_load_balancing.png"
+<img src="../Images/Presentation_layer_Network_load_balancing.png"
      alt="Presentation_layer_Network_load_balancing.png"
      style="float: left; margin-right: 10px;" />
 
 **Global Load Balancers**
 
-<img src="../images/Presentation_layer_Network_global_load_balancers.png"
+<img src="../Images/Presentation_layer_Network_global_load_balancers.png"
      alt="Presentation_layer_Network_global_load_balancers.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Choosing your type of load balancer
 
-<img src="../images/Presentation_layer_Network_choosing_your_load_balancers.png"
+<img src="../Images/Presentation_layer_Network_choosing_your_load_balancers.png"
      alt="Presentation_layer_Network_choosing_your_load_balancers.png"
      style="float: left; margin-right: 10px;" />
 
@@ -1217,29 +1217,29 @@ So the technology that allows you to control the network location of resources u
 
 ##### Network edge configuration for users and clients
 
-<img src="../images/Presentation_layer_Network_global_IP_adresses.png"
+<img src="../Images/Presentation_layer_Network_global_IP_adresses.png"
      alt="Presentation_layer_Network_global_IP_adresses.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Presentation_layer_Network_Cloud_CDN.png"
+<img src="../Images/Presentation_layer_Network_Cloud_CDN.png"
      alt="Presentation_layer_Network_Cloud_CDN.png"
      style="float: left; margin-right: 10px;" />
 
 https://peering.google.com/#/infrastructure
 
-<img src="../images/Presentation_layer_Network_Edge_infrastructure.png"
+<img src="../Images/Presentation_layer_Network_Edge_infrastructure.png"
      alt="Presentation_layer_Network_Edge_infrastructure.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Presentation_layer_Network_Edge_infrastructure_datacenters.png"
+<img src="../Images/Presentation_layer_Network_Edge_infrastructure_datacenters.png"
      alt="Presentation_layer_Network_Edge_infrastructure_datacenters.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Presentation_layer_Network_Edge_infrastructure_PoPs.png"
+<img src="../Images/Presentation_layer_Network_Edge_infrastructure_PoPs.png"
      alt="Presentation_layer_Network_Edge_infrastructure_PoPs.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Presentation_layer_Network_Edge_infrastructure_edge_nodes.png"
+<img src="../Images/Presentation_layer_Network_Edge_infrastructure_edge_nodes.png"
      alt="Presentation_layer_Network_Edge_infrastructure_edge_nodes.png"
      style="float: left; margin-right: 10px;" />
 
@@ -1250,7 +1250,7 @@ In order to use the CDN, you have to turn on HTTP(S) load balancing or other net
 
 ###### Dedicated interconnects
 
-<img src="../images/Presentation_layer_Network_interaction_with_other_cloud_providers.png"
+<img src="../Images/Presentation_layer_Network_interaction_with_other_cloud_providers.png"
      alt="Presentation_layer_Network_interaction_with_other_cloud_providers.png"
      style="float: left; margin-right: 10px;" />
 
@@ -1258,7 +1258,7 @@ The big thing in the middle is you need to have some kind of dedicated interconn
 
 ###### VPN configurations
 
-<img src="../images/Presentation_layer_Network_interaction_with_other_cloud_providers_VPNs.png"
+<img src="../Images/Presentation_layer_Network_interaction_with_other_cloud_providers_VPNs.png"
      alt="Presentation_layer_Network_interaction_with_other_cloud_providers_VPNs.png"
      style="float: left; margin-right: 10px;" />
 
@@ -1271,7 +1271,7 @@ The big thing in the middle is you need to have some kind of dedicated interconn
 
 **VPN Performances**
 
-<img src="../images/Presentation_layer_Network_interaction_with_other_cloud_providers_VPNs_performances.png"
+<img src="../Images/Presentation_layer_Network_interaction_with_other_cloud_providers_VPNs_performances.png"
      alt="Presentation_layer_Network_interaction_with_other_cloud_providers_VPNs_performances.png"
      style="float: left; margin-right: 10px;" />
 
@@ -1283,8 +1283,8 @@ The big thing in the middle is you need to have some kind of dedicated interconn
 
 The photo services working fine, however, recently there have been periodic slowdowns, users are experiencing delays, it's taking an increasingly long time for the system to respond with a thumbnail image. Then, after some time, it appears to speed up again.
 
-<img src="../images/app_photo_service_periodic_slowdown.png"
-     alt="app_photo_service_periodic_slowdown.png"
+<img src="../Images/App_Photo_Service_Periodic_Slowdown.png"
+     alt="App_Photo_Service_Periodic_Slowdown.png"
      style="float: left; margin-right: 10px;" />
 
 What could possibly be the cause of the slowdown?
@@ -1294,31 +1294,31 @@ what can you do to change the design to overcome this problem?
 #### Systematic logical troubleshooting
 
 
-<img src="../images/app_photo_service_periodic_slowdown_troubleshooting_miscommunication.png"
-     alt="app_photo_service_periodic_slowdown_troubleshooting_miscommunication.png"
+<img src="../Images/App_Photo_Service_Periodic_Slowdown_Troubleshooting_Miscommunication.png"
+     alt="App_Photo_Service_Periodic_Slowdown_Troubleshooting_Miscommunication.png"
      style="float: left; margin-right: 10px;" />
 
 #### Collaboration & communication: Report, Document, build policy
 
-<img src="../images/app_photo_service_periodic_slowdown_build_process_to_learn_from_mistakes.png"
-     alt="app_photo_service_periodic_slowdown_build_process_to_learn_from_mistakes.png"
+<img src="../Images/App_Photo_Service_Periodic_Slowdown_Build_Process_to_Learn_from_Mistakes.png"
+     alt="App_Photo_Service_Periodic_Slowdown_Build_Process_to_Learn_from_Mistakes.png"
      style="float: left; margin-right: 10px;" />
 
 you have to document it, while it might be viewed as a really boring process and most people complain about having to do it you always want to create reports, but under what conditions. Well, for starters, anytime an SLO is breached, any incident that requires emergency on-call, also if there's a need for follow-up communications for example, if legal need to explain an outage without revealing the impact or something competitive. There needs to be a clear policy that defines the writing of these reports. Timelines must be specified in terms of how soon after an incident a draft is going to be published, as well as a timeline for completing the report. So, writing these reports creates a record of what happened and what was done to fix it. This will be a helpful source of reference in the future if a similar event happens again, so **doing these postmortems should be a mandatory part of your recovery processes**.
 
-<img src="../images/app_photo_service_periodic_slowdown_report_document_write_policy.png"
-     alt="app_photo_service_periodic_slowdown_report_document_write_policy.png"
+<img src="../Images/App_Photo_Service_Periodic_Slowdown_Report_Document_Write_Policy.png"
+     alt="App_Photo_Service_Periodic_Slowdown_Report_Document_Write_Policy.png"
      style="float: left; margin-right: 10px;" />
 
 
 #### Break down business logic on the photo service
 
-<img src="../images/app_photo_service_periodic_slowdown_business_logic_refresher.png"
-     alt="app_photo_service_periodic_slowdown_business_logic_refresher.png"
+<img src="../Images/App_Photo_Service_Periodic_Slowdown_Business_Logic_Refresher.png"
+     alt="App_Photo_Service_Periodic_Slowdown_Business_Logic_Refresher.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/app_photo_service_periodic_slowdown_business_logic_refresher_issue.png"
-     alt="app_photo_service_periodic_slowdown_business_logic_refresher_issue.png"
+<img src="../Images/App_Photo_Service_Periodic_Slowdown_Business_Logic_Refresher_Issue.png"
+     alt="App_Photo_Service_Periodic_Slowdown_Business_Logic_Refresher_Issue.png"
      style="float: left; margin-right: 10px;" />
 
  It's taking minutes to generate thumbnails. So, the system is definitely slow. A systematic and logical troubleshooting process has been followed in the "five why's" have been asked and answered. The conclusion is that the issue is definitely tied to the capacity of the system to generate thumbnails. It's also been established that it isn't the front-end web server is causing the delays, but the back-end thumbnail generating service, which is failing to keep up with demand. When we say capacity, it's the capacity to actually perform the service in a timely manner. So, what happens, **the thumbnail is running out of CPU**. We could watch CPU utilization, but CPU utilization isn't linear and during busy utilization times, it can go to 100%. This is sure to impact the end-to-end response time for the user.
@@ -1330,8 +1330,8 @@ you have to document it, while it might be viewed as a really boring process and
 
 **Solution**: Scale out the backend processing of thumbnails.
 
-<img src="../images/app_photo_service_periodic_slowdown_business_logic_solution.png"
-     alt="app_photo_service_periodic_slowdown_business_logic_solution.png"
+<img src="../Images/App_Photo_Service_Periodic_Slowdown_Business_Logic_Solution.png"
+     alt="App_Photo_Service_Periodic_Slowdown_Business_Logic_Solution.png"
      style="float: left; margin-right: 10px;" />
 
 Here's our decision, we decided that if we need to handle more thumbnail processing, it's got to become more scalable. However, we didn't choose to simply throw more CPU and network at it because it was more of a single point of failure. Instead we decided to add a load balancer and scale out the number of thumbnail servers. The great thing is that it's like micro servers in itself now, because storage has been isolated to Google Cloud Storage, the same code can be distributed and it doesn't keep track of a queue or anything else. The Upload Server basically pulls whatever is on the Data Storage Server and it load balances it as they come in. Technically, this is probably an internal load balancer, but we'll get into that a little bit later.
@@ -1343,8 +1343,8 @@ In this case, to help us with our greater than 80 percent CPU utilization, **we 
 
 Even though we've added a cluster of servers, we haven't changed anything that our users can measure. The performance is still a measure of the end-to-end latency and the accuracy of the service is still based on the error logs.
 
-<img src="../images/app_photo_service_periodic_slowdown_business_logic_SLIs_SLOs_unchanged.png"
-     alt="app_photo_service_periodic_slowdown_business_logic_SLIs_SLOs_unchanged.png"
+<img src="../Images/App_Photo_Service_Periodic_Slowdown_Business_Logic_SLIs_SLOs_Unchanged.png"
+     alt="App_Photo_Service_Periodic_Slowdown_Business_Logic_SLIs_SLOs_Unchanged.png"
      style="float: left; margin-right: 10px;" />
 
 ### Design challenge #3: Growth
@@ -1355,30 +1355,30 @@ In the application lesson, you overcame the periodic slow downs by increasing ca
 
 That means instead of a single app server log, you now have logs coming from each server in the pool. **How can you evolve the design of the log aggregation system to accommodate the new scalable service?** Watch the lesson that describes the problem, then come up with your own solution. When you're ready, continue the lesson to see a sample solution. Remember that the sample solution is not the best possible solution, it's just an example and your design might be better.
 
-<img src="../images/app_photo_service_periodic_slowdown_design_challenge_logs_of_a cluster.png"
-     alt="app_photo_service_periodic_slowdown_design_challenge_logs_of_a cluster.png"
+<img src="../Images/App_Photo_Service_Periodic_Slowdown_Design_Challenge_Logs_of_a_Cluster.png"
+     alt="App_Photo_Service_Periodic_Slowdown_Design_Challenge_Logs_of_a_Cluster.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/app_photo_service_periodic_slowdown_design_challenge_logs_of_a cluster_problem.png"
-     alt="app_photo_service_periodic_slowdown_design_challenge_logs_of_a cluster_problem.png"
+<img src="../Images/App_Photo_Service_Periodic_Slowdown_Design_Challenge_Logs_of_a_Cluster_Problem.png"
+     alt="App_Photo_Service_Periodic_Slowdown_Design_Challenge_Logs_of_a_Cluster_Problem.png"
      style="float: left; margin-right: 10px;" />
 
 Let's define the problem. So in our case autoscaling of the application servers has produced logs that are outgrowing the processing capacity of the aggregation logging server. So in this case we want to design a solution. Now always remember, there are multiple designs that you can take, right? Your solution may be better, and that's okay. But let's at least work through the different solutions, decide what we want to take advantage of next. And what we hear too, hey, now do we move to data flow? Well, maybe. But let's think about what that might do, and these are dialogues I've had with students in class. This is a Python script, and well, data flow does support Python. So that didn't work because, but maybe to do what we want to do, it requires the Java version of the SDK. And that would mean that our programmer who designed this and just threw this together, is going to have to learn a new language. Now you could say, hey that's expected, but these are potential limitations. So if you look at a new service, what are the requirements of that new service to make it happen? Even though on paper it may sound good, you can just swap it out. But in order to rewrite the code and there might be a learning curve, etc. So in this case, our guy is, you know, this would be a lot easier if all we did was design this so it could scale. So one simple solution, and iteratively was let's go ahead and **put an internal load balancer here, so this way, our logging server can run on multiple instances**. So here we have an auto scaling instance group. It can take logs as they're ingested and it can put them directly inside of Big Table. All right, so now we can run our queries, get our session IDs, and we don't have to really worry about this failing. So really, this scales rather nicely, because we will have a daily cron job that will take all the local data storage and process that in.
 
-<img src="../images/app_photo_service_periodic_slowdown_design_challenge_logs_of_a cluster_solution_load_balancer_on_logs_servers.png"
-     alt="app_photo_service_periodic_slowdown_design_challenge_logs_of_a cluster_solution_load_balancer_on_logs_servers.png"
+<img src="../Images/App_Photo_Service_Periodic_Slowdown_Design_Challenge_Logs_of_a_Cluster_Solution_Load_Balancer_on_Logs_Servers.png"
+     alt="App_Photo_Service_Periodic_Slowdown_Design_Challenge_Logs_of_a_Cluster_Solution_Load_Balancer_on_Logs_Servers.png"
      style="float: left; margin-right: 10px;" />
 
 ### lab: Autoscaling
 
 - [video](https://www.coursera.org/learn/cloud-infrastructure-design-process/lecture/55yny/lab-intro-autoscaling)
-- [lab notes](../labs/lab_deployment_manager_Adding_load_balancing_for_autoscaling.md)
+- [lab notes](../Labs/Lab_Deployment_Manager_Adding_Load_Balancing_for_Autoscaling.md)
 
 
 The photo application that was promised by the development team is late. You decide that you don't want to wait any longer to develop the infrastructure. When the photo app does become available, you don't want to add to the schedule delay, so you decide to make the infrastructure auto-scaling and reliable by building on a previous deployment. This way, when the photo app is available you can just drop it in to the deployment framework that you've built. The deployment manager templates from the previous lab will be provided to you in a TAR file, so you'll just be creating the additional files.
 
-<img src="../images/lab_deployment_autoscaling_app.png"
-     alt="lab_deployment_autoscaling_app.png"
+<img src="../Images/Lab_Deployment_Autoscaling_App.png"
+     alt="Lab_Deployment_Autoscaling_App.png"
      style="float: left; margin-right: 10px;" />
 
 

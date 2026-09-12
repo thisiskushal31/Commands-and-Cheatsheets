@@ -222,8 +222,8 @@ Use the Exam Guide outline to help identify what to study.
 > * TerramEarth
 
 
-<img src="../images/prepare_exam_operation_secure.png"
-     alt="prepare_exam_operation_secure.png"
+<img src="../Images/Prepare_Exam_Operation_Secure.png"
+     alt="Prepare_Exam_Operation_Secure.png"
      style="float: left; margin-right: 10px;" />
 
 * **Design and implement** (make something function... more about **products**)
@@ -238,8 +238,8 @@ Have you heard of the the four P's? That's **product**, **people**, **policy**, 
 
 ### Different roles & certifications
 
-<img src="../images/prepare_exam_different_roles_and_certifications.png"
-     alt="prepare_exam_different_roles_and_certifications.png"
+<img src="../Images/Prepare_Exam_Different_Roles_and_Certifications.png"
+     alt="Prepare_Exam_Different_Roles_and_Certifications.png"
      style="float: left; margin-right: 10px;" />
 
  I just want to caution you that the associate cloud engineer is not a simpler and easier cloud architect exam. All of these certifications are based on real-world practical job skills required and used by practitioners in the industry.
@@ -269,20 +269,20 @@ Have you heard of the the four P's? That's **product**, **people**, **policy**, 
 * implementing
 * operating & technical requirements
 
-<img src="../images/prepare_exam_difference_associate_vs_professional.png"
-     alt="prepare_exam_difference_associate_vs_professional.png"
+<img src="../Images/Prepare_Exam_Difference_Associate_vs_Professional.png"
+     alt="Prepare_Exam_Difference_Associate_vs_Professional.png"
      style="float: left; margin-right: 10px;" />
 
 ### Tips for methods of study
 
-<img src="../images/prepare_exam_tips_for_methods_of_study.png"
-     alt="prepare_exam_tips_for_methods_of_study.png"
+<img src="../Images/Prepare_Exam_Tips_for_Methods_of_Study.png"
+     alt="Prepare_Exam_Tips_for_Methods_of_Study.png"
      style="float: left; margin-right: 10px;" />
 
 ### Tips for the day of the exam
 
-<img src="../images/prepare_exam_tips_for_exam_day.png"
-     alt="prepare_exam_tips_for_exam_day.png"
+<img src="../Images/Prepare_Exam_Tips_for_Exam_Day.png"
+     alt="Prepare_Exam_Tips_for_Exam_Day.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -310,8 +310,8 @@ Training is great. Digging into the online documentation can be very instructive
 
 ### Build your own case study summaries
 
-<img src="../images/prepare_exam_case_studies_summaries.png"
-     alt="prepare_exam_case_studies_summaries.png"
+<img src="../Images/Prepare_Exam_Case_Studies_Summaries.png"
+     alt="Prepare_Exam_Case_Studies_Summaries.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -322,21 +322,21 @@ Training is great. Digging into the online documentation can be very instructive
 
 ##### Key business points
 
-<img src="../images/prepare_exam_key_business_points_game_app.png"
-     alt="prepare_exam_key_business_points_game_app.png"
+<img src="../Images/Prepare_Exam_Key_Business_Points_Game_App.png"
+     alt="Prepare_Exam_Key_Business_Points_Game_App.png"
      style="float: left; margin-right: 10px;" />
 
 
 ##### Technical evaluation
 
-<img src="../images/prepare_exam_technical_evaluation_game_app.png"
-     alt="prepare_exam_technical_evaluation_game_app.png"
+<img src="../Images/Prepare_Exam_Technical_Evaluation_Game_App.png"
+     alt="Prepare_Exam_Technical_Evaluation_Game_App.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Sample solution
 
-<img src="../images/prepare_examsamle_solution_game_app.png"
-     alt="prepare_examsamle_solution_game_app.png"
+<img src="../Images/Prepare_Examsamle_Solution_Game_App.png"
+     alt="Prepare_Examsamle_Solution_Game_App.png"
      style="float: left; margin-right: 10px;" />
 
 #### Dress4Win Case Study: social network app around garderobe
@@ -345,32 +345,32 @@ Training is great. Digging into the online documentation can be very instructive
 
 ##### Key business points
 
-<img src="../images/prepare_exam_key_business_points_soc-net_app.png"
-     alt="prepare_exam_key_business_points_soc-net_app.png"
+<img src="../Images/Prepare_Exam_Key_Business_Points_Soc_Net_App.png"
+     alt="Prepare_Exam_Key_Business_Points_Soc_Net_App.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/prepare_exam_tech_approach_soc-net_app.png"
-     alt="prepare_exam_tech_approach_soc-net_app.png"
+<img src="../Images/Prepare_Exam_Tech_Approach_Soc_Net_App.png"
+     alt="Prepare_Exam_Tech_Approach_Soc_Net_App.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Technical evaluation
 
-<img src="../images/prepare_exam_technical_evaluation_soc-net_app.png"
-     alt="prepare_exam_technical_evaluation_soc-net_app.png"
+<img src="../Images/Prepare_Exam_Technical_Evaluation_Soc_Net_App.png"
+     alt="Prepare_Exam_Technical_Evaluation_Soc_Net_App.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/prepare_exam_technical_evaluation_2_soc-net_app.png"
-     alt="prepare_exam_technical_evaluation_2_soc-net_app.png"
+<img src="../Images/Prepare_Exam_Technical_Evaluation_2_Soc_Net_App.png"
+     alt="Prepare_Exam_Technical_Evaluation_2_Soc_Net_App.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Sample solution
 
-<img src="../images/prepare_exam_sample_solution_soc-net_app.png"
-     alt="prepare_exam_sample_solution_soc-net_app.png"
+<img src="../Images/Prepare_Exam_Sample_Solution_Soc_Net_App.png"
+     alt="Prepare_Exam_Sample_Solution_Soc_Net_App.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/prepare_exam_sample_solution_2_soc-net_app.png  "
-     alt="prepare_exam_sample_solution_2_soc-net_app.png"
+<img src="../Images/Prepare_Exam_Sample_Solution_2_Soc_Net_App.png  "
+     alt="Prepare_Exam_Sample_Solution_2_Soc_Net_App.png"
      style="float: left; margin-right: 10px;" />
 
 #### TerramEarth Case Study: IoT  sensors for agriculture & mining 
@@ -379,36 +379,36 @@ Training is great. Digging into the online documentation can be very instructive
 
 ##### Key business points
 
-<img src="../images/prepare_exam_key_business_points_IoT_app.png"
-     alt="prepare_exam_key_business_points_IoT_app.png"
+<img src="../Images/Prepare_Exam_Key_Business_Points_IoT_App.png"
+     alt="Prepare_Exam_Key_Business_Points_IoT_App.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/prepare_exam_key_business_points_2_IoT_app.png"
-     alt="prepare_exam_key_business_points_2_IoT_app.png"
+<img src="../Images/Prepare_Exam_Key_Business_Points_2_IoT_App.png"
+     alt="Prepare_Exam_Key_Business_Points_2_IoT_App.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/prepare_exam_key_business_points_4_IoT_app.png"
-     alt="prepare_exam_key_business_points_4_IoT_app.png"
+<img src="../Images/Prepare_Exam_Key_Business_Points_4_IoT_App.png"
+     alt="Prepare_Exam_Key_Business_Points_4_IoT_App.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Technical evaluation
 
-<img src="../images/prepare_exam_key_business_points_3_IoT_app.png"
-     alt="prepare_exam_key_business_points_3_IoT_app.png"
+<img src="../Images/Prepare_Exam_Key_Business_Points_3_IoT_App.png"
+     alt="Prepare_Exam_Key_Business_Points_3_IoT_App.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/prepare_exam_technical_evaluation_IoT_app.png"
-     alt="prepare_exam_technical_evaluation_IoT_app.png"
+<img src="../Images/Prepare_Exam_Technical_Evaluation_IoT_App.png"
+     alt="Prepare_Exam_Technical_Evaluation_IoT_App.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/prepare_exam_technical_evaluation_2_IoT_app.png"
-     alt="prepare_exam_technical_evaluation_2_IoT_app.png"
+<img src="../Images/Prepare_Exam_Technical_Evaluation_2_IoT_App.png"
+     alt="Prepare_Exam_Technical_Evaluation_2_IoT_App.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Sample solution
 
-<img src="../images/prepare_exam_sample_solution_IoT_app.png"
-     alt="prepare_exam_sample_solution_IoT_app.png"
+<img src="../Images/Prepare_Exam_Sample_Solution_IoT_App.png"
+     alt="Prepare_Exam_Sample_Solution_IoT_App.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -446,7 +446,7 @@ Today you'll be learning about and preparing for the Professional Cloud Architec
 
 A lot of that has to do with design. Before you can design a solution, you need to understand the building blocks, the underlying services, and technologies that make up solutions in Google Cloud. Here's a tip, use a layered model like this one. It'll help you organize your thinking about each exam question, so that you'll more easily recognize and focus on what's important. Professional Cloud Architects often use layered models to organize or separate solution designs. It makes it much easier to deal with the complexity and to make sure there are no dropouts in the design. This model comes from our design and process class.
 
-<img src="../images/Design_methods.png"
+<img src="../Images/Design_methods.png"
      alt="Design_methods.png"
      style="float: left; margin-right: 10px;" />
 
@@ -458,69 +458,69 @@ I'm going to highlight and discuss one or two of these per slide. When we speak 
 
 You'll notice that the first and last items in the list have to do with determining the criteria for success and deciding how to measure that. It's very important to be explicit about exactly what you're trying to achieve. **These items are often stated qualitatively at the beginning and are measurable and quantitative at the end**.
 
-<img src="../images/touchstones.png"
-     alt="touchstones.png"
+<img src="../Images/Touchstones.png"
+     alt="Touchstones.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/solutions_depends_on_context.png"
-     alt="solutions_depends_on_context.png"
+<img src="../Images/Solutions_Depends_on_Context.png"
+     alt="Solutions_Depends_on_Context.png"
      style="float: left; margin-right: 10px;" />
 
 #### Context are often tradeoffs solutions: Good vs Fast vs Cost
 
-<img src="../images/build_buy_modify.png"
-     alt="build_buy_modify.png"
+<img src="../Images/Build_Buy_Modify.png"
+     alt="Build_Buy_Modify.png"
      style="float: left; margin-right: 10px;" />
 
 #### Practice Case Study analysis #1
 
 ###### Case Study #1
 
-<img src="../images/case_study_01-design_plan.png"
-     alt="case_study_01-design_plan.png"
+<img src="../Images/Case_Study_01_Design_Plan.png"
+     alt="Case_Study_01_Design_Plan.png"
      style="float: left; margin-right: 10px;" />
 
 Context = need to gain in speed and ease of use thanks to cloud solutions
 
 ##### Identify technical watchpoints
 
-<img src="../images/case_study_01-watchpoints.png"
-     alt="case_study_01-watchpoints.png"
+<img src="../Images/Case_Study_01_Watchpoints.png"
+     alt="Case_Study_01_Watchpoints.png"
      style="float: left; margin-right: 10px;" />
 
 [video](https://www.coursera.org/learn/preparing-cloud-professional-cloud-architect-exam/lecture/VQtJ1/designing-a-solution-infrastructure-that-meets-technical-requirements)
 
-<img src="../images/case_study_01-technical_solution.png"
-     alt="case_study_01-technical_solution.png"
+<img src="../Images/Case_Study_01_Technical_Solution.png"
+     alt="Case_Study_01_Technical_Solution.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/case_study_01-design_plan_requirements.png"
-     alt="case_study_01-design_plan_requirements.png"
+<img src="../Images/Case_Study_01_Design_Plan_Requirements.png"
+     alt="Case_Study_01_Design_Plan_Requirements.png"
      style="float: left; margin-right: 10px;" />
 
 #### Designing a solution infrastructure that meets technical requirements
 
-<img src="../images/Design_solution_meeting_requirements.png"
+<img src="../Images/Design_solution_meeting_requirements.png"
      alt="Design_solution_meeting_requirements.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Design_solution_meeting_requirements_what_to_measure.png"
+<img src="../Images/Design_solution_meeting_requirements_what_to_measure.png"
      alt="Design_solution_meeting_requirements_what_to_measure.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Design_solution_meeting_requirements_time_value_deadline_requirements.png"
+<img src="../Images/Design_solution_meeting_requirements_time_value_deadline_requirements.png"
      alt="Design_solution_meeting_requirements_time_value_deadline_requirements.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Design_solution_chains_of_microservices.png"
-     alt="Design_solution_chains_of_microservices.png"
+<img src="../Images/Design_solution_chains_of_Microservices.png"
+     alt="Design_solution_chains_of_Microservices.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Common design patterns
 
 Common design patterns: https://cloud.google.com/apis/design/design_patterns
 
-<img src="../images/Design_solution_common_design_patterns.png"
+<img src="../Images/Design_solution_common_design_patterns.png"
      alt="Design_solution_common_design_patterns.png"
      style="float: left; margin-right: 10px;" />
 
@@ -528,7 +528,7 @@ Common design patterns: https://cloud.google.com/apis/design/design_patterns
 
 Narrow down technology to what could work, then what would work best given a particular context:
 
-<img src="../images/Design_solution_narrow_down_to_what_could_work_then_whats_best.png"
+<img src="../Images/Design_solution_narrow_down_to_what_could_work_then_whats_best.png"
      alt="Design_solution_narrow_down_to_what_could_work_then_whats_best.png"
      style="float: left; margin-right: 10px;" />
 
@@ -536,19 +536,19 @@ Narrow down technology to what could work, then what would work best given a par
 
 Identifying bottlenecks is especially useful for questions involving building out from existing solutions. For example, the current system can support X number of users, and the goal is to support Y number of users. What's the bottleneck in the current design? Is it bandwidths, gigabytes, queries per second? Where will the application hit its limits? This is often the factor that determines which solution is best in the circumstance. 
 
-<img src="../images/Design_solution_identifying_bottlenecks.png"
+<img src="../Images/Design_solution_identifying_bottlenecks.png"
      alt="Design_solution_identifying_bottlenecks.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Read/Build dataflow diagrams
 
-<img src="../images/Design_solution_read_buikd_dataflow_diagrams.png"
+<img src="../Images/Design_solution_read_buikd_dataflow_diagrams.png"
      alt="Design_solution_read_buikd_dataflow_diagrams.png"
      style="float: left; margin-right: 10px;" />
 
 ##### ACID (consistency) vs BASE (availability)
 
-<img src="../images/Design_solution_assets_vs_base.png"
+<img src="../Images/Design_solution_assets_vs_base.png"
      alt="Design_solution_assets_vs_base.png"
      style="float: left; margin-right: 10px;" />
 
@@ -566,15 +566,15 @@ significance of **atomicity**, **consistency**, **isolation**, and **durability*
 [video](https://www.coursera.org/learn/preparing-cloud-professional-cloud-architect-exam/lecture/wZINm/creating-a-migration-plan)
 
 
-<img src="../images/Design_solution_migration_plan.png"
+<img src="../Images/Design_solution_migration_plan.png"
      alt="Design_solution_migration_plan.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Design_solution_migration_plan_think_practically.png"
+<img src="../Images/Design_solution_migration_plan_think_practically.png"
      alt="Design_solution_migration_plan_think_practically.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/Design_solution_envision_furture_requirements.png"
+<img src="../Images/Design_solution_envision_furture_requirements.png"
      alt="Design_solution_envision_furture_requirements.png"
      style="float: left; margin-right: 10px;" />
 
@@ -589,7 +589,7 @@ Managing and provisioning solution infrastructure. If you think about it, managi
 
 Google Cloud Networking is not like other vendor networks. Not like traditional IP networks and not like other SDA networks. That's networking in the cloud and you need to know how you might handle migrating an existing data center network into a GCP network. 
 
-<img src="../images/Managing_various_interconnects.png"
+<img src="../Images/Managing_various_interconnects.png"
      alt="Managing_various_interconnects.png"
      style="float: left; margin-right: 10px;" />
 
@@ -597,43 +597,43 @@ Google Cloud Networking is not like other vendor networks. Not like traditional 
 
  Subnetworks can extend across zones in the same region. One VM and an alternate VM can be on the same subnet but in different zones. A single firewall rule can apply to both VM's even though they're in different zones. This makes it much easier to design and implement resilient or high-availability solutions. 
 
-<img src="../images/Managing_various_subnets_extends_Across_zones.png"
+<img src="../Images/Managing_various_subnets_extends_Across_zones.png"
      alt="Managing_various_subnets_extends_Across_zones.png"
      style="float: left; margin-right: 10px;" />
 
 Know your options:
 
-<img src="../images/networking_interconnect_options.png"
-     alt="networking_interconnect_options.png"
+<img src="../Images/Networking_Interconnect_Options.png"
+     alt="Networking_Interconnect_Options.png"
      style="float: left; margin-right: 10px;" />
 
 **Security**
 
-<img src="../images/security.png"
-     alt="security.png"
+<img src="../Images/Security.png"
+     alt="Security.png"
      style="float: left; margin-right: 10px;" />
 
 
 ###### Case Study #2
 
-<img src="../images/dummycase_study_02-minimize_impact_productivity.png"
-     alt="dummycase_study_02-minimize_impact_productivity.png"
+<img src="../Images/dummyCase_Study_02_Minimize_Impact_Productivity.png"
+     alt="dummyCase_Study_02_Minimize_Impact_Productivity.png"
      style="float: left; margin-right: 10px;" />
 
 ####### Identify Technical Watchpoints
 
-<img src="../images/case_study_02-watchpoints.png"
-     alt="case_study_02-watchpoints.png"
+<img src="../Images/Case_Study_02_Watchpoints.png"
+     alt="Case_Study_02_Watchpoints.png"
      style="float: left; margin-right: 10px;" />
 
 ####### Implementation meeting technical requirements
 
-<img src="../images/case_study_02-technical_solution.png"
-     alt="case_study_02-technical_solution.png"
+<img src="../Images/Case_Study_02_Technical_Solution.png"
+     alt="Case_Study_02_Technical_Solution.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/case_study_02.png"
-     alt="case_study_02.png"
+<img src="../Images/Case_Study_02.png"
+     alt="Case_Study_02.png"
      style="float: left; margin-right: 10px;" />
 
 ## Configuring individual Storage Systems
@@ -642,31 +642,31 @@ Know your options:
 
 Know your different Storage solutions:
 
-<img src="../images/know_your_storage_options.png"
-     alt="know_your_storage_options.png"
+<img src="../Images/Know_Your_Storage_Options.png"
+     alt="Know_Your_Storage_Options.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/compare_storage_options.png"
-     alt="compare_storage_options.png"
+<img src="../Images/Compare_Storage_Options.png"
+     alt="Compare_Storage_Options.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/compare_storage_options_2.png"
-     alt="compare_storage_options_2.png"
-     style="float: left; margin-right: 10px;" />
-
-
-<img src="../images/compare_storage_options_3.png"
-     alt="compare_storage_options_3.png"
+<img src="../Images/Compare_Storage_Options_2.png"
+     alt="Compare_Storage_Options_2.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/compare_storage_decision_tree.png"
-     alt="compare_storage_decision_tree.png"
+<img src="../Images/Compare_Storage_Options_3.png"
+     alt="Compare_Storage_Options_3.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/compare_firebase_datastore.png"
-     alt="compare_firebase_datastore.png"
+<img src="../Images/Compare_Storage_Decision_Tree.png"
+     alt="Compare_Storage_Decision_Tree.png"
+     style="float: left; margin-right: 10px;" />
+
+
+<img src="../Images/Compare_Firebase_Datastore.png"
+     alt="Compare_Firebase_Datastore.png"
      style="float: left; margin-right: 10px;" />
 
 ## Preparing for DAta processing
@@ -675,19 +675,19 @@ Know your different Storage solutions:
 
 [video](https://www.coursera.org/learn/preparing-cloud-professional-cloud-architect-exam/lecture/KEOeP/data-transfer)
 
-<img src="../images/Data_transfer.png"
+<img src="../Images/Data_transfer.png"
      alt="Data_transfer.png"
      style="float: left; margin-right: 10px;" />
 
 ### Lazy deletion design
 
-<img src="../images/lazy_deletion_design.png"
-     alt="lazy_deletion_design.png"
+<img src="../Images/Lazy_Deletion_Design.png"
+     alt="Lazy_Deletion_Design.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/speed_transfer_data_online.png"
-     alt="speed_transfer_data_online.png"
+<img src="../Images/Speed_Transfer_Data_Online.png"
+     alt="Speed_Transfer_Data_Online.png"
      style="float: left; margin-right: 10px;" />
 
 The left side of the table are closer to physical speeds, and the right side of the table is closer to online speeds. Therefore, it's much faster to accumulate data online and work with it and transfer it online, than to collect the data physically and then transfer it.
@@ -696,35 +696,35 @@ The left side of the table are closer to physical speeds, and the right side of 
 
 [video](https://www.coursera.org/learn/preparing-cloud-professional-cloud-architect-exam/lecture/yQyNc/cloud-storage)
 
-<img src="../images/Cloud_storage_for_archive.png"
+<img src="../Images/Cloud_storage_for_archive.png"
      alt="Cloud_storage_for_archive.png"
      style="float: left; margin-right: 10px;" />
 
 4 storage classes:
 
-<img src="../images/Cloud_storage_for_archive_4_classes.png"
+<img src="../Images/Cloud_storage_for_archive_4_classes.png"
      alt="Cloud_storage_for_archive_4_classes.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/Cloud_storage_for_archive_disks_options.png"
+<img src="../Images/Cloud_storage_for_archive_disks_options.png"
      alt="Cloud_storage_for_archive_disks_options.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/Cloud_storage_how_it_works.png"
+<img src="../Images/Cloud_storage_how_it_works.png"
      alt="Cloud_storage_how_it_works.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/Cloud_storage_simulates_a_filesystem.png"
+<img src="../Images/Cloud_storage_simulates_a_filesystem.png"
      alt="Cloud_storage_simulates_a_filesystem.png"
      style="float: left; margin-right: 10px;" />
 
 ## BigTable
 
 
-<a href="../images/Reading-2---Cloud-Bigtable.pdf">BigTable in a nutshell :)</a>:
+<a href="../Images/Reading-2---Cloud-Bigtable.pdf">BigTable in a nutshell :)</a>:
 
 * How does BigTable works? (Colossus: Google File System **GFS** ~**HDFS**)
    * manipulate "tablets"
@@ -752,16 +752,16 @@ The left side of the table are closer to physical speeds, and the right side of 
 
 
 
-<img src="../images/Data_processing_to_ML.png"
+<img src="../Images/Data_processing_to_ML.png"
      alt="Data_processing_to_ML.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/ML_value.png"
+<img src="../Images/ML_value.png"
      alt="ML_value.png"
      style="float: left; margin-right: 10px;" />
 
-<a href="../images/Reading-3---Cloud-AI.pdf">Cloud AI on GCP :D</a>:
+<a href="../Images/Reading-3---Cloud-AI.pdf">Cloud AI on GCP :D</a>:
 
 * cloud AutoML:
     * pre-built AI models (Vision, NLP, Translation, ....)
@@ -780,13 +780,13 @@ One thing to consider in the design is whether you can create an application tha
 
 Development environments and disaster recovery are often good applications for creating infrastructure through automation technologies such as Deployment Manager or Terraform. In the development environment case, you can generate a clone of the production infrastructure solution or use by the development team. So the test team needs an environment, deploy another copy. Quality control needs and environment, another copy. Auditing and compliance test backup and recovery, create more deployments on demand. 
 
-<img src="../images/Configure_VM_systems.png"
+<img src="../Images/Configure_VM_systems.png"
      alt="Configure_VM_systems.png"
      style="float: left; margin-right: 10px;" />
 
 ### Selecting Compute Options
 
-<img src="../images/Compute.png"
+<img src="../Images/Compute.png"
      alt="Compute.png"
      style="float: left; margin-right: 10px;" />
 
@@ -797,13 +797,13 @@ Development environments and disaster recovery are often good applications for c
 
 Options in a table to know forward and backward:
 
-<img src="../images/Compute_options.png"
+<img src="../Images/Compute_options.png"
      alt="Compute_options.png"
      style="float: left; margin-right: 10px;" />
 
 ### Choosing a load balancer for Compute Engine
 
-<img src="../images/Compute_load_balancing.png"
+<img src="../Images/Compute_load_balancing.png"
      alt="Compute_load_balancing.png"
      style="float: left; margin-right: 10px;" />
 
@@ -813,8 +813,8 @@ Options in a table to know forward and backward:
 
 ### Choosing instance groups for Compute Engine
 
-<img src="../images/choosing_instance_group_for_compute_engine.png"
-     alt="choosing_instance_group_for_compute_engine.png"
+<img src="../Images/Choosing_Instance_Group_for_Compute_Engine.png"
+     alt="Choosing_Instance_Group_for_Compute_Engine.png"
      style="float: left; margin-right: 10px;" />
 
 * **Unmanaged instance groups** collect different kinds of instances. Usually, this is done for management of lift and shift existing designs and _it's not recommended because it does not make the best use of the features available in cloud_.
@@ -831,44 +831,44 @@ Options in a table to know forward and backward:
 
 ### Microservices
 
-<img src="../images/microservices.png"
-     alt="microservices.png"
+<img src="../Images/Microservices.png"
+     alt="Microservices.png"
      style="float: left; margin-right: 10px;" />
 
 Microservices is not a panacea, it doesn't fit all cases. You can implement a microservices solution in App Engine cloud functions and using Node.js and Kubernetes. The platforms have overlapping coverage. Do you know when you might choose one platform over another for microservices solution? Coordinating a transaction across stateless microservices is tricky. You have to store the state externally and retrieve and use it in each function. Microservices architectures are commonly used and implemented in Cloud Functions or in App Engine.
 
 ### Containers
 
-<img src="../images/containers.png"
-     alt="containers.png"
+<img src="../Images/Containers.png"
+     alt="Containers.png"
      style="float: left; margin-right: 10px;" />
 
 
 
-<img src="../images/kubernetes.png"
-     alt="kubernetes.png"
+<img src="../Images/Kubernetes.png"
+     alt="Kubernetes.png"
      style="float: left; margin-right: 10px;" />
 
 
 > What you want to do is blend the approaches where it makes sense to the business. This is another case where what the client wants is what's most important to the design and on an exam it means being sensitive to and looking out for those trade-offs.
 
-<img src="../images/balance_resiliency_cost.png"
-     alt="balance_resiliency_cost.png"
+<img src="../Images/Balance_Resiliency_Cost.png"
+     alt="Balance_Resiliency_Cost.png"
      style="float: left; margin-right: 10px;" />
 
 
 ### Managed Services vs Serverless services
 
-<img src="../images/services_ManagedServices_ServerlessServices.png"
-     alt="services_ManagedServices_ServerlessServices.png"
+<img src="../Images/Services_ManagedServices_ServerlessServices.png"
+     alt="Services_ManagedServices_ServerlessServices.png"
      style="float: left; margin-right: 10px;" />
 
 ### IoT
 
 Look for it at [cloud.google.com/solutions](https://cloud.google.com/solutions/)
 
-<img src="../images/diagram_IoT_core_cloud_functons.png"
-     alt="diagram_IoT_core_cloud_functons.png"
+<img src="../Images/Diagram_IoT_Core_Cloud_Functons.png"
+     alt="Diagram_IoT_Core_Cloud_Functons.png"
      style="float: left; margin-right: 10px;" />
 
 The core assembly here is
@@ -881,10 +881,10 @@ The core assembly here is
 
 ### Cloud Functions
 
-<a href="../images/Reading-4-.---Cloud-Functions.pdf">Cloud Functions</a>:
+<a href="../Images/Reading-4-.---Cloud-Functions.pdf">Cloud Functions</a>:
 
 
-<img src="../images/dummy.png"
+<img src="../Images/dummy.png"
      alt="dummy.png"
      style="float: left; margin-right: 10px;" />
 
@@ -893,43 +893,43 @@ The core assembly here is
 
 [video](https://www.coursera.org/learn/preparing-cloud-professional-cloud-architect-exam/lecture/xEp9n/experiment-containers-and-gke-video-like-dislike)
 
-<a href="../images/Reading----Containers-and-GKE.pdf">Google Kubernetes Engine</a>:
+<a href="../Images/Reading----Containers-and-GKE.pdf">Google Kubernetes Engine</a>:
 
-<img src="../images/containers_GKE.png"
-     alt="containers_GKE.png"
+<img src="../Images/Containers_GKE.png"
+     alt="Containers_GKE.png"
      style="float: left; margin-right: 10px;" />
 
 Between 2017 and 2018, the number of organizations using containers for software development had to deploy their services doubled. The trend shows no signs of slowing. For this reason, container knowledge and skill with Kubernetes is increasing the importance for the job of a Cloud architect. Of course, if you need more of these skills for the job, you will also need them to prepare for the exam. Docker is software that builds containers. User apply application code and instructions called a Docker file, and Docker follows the instructions and assembles the code and dependencies into the container. Containers can be run much as an application can run. However, it is a self-contained environment that can run on many platforms. Google Cloud offers a service called **Cloud Build** which functions similarly to Docker. It accepts code and configuration and builds containers. Cloud Build offers many features and services that are geared towards professional development. It is designed to fit into a continuous development, continuous deployment workflow. It is designed to scale and to handle many application developers working on, and continuously updating a live global service. If you had 100 developers sharing source files, you would need a system for managing them, for tracking them, versioning them, and enforcing a checking review and approval process. Cloud Source Repositories is a cloud-based solution. If you were deploying hundreds of containers, you would not be in keeping it to yourself. One of the reasons to use containers is to share them with others. So you need a way to manage and share them. This is the purpose of container registry. **Container registry** has various integrations with continuous integration, continuous deployment services.
 
 
-<img src="../images/containers_Dockerfile.png"
+<img src="../Images/containers_Dockerfile.png"
      alt="containers_Dockerfile.png"
      style="float: left; margin-right: 10px;" />
 
 A Docker container is an image built-in layers. Each layer is created by an instruction in the Docker file. All the layers except for the top one are air locked. The thin read-write layer at the top is where you can make changes to a running container. For example, if you needed to change a file, those changes would be written here. The layer designed inside of a container isolates functions. This is what makes the container stable and portable. Here are a few of the common Docker commands. The `docker build` command creates the container image. The `docker run` command runs the container. There are other Docker commands that can help you list images, check the status of a running container, work with logs or stop a running container.
 
-<img src="../images/containers_Docker_commands.png"
-     alt="containers_Docker_commands.png"
+<img src="../Images/Containers_Docker_Commands.png"
+     alt="Containers_Docker_Commands.png"
      style="float: left; margin-right: 10px;" />
 
 You can run a container in Docker itself, as you saw with the `docker run` command. You can also run containers using Compute Engine. Compute Engine gives you the alternative to start up a virtual machine from a container, rather than from an OS Image Boot Disk. You also have this option when creating an instance template, which means you can create managed instance groups from containers. App Engine supports containers as custom runtimes. The main difference between the **App Engine standard** environment and the **App Engine flexible** environment is that flexible hosts applications in Docker containers. It creates Docker containers and persists them in Container Registry. A Container Orchestrator is a full service for managing, running and monitoring containers. _Both App Engine flexible environment and Google Kubernetes engine are container orchestrators_. Kubernetes is an open standard software. So you can run a Kubernetes cluster in your data center. Google Kubernetes engine provides Kubernetes as a managed service.
 
-<img src="../images/kubernetes_nodes_pods_cluster.png"
-     alt="kubernetes_nodes_pods_cluster.png"
+<img src="../Images/Kubernetes_Nodes_Pods_Cluster.png"
+     alt="Kubernetes_Nodes_Pods_Cluster.png"
      style="float: left; margin-right: 10px;" />
 
 A Kubernetes cluster is composed of nodes, which are a unit of hardware resources. Nodes in GKA are implemented as VMs in Compute Engine. Each node has pods. Pods are resource management units. A pod is how Kubernetes controls and manages resources needed by applications and how it executes code. Pods also give the system fine grain control over scaling. Each pod host, manages, and runs one or more containers. The containers in a pod share networking and storage. So typically, there is one container per pod, unless the containers hold closely related applications. For example, a second container might contain a logging system for the application in the first container. A pod can be moved from one node to another without reconfiguring or rebuilding anything. This design enables advanced controls and operations that gives systems built on Kubernetes unique qualities.
 
-<img src="../images/kubernetes_nodes_master_node.png"
-     alt="kubernetes_nodes_master_node.png"
+<img src="../Images/Kubernetes_Nodes_Master_Node.png"
+     alt="Kubernetes_Nodes_Master_Node.png"
      style="float: left; margin-right: 10px;" />
 
 
 
 Each cluster has a master node that determines what happens on the cluster. There are usually at least three of them for availability, and they can be located across zones. A Kubernetes job makes changes to the cluster. For example, a pod YAML file provides the information to start up and run a pod on a node. If for some reason a pod stops running or a node is lost, the pod will not automatically be replaced. The deployment YAML tells Kubernetes how many pods you want running. So the Kubernetes deployment is what keeps a number of pods running. The deployment YAML also defines a replica set, which has how many copies of a container you want running. The Kubernetes scheduler determines on which node and in which pod the replica containers are to be run.
 
-<img src="../images/kubernetes_AB_testing.png"
-     alt="kubernetes_AB_testing.png"
+<img src="../Images/Kubernetes_AB_Testing.png"
+     alt="Kubernetes_AB_Testing.png"
      style="float: left; margin-right: 10px;" />
 
 One of the advanced things that Kubernetes deployments allow you to do is roll out software to some pods and not others. So you can actually keep version in production on most of the pods and try out version B with a sample group and other pods. This is called A/B testing, and it is great because you can test the new software in a real production environment without risking the integrity of the entire service. Another thing you can do with deployments is a rolling update. Basically, you load up the new software in a replacement pod, switch the load to the new pod, and turn down the old one. This allows you to perform a controlled and gradual roll out of the new software across the service. If something goes wrong, you can detect the problem and roll back to the previous software. Really, if you are going to run an enterprise production service you will need these kinds of operations. That is one major reason to adopt Kubernetes. There are a number of subjects that were not covered in this brief overview. For example, how containers running in the same pod can share resources, how containers running in different pods can communicate, and how networking is handled between a node's IP and the applications. These subjects and more are covered in the course, getting started with Google Kubernetes engine or you can find more information in the online documentation.
@@ -938,7 +938,7 @@ One of the advanced things that Kubernetes deployments allow you to do is roll o
 
 ### BigQuery
 
-<a href="../images/Reading-6---BigQuery.pdf">BigQuery</a>:
+<a href="../Images/Reading-6---BigQuery.pdf">BigQuery</a>:
 
 
 ## Practice Exam #2
@@ -948,8 +948,8 @@ One of the advanced things that Kubernetes deployments allow you to do is roll o
 ### Practice: Network features
 
 
-<img src="../images/practice_Networking.png"
-     alt="practice_Networking.png"
+<img src="../Images/Practice_Networking.png"
+     alt="Practice_Networking.png"
      style="float: left; margin-right: 10px;" />
 
 > Which network feature could help a company meet its goals to expand service to Asia while reducing latency?
@@ -971,16 +971,16 @@ One of the advanced things that Kubernetes deployments allow you to do is roll o
 
 **The answer is A, Regional class, then move to Coldline after 30 days**. The question here is answered by understanding the purpose of each of the storage classes and, in general, how they're priced. One thing to remember is that Coldline is really not intended to be read more than once a year. It's cheap to write data to it, but much more to read it back, compared to the other classes of storage. So the correct answer is A, local usage in a regional bucket for initial use during the month, then Coldline because it's unlikely to be read after that. This is often the case when data is used during the month and archived for compliance and record keeping after. The other options will not be cost effective.
 
-<img src="../images/practice_Storage.png"
-     alt="practice_Storage.png"
+<img src="../Images/Practice_Storage.png"
+     alt="Practice_Storage.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/practice_Storage_classes.png"
-     alt="practice_Storage_classes.png"
+<img src="../Images/Practice_Storage_Classes.png"
+     alt="Practice_Storage_Classes.png"
      style="float: left; margin-right: 10px;" />
 
-- [Lab notes](../../labs/lab_create_blog_with_Cloud_Storage_Cloud_SQL_and_Compute_Engine.md): **PCA Prep—Google Cloud Essential Skills**
+- [Lab notes](../../Labs/Lab_Create_Blog_with_Cloud_Storage_Cloud_SQL_and_Compute_Engine.md): **PCA Prep—Google Cloud Essential Skills**
 
 ## Problem solving is the key skill of the job.
 
@@ -1028,8 +1028,8 @@ This module covered the sections of the exams outline on optimizing and operatin
 
 The following is a case study that involves a financial services company. This vertical often involves private information and transactions, so the security requirements are high. Also these kinds of companies often need a plan for audits to meet compliance requirements for certifications. This customer had a common FinServ requirement. The customer did not want any data to traverse the public Internet, for obvious reasons. So they had a security strategy that included a technical requirement to use private APIs to access Google Cloud resources. They saw this is a fundamental need to their security strategy. Additionally, they wanted to know how the cloud provider's security standard certifications, and what they did to stay current. So they were concerned that the provider might lose the certification that they were relying on for business. A large company wanted to improve their security posture, a common FinServ requirement.
 
-<img src="../images/practice_case_Study_3_requirements.png"
-     alt="practice_case_Study_3_requirements.png"
+<img src="../Images/Practice_Case_Study_3_Requirements.png"
+     alt="Practice_Case_Study_3_Requirements.png"
      style="float: left; margin-right: 10px;" />
 
 - Security, business requirement, data cannot traverse the public Internet. Technical requirement, must have private API access to GCP services as a good security practice and to minimize data exfiltration.
@@ -1044,8 +1044,8 @@ We mapped that technical requirement in Google's clouds, products and services.
 - Security, ensure all traffic to GCP is through secure methods, such as SSL, TLS, VPN, Interconnect, private APIs and endpoints.
 - Compliance, Google Cloud has standards, regulations, and certifications that would meet their compliance requirements and help earn their trust in our platform.
 
-<img src="../images/practice_case_Study_3_solutions.png"
-     alt="practice_case_Study_3_solutions.png"
+<img src="../Images/Practice_Case_Study_3_Solutions.png"
+     alt="Practice_Case_Study_3_Solutions.png"
      style="float: left; margin-right: 10px;" />
 
 #### Identify Technical solution/implementation
@@ -1061,13 +1061,13 @@ Standards, regulations, and certifications. Products regularly undergo independe
 
 
 
-<img src="../images/practice_case_Study_3_implementation.png"
-     alt="practice_case_Study_3_implementation.png"
+<img src="../Images/Practice_Case_Study_3_Implementation.png"
+     alt="Practice_Case_Study_3_Implementation.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/practice_case_Study_3.png"
-     alt="practice_case_Study_3.png"
+<img src="../Images/Practice_Case_Study_3.png"
+     alt="Practice_Case_Study_3.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -1088,8 +1088,8 @@ Another key to security, is to **craft security permissions**. The standard role
 
 > One benefit is that the login process generates logs for accountability.
 
-<img src="../images/security_best_practices.png"
-     alt="security_best_practices.png"
+<img src="../Images/Security_Best_Practices.png"
+     alt="Security_Best_Practices.png"
      style="float: left; margin-right: 10px;" />
 
  A **policy** is set on a **Resource**, and each policy contains a **set of rules and role members**.
@@ -1108,68 +1108,68 @@ Another key to security, is to **craft security permissions**. The standard role
 Commit a security checklist to memory. Sometimes just running down a list will rapidly identify a solution.
 
 
-<img src="../images/security_policies.png"
-     alt="security_policies.png"
+<img src="../Images/Security_Policies.png"
+     alt="Security_Policies.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/security_IAM_list.png"
-     alt="security_IAM_list.png"
+<img src="../Images/Security_IAM_List.png"
+     alt="Security_IAM_List.png"
      style="float: left; margin-right: 10px;" />
 
 
 ### Network & Security reading
 
-<a href="../images/Reading-7---Network-and-Security.pdf">Network & Security reading</a>:
+<a href="../Images/Reading-7---Network-and-Security.pdf">Network & Security reading</a>:
 
 - why do you bother locking doors?
 - Share VPC: keep others out by locking you in!
 
-<img src="../images/security_shareVPC_example.png"
-     alt="security_shareVPC_example.png"
+<img src="../Images/Security_ShareVPC_Example.png"
+     alt="Security_ShareVPC_Example.png"
      style="float: left; margin-right: 10px;" />
 
 - VPC peering keeps communications private and on topic
 
-<img src="../images/security_VPCpeering_example.png"
-     alt="security_VPCpeering_example.png"
+<img src="../Images/Security_VPCpeering_Example.png"
+     alt="Security_VPCpeering_Example.png"
      style="float: left; margin-right: 10px;" />
 
 - Should you use Shared VPC or VPC peering?
 
-<img src="../images/security_VPCpeering_or_sharedVPC.png"
-     alt="security_VPCpeering_or_sharedVPC.png"
+<img src="../Images/Security_VPCpeering_or_SharedVPC.png"
+     alt="Security_VPCpeering_or_SharedVPC.png"
      style="float: left; margin-right: 10px;" />
 
 - remove external IPs using Private Google Access
 
-<img src="../images/security_remove_externalIP.png"
-     alt="security_remove_externalIP.png"
+<img src="../Images/Security_Remove_ExternalIP.png"
+     alt="Security_Remove_ExternalIP.png"
      style="float: left; margin-right: 10px;" />
 
 - Cloud NAT provides internet access to private instances
 
-<img src="../images/security_cloudNAT.png"
-     alt="security_cloudNAT.png"
+<img src="../Images/Security_CloudNAT.png"
+     alt="Security_CloudNAT.png"
      style="float: left; margin-right: 10px;" />
 
 - Cloud Armor works with HTTP(S) load balancing
 
-<img src="../images/security_cloudArmor.png"
-     alt="security_cloudArmor.png"
+<img src="../Images/Security_CloudArmor.png"
+     alt="Security_CloudArmor.png"
      style="float: left; margin-right: 10px;" />
 
 ### Designing for Legal Compliance
 
 - [video](https://www.coursera.org/learn/preparing-cloud-professional-cloud-architect-exam/lecture/H9tVO/designing-for-legal-compliance)
 
-<img src="../images/types_legal_compliance.png"
-     alt="types_legal_compliance.png"
+<img src="../Images/Types_Legal_Compliance.png"
+     alt="Types_Legal_Compliance.png"
      style="float: left; margin-right: 10px;" />
 
 What are the two most common compliance areas? Privacy regulations such as HIPAA and GPDR, and commercial and live business standards such as PCI DSS. Google Network has layers of protection. Each layer protects and compliments the next internal layer. The main thing to know is that Google handles security up to a point, after that, the security is up to you. So, you need to know where your responsibilities begin.
 
-<img src="../images/Google_security_up_to_a_point.png"
+<img src="../Images/Google_security_up_to_a_point.png"
      alt="Google_security_up_to_a_point.png"
      style="float: left; margin-right: 10px;" />
 
@@ -1181,8 +1181,8 @@ What are the two most common compliance areas? Privacy regulations such as HIPAA
 - 3rd-party DDoS defense
 
 
-<img src="../images/MAP_Google_security.png"
-     alt="MAP_Google_security.png"
+<img src="../Images/MAP_Google_Security.png"
+     alt="MAP_Google_Security.png"
      style="float: left; margin-right: 10px;" />
 
 Here's some key concepts:
@@ -1200,14 +1200,14 @@ Because of **pervasive support for Service Accounts** you can lock down connecti
 
 When faced with a security question on an exam or in practice, determine which of the specific technologies or services is being discussed: Authentication, encryption for example, then determine exactly what the goals are for sufficient security. Is it deterrence? Is it meeting a standard for compliance? Is the goal to eliminate a particular risk or vulnerability? This will help you define a scope of a solution whether it's on an exam or in a real-world application
 
-<img src="../images/dummy.png"
+<img src="../Images/dummy.png"
      alt="dummy.png"
      style="float: left; margin-right: 10px;" />
 
 GCP provides several encryption options. Customer Managed encryption keys CMEK, using Cloud KMS. When you use Cloud Dataproc, cluster and job data is stored on persistent disks associated with the Compute Engine VMs in your cluster, and in a Cloud Storage bucket. The persistent disk and bucket data is encrypted using a Google-generated data encryption key called a DEK and a key encryption key called a KEK. The CMEK feature allows you to create use and revoke the key encryption key, the KEK. Google still controls the data encryption key or the DEK. Default encryption, encryption at rest uses the key management system KMS to generate KEKs and DEKs. The Key Management Service KMS allows you to generate AES-256 keys. You can use these values off Cloud. The service also handles key rotation and when a file is destroyed there is a 24-hour delay before final deletion.
 
-<img src="../images/MAP_Google_security_encryption.png"
-     alt="MAP_Google_security_encryption.png"
+<img src="../Images/MAP_Google_Security_Encryption.png"
+     alt="MAP_Google_Security_Encryption.png"
      style="float: left; margin-right: 10px;" />
 
 ## Practice Exam #3
@@ -1240,69 +1240,69 @@ And **the answer is B, Org viewer, project viewer**. This solution gives read-on
 
 This section covers analyzing and optimizing technical and business processes in the exam guide outline. Let's start with a case that will illustrate business requirements.
 
-<img src="../images/analyze_business_requirements.png"
-     alt="analyze_business_requirements.png"
+<img src="../Images/Analyze_Business_Requirements.png"
+     alt="Analyze_Business_Requirements.png"
      style="float: left; margin-right: 10px;" />
 
 ##### Identify technical watchpoints
 
-<img src="../images/practice_identify_business_requirements.png"
-     alt="practice_identify_business_requirements.png"
+<img src="../Images/Practice_Identify_Business_Requirements.png"
+     alt="Practice_Identify_Business_Requirements.png"
      style="float: left; margin-right: 10px;" />
 
 
 #### Designing a solution infrastructure that meets technical requirements
 
-<img src="../images/practice_identify_requirements_solution.png"
-     alt="practice_identify_requirements_solution.png"
+<img src="../Images/Practice_Identify_Requirements_Solution.png"
+     alt="Practice_Identify_Requirements_Solution.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/practice_case_4.png"
-     alt="practice_case_4.png"
+<img src="../Images/Practice_Case_4.png"
+     alt="Practice_Case_4.png"
      style="float: left; margin-right: 10px;" />
 
 ## Preparing for Analyzing and defining technical processes
 
 [video](https://www.coursera.org/learn/preparing-cloud-professional-cloud-architect-exam/lecture/qVxeq/analyzing-and-defining-technical-processes)
 
-<img src="../images/analyze_tecnical_processes.png"
-     alt="analyze_tecnical_processes.png"
+<img src="../Images/Analyze_Tecnical_Processes.png"
+     alt="Analyze_Tecnical_Processes.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/analyze_tecnical_processes_test_environment.png"
-     alt="analyze_tecnical_processes_test_environment.png"
+<img src="../Images/Analyze_Tecnical_Processes_Test_Environment.png"
+     alt="Analyze_Tecnical_Processes_Test_Environment.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/analyze_tecnical_processes_pricing.png"
-     alt="analyze_tecnical_processes_pricing.png"
+<img src="../Images/Analyze_Tecnical_Processes_Pricing.png"
+     alt="Analyze_Tecnical_Processes_Pricing.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/analyze_tecnical_processes_pricing_discounts.png"
-     alt="analyze_tecnical_processes_pricing_discounts.png"
+<img src="../Images/Analyze_Tecnical_Processes_Pricing_Discounts.png"
+     alt="Analyze_Tecnical_Processes_Pricing_Discounts.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/analyze_tecnical_processes_pricing_disk_costs.png"
-     alt="analyze_tecnical_processes_pricing_disk_costs.png"
+<img src="../Images/Analyze_Tecnical_Processes_Pricing_Disk_Costs.png"
+     alt="Analyze_Tecnical_Processes_Pricing_Disk_Costs.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/analyze_tecnical_processes_pricing_network.png"
-     alt="analyze_tecnical_processes_pricing_network.png"
+<img src="../Images/Analyze_Tecnical_Processes_Pricing_Network.png"
+     alt="Analyze_Tecnical_Processes_Pricing_Network.png"
      style="float: left; margin-right: 10px;" />
 
 
 ### Network & Performance 
 
-<a href="../images/Reading-8---Network-and-Performance.pdf">Network & Performance</a>
+<a href="../Images/Reading-8---Network-and-Performance.pdf">Network & Performance</a>
 
 
-<img src="../images/network_performance.png"
-     alt="network_performance.png"
+<img src="../Images/Network_Performance.png"
+     alt="Network_Performance.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -1310,8 +1310,8 @@ This section covers analyzing and optimizing technical and business processes in
 
 [video](https://www.coursera.org/learn/preparing-cloud-professional-cloud-architect-exam/lecture/GAiVv/analyzing-and-defining-business-processes)
 
-<img src="../images/analyze_business.png"
-     alt="analyze_business.png"
+<img src="../Images/Analyze_Business.png"
+     alt="Analyze_Business.png"
      style="float: left; margin-right: 10px;" />
 
 Analyzing and defining business processes is covered in our design and process courses.
@@ -1331,14 +1331,14 @@ Let's expand on a couple of these issues. In the change management outline item,
 
 In this section, we'll discuss developing testing procedures. You can't test everything, so you need to consider what items can act as indicators. How do you prove that the solution is working properly? How do you know if the solution is highly available or scalable?
 
-<img src="../images/failover_Design.png"
-     alt="failover_Design.png"
+<img src="../Images/Failover_Design.png"
+     alt="Failover_Design.png"
      style="float: left; margin-right: 10px;" />
 
 
 
-<img src="../images/scale_out_decision_process.png"
-     alt="scale_out_decision_process.png"
+<img src="../Images/Scale_Out_Decision_Process.png"
+     alt="Scale_Out_Decision_Process.png"
      style="float: left; margin-right: 10px;" />
 
 Now, here's a tip. Consider using **Stackdriver custom metrics for auto-scaling**. The reason is that CPU utilization is rarely **a good measure of customer experience**. A **custom metric** can enable auto-scaling on a more meaningful value.
@@ -1377,8 +1377,8 @@ This case involves Finserv, which is how people in the industry refer to financi
 
 ##### Case Study #5
 
-<img src="../images/case_study_04-fin-serv_industry.png"
-     alt="case_study_04-fin-serv_industry.png"
+<img src="../Images/Case_Study_04_Fin_Serv_Industry.png"
+     alt="Case_Study_04_Fin_Serv_Industry.png"
      style="float: left; margin-right: 10px;" />
 
 A lot of customers we see are in the enterprise space, so their needs are very similar. This example comes from a financial services company. We often see similar requirements among Finserv companies. So, a Finserv customer had this interesting business requirement. Encryption in transit and at rest for all developer operations.
@@ -1389,8 +1389,8 @@ A lot of customers we see are in the enterprise space, so their needs are very s
 
 ##### Identify technical watchpoints
 
-<img src="../images/case_study_04-fin-serv_tech_analysis.png"
-     alt="case_study_04-fin-serv_tech_analysis.png"
+<img src="../Images/Case_Study_04_Fin_Serv_Tech_Analysis.png"
+     alt="Case_Study_04_Fin_Serv_Tech_Analysis.png"
      style="float: left; margin-right: 10px;" />
 
 So, we ended up using a Jenkins Pipeline and Deployment Manager Templates for parts of this automation.
@@ -1405,14 +1405,14 @@ We mapped that to technical requirements like this:
 
 ##### Designing a solution infrastructure that meets technical requirements
 
-<img src="../images/case_study_04-fin-serv_solution.png"
-     alt="case_study_04-fin-serv_solution.png"
+<img src="../Images/Case_Study_04_Fin_Serv_Solution.png"
+     alt="Case_Study_04_Fin_Serv_Solution.png"
      style="float: left; margin-right: 10px;" />
 
  This is how we implemented that technical requirement. All Google APIs are encrypted in transit and authenticated. Production has Operations team access. All deployment pipelines via Jenkins and Deployment Manager business logic and Python templates and Deployment Manager. CloudSDK was not installed in local machines. Cloud Shell ensures that no keys are downloaded. Service Account Keys when needed for off-GCP clients are managed via deployment pipelines. There are two kinds of operations actions: on-GCP actions and off-GCP actions. For on-GCP actions, we didn't install CloudSDK on local machines. Instead, we set them up to use Cloud Shell, that ensured that no keys were downloaded. For off-GCP actions, the Service Account Keys were managed via the deployment pipelines. Anytime there was a need for off-GCP access, the clients are managed via the deployment pipeline. So, that means there's a full audit control and records of those keys, and who had access to them, and when and where they were used.
 
-<img src="../images/case_udy_05.png"
-     alt="case_study_05.png"
+<img src="../Images/case_udy_05.png"
+     alt="Case_Study_05.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -1424,8 +1424,8 @@ Most of the items in the exam outline have been covered already in another conte
 
 The first rule of testing is that you can't test everything so you need to make some decisions. Unit testing focuses on individual functional units, for example, exercising an API. In some development environments, it's common for the original software developer to provide a testing application that exercises the API and validates that it's working as expected. Integration testing has to do with putting parts together and testing them as an assembly. Sometimes the individual parts can pass unit test because each is working as designed, but when the units are assembled they may not be compatible. You can also discover timing issues called race conditions during integration testing. 
 
-<img src="../images/advising.png"
-     alt="advising.png"
+<img src="../Images/Advising.png"
+     alt="Advising.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -1442,14 +1442,14 @@ In this example, there are:
 With all those items to be checked and some of them being very complex
 it's easy to see the value of using an organized approach to ensuring that everything's ready. General advice about release management? Well, automate everything you can. Also, instead of creating a process with a resource bottleneck which can slow down release, consider implementing a self-service approach. Let the lead developers or the product managers perform the release using the tools. Reliability and consistency are the keys to making release work well. Also, implement access control over critical release features and processes. For example, a team lead or a tech lead might be a member of the release group, and have special access.
 
-<img src="../images/launch_checklist.png"
-     alt="launch_checklist.png"
+<img src="../Images/Launch_Checklist.png"
+     alt="Launch_Checklist.png"
      style="float: left; margin-right: 10px;" />
 
 When we think about capacity planning for launch, it's common to create a moon shot event where everything has to come together perfectly at a single moment for the launch to succeed. Consider instead using a phased approach, by launching first to a smaller market. The service can generate feedback and even warn of issues that might not scale in subsequent phases.
 
-<img src="../images/phased_launch_approach.png"
-     alt="phased_launch_approach.png"
+<img src="../Images/Phased_Launch_Approach.png"
+     alt="Phased_Launch_Approach.png"
      style="float: left; margin-right: 10px;" />
 
 A classic example of this was when the first Pokemon Go game was launched. It was launched first in Japan. The game was so popular that it had scaling issues because the demand was much greater than the anticipated demand for which the service was designed. Fortunately, launches in Europe, the US and other locations were separated by a few days. Staging the launch gave the team the time needed to understand the scaling issue and redesign and reimplement the service before its second launch.
@@ -1486,7 +1486,7 @@ I'm pretty sure you know this already. There are three ways to interact with Goo
 
 Ensuring solution and operations reliability. How do you ensure that a solution is reliable? Part of it occurs in the design. Making sure that common changes like increased traffic are handled in elastic ways. However, part of it is also in planning to monitor the service and to notice and respond to unplanned events. Some of those activities require human intelligence. For this reason, operations reliability spans both the technical and the procedural domains.
 
-<img src="../images/SRE_google_approach_to_devops.png"
+<img src="../Images/SRE_google_approach_to_devops.png"
      alt="SRE_google_approach_to_devops.png"
      style="float: left; margin-right: 10px;" />
 
@@ -1494,28 +1494,28 @@ Ensuring solution and operations reliability. How do you ensure that a solution 
 
 Site reliability or SRE, is Google's approach to DevOps. It's a very comprehensive system that involves changing the culture about how maintenance occurs. One central idea is the division of aspects of operations into separate layers for clarity. Here's a tip, you ought to know something about each of these layers and most importantly, you should be able to distinguish between the layers. For example, monitoring is not incident response. They're related. Do you know what features relates them? It's alerts. A Stackdriver alert is triggered by monitoring and begins incident response, which is composed mainly of procedures.
 
-<img src="../images/evaluate_quality.png"
-     alt="evaluate_quality.png"
+<img src="../Images/Evaluate_Quality.png"
+     alt="Evaluate_Quality.png"
      style="float: left; margin-right: 10px;" />
 
 Qualities are often where our goals start, but figuring out how to measure them quantitatively enables data-driven operations. It can be difficult to figure out exactly what to measure because sometimes what's easily measured is not a good indicator of customer interests.
 
 
-<img src="../images/types_monitoring.png"
-     alt="types_monitoring.png"
+<img src="../Images/Types_Monitoring.png"
+     alt="Types_Monitoring.png"
      style="float: left; margin-right: 10px;" />
 
 Speaking of alerts, at Google, we have the concept of alerting for the right reason. Often, alerts are designed to signify some metric passing some limit. But the question is whether that metric or trigger is something the customer cares about or not. We need to alert on some technical measures. But if there's something that is directly causing the customer frustration and upset, that should also be an alert or perhaps replace a more technical alert. Make sure you know the difference between blackbox monitoring and whitebox monitoring. Blackbox monitoring and whitebox monitoring are frequently misunderstood. In the cloud architect contexts, the difference has to do with the assumptions you can make when designing your monitoring framework. In blackbox monitoring, you're not supposed to know or think about the inner workings of the application. All you can see is the user interface or the API interface. So, the only assumptions you're allowed to make have to do with these interactions. Blackbox monitoring is very good for validating user experience. You end up monitoring things like latency between request and response. In whitebox monitoring, the application is assumed to be known to you. The inner workings of the application are transparent. So, you can use that special knowledge when defining the test. A good example would be if you knew that under certain conditions a critical resource will get oversubscribed and you've designed the system from resiliency. In this case, you might flood the interface to trigger the state as if the service was under attack to see if the resiliency worked as expected. That's whitebox monitoring, where the tests can be focused on inner workings and not just the UI. In practice of course, you need both kinds.
 
 
-<img src="../images/example_metrics.png"
-     alt="example_metrics.png"
+<img src="../Images/Example_Metrics.png"
+     alt="Example_Metrics.png"
      style="float: left; margin-right: 10px;" />
 
 Here's an example, CPU utilization may or may not indicate user satisfaction. Round-trip delay or frequency of request errors might be a better measure of the user's experience. What metrics are you using? Can you define metrics that relate directly to user experience and service objectives? What are the watermarks or alert levels at which human processes are engaged? How are you setting those values? When do they need to be revisited and updated? How do you know they're related to important events?
 
-<img src="../images/stackdriver_benefits.png"
-     alt="stackdriver_benefits.png"
+<img src="../Images/Stackdriver_Benefits.png"
+     alt="Stackdriver_Benefits.png"
      style="float: left; margin-right: 10px;" />
 
 Know how to use trace and debug. Examples of other tools that Stackdriver replaces. Note that it's not just a collection of alternate tools that's the issue, but how you use them together. The individual tools are not integrated or designed to work together. So, a lot of manual procedures and translation massaging of data are required to use them together. With Stackdriver, the integration is by design. So, that work disappears. Stackdriver is also multi-cloud, able to manage projects across GCP and AWS.
@@ -1526,63 +1526,63 @@ Another useful idea is that:
 
 Another way of saying this is, the only time we have to prepare for emergencies is before they happen. Once the emergency is occurring, it's too late to prepare. You can design a great technical solution, but if it doesn't include human processes, then it might not be adaptive and resilient. Easy buttons are tools and processes that automate common actions. A playbook is a list of what to do when. So, here's a general rule; for every alert you should have a play in the playbook.
 
-<img src="../images/diff_dashboard_response.png"
-     alt="diff_dashboard_response.png"
+<img src="../Images/Diff_Dashboard_Response.png"
+     alt="Diff_Dashboard_Response.png"
      style="float: left; margin-right: 10px;" />
 
 What are the differences between a dashboard, an alert, and incident response? A dashboard is a display for monitoring a system. It's commonly tailored to the application. An alert occurs when a condition is met such as a metric crossing above a particular value for a given duration. The alert is the notification and alert could just be a warning or it could be a notification of an incident that needs to be handled immediately. Incident response consists of the steps you would take when a problem occurs. This might be written up in a playbook.
 
 Find a lab such as Quick Labs lab that uses logging and trace and debug to identify and solve an application problem. This will give you a sense of the value and how these components work together. There's a lab like this in the architect in GCP infrastructure class.
 
-<img src="../images/blamelessness.png"
-     alt="blamelessness.png"
+<img src="../Images/Blamelessness.png"
+     alt="Blamelessness.png"
      style="float: left; margin-right: 10px;" />
 
 Google's approach focuses on transparency, on involving the customer in the solution and blamelessness. Assigning blame establishes root cause with a person or an organization instead of getting to the real technical or procedural issue so that it can be fixed. If blame has been assigned, there's a high likelihood that the process has been prematurely suspended without really addressing the problem.
 
-<img src="../images/human_processes.png"
-     alt="human_processes.png"
+<img src="../Images/Human_Processes.png"
+     alt="Human_Processes.png"
      style="float: left; margin-right: 10px;" />
 
 What are the people supposed to do? What decisions or actions are they supposed to make or take? Are these documented? As mentioned, the metrics are not sufficient without the meeting to review the metrics, to evaluate them and make decisions and take actions. In those cases where timing is critical, you'll want to playbook and easy buttons supporting automation to increase the speed and consistency of incident response. Here's another tip, when something goes wrong with the cloud resource, give yourself or your team a limited period of time to solve it. For example, if a VM starts behaving incorrectly, see if it's something that's easily fixed. Then spare the VM to the side and replace it. Perform your diagnostics and debugging after the instance is replaced.
 
 ### Workflow Orchestration
 
-<a href="../images/Reading-9---Workflow-Orchestration.pdf">Workflow Orchestration reading</a>:
+<a href="../Images/Reading-9---Workflow-Orchestration.pdf">Workflow Orchestration reading</a>:
 
 - automate infrastructure or workflow
 
-<img src="../images/automate_infraucture.png"
-     alt="automate_infrastructure.png"
+<img src="../Images/automate_infraucture.png"
+     alt="Automate_Infrastructure.png"
      style="float: left; margin-right: 10px;" />
 
 - Create data infrastructure whe nthe workflow requires it
 
-<img src="../images/when_needed_infrastructure.png"
-     alt="when_needed_infrastructure.png"
+<img src="../Images/When_Needed_Infrastructure.png"
+     alt="When_Needed_Infrastructure.png"
      style="float: left; margin-right: 10px;" />
 
 - Cloud COmposer: extensible workflow orchestration
 
-<img src="../images/composer.png"
-     alt="composer.png"
+<img src="../Images/Composer.png"
+     alt="Composer.png"
      style="float: left; margin-right: 10px;" />
 
 ### Monitoring, Alerting, and Uptime
 
-<a href="../images/Reading-10----Monitoring.pdf">Monitoring, Alerting, and Uptime reading</a>:
+<a href="../Images/Reading-10----Monitoring.pdf">Monitoring, Alerting, and Uptime reading</a>:
 
-<img src="../images/monitoring.png"
-     alt="monitoring.png"
+<img src="../Images/Monitoring.png"
+     alt="Monitoring.png"
      style="float: left; margin-right: 10px;" />
 
-<img src="../images/alerting.png"
-     alt="alerting.png"
+<img src="../Images/Alerting.png"
+     alt="Alerting.png"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/uptime_checks.png"
-     alt="uptime_checks.png"
+<img src="../Images/Uptime_Checks.png"
+     alt="Uptime_Checks.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -1594,8 +1594,8 @@ What are the people supposed to do? What decisions or actions are they supposed 
 ### Case Study #6
 
 
-<img src="../images/case_study_6_system_update.png"
-     alt="case_study_6_system_update.png"
+<img src="../Images/Case_Study_6_System_Update.png"
+     alt="Case_Study_6_System_Update.png"
      style="float: left; margin-right: 10px;" />
 
 A customer had this interesting business requirement. The back office system needs to support frequent updates. The back office system needs to be available especially between 6:00 AM and 06:00 PM. A failure in one part of the back office system shouldn't bring down the entire system, and the customer wants to re-architect the system. They don't want to bring down the entire system when doing an update.
@@ -1604,23 +1604,23 @@ A customer had this interesting business requirement. The back office system nee
 
 So, we map that to technical requirements like this. **Microservices**, break apart the back office system into independent services, create a standard way for teams to publish logs and metrics for their services, and create a standard way for services to be rolled out. This use case was a natural fit for microservices. They knew that when they told development groups that they would be developing their own microservices, that they needed standards for reliability and scalability, and that they want common ways to monitor the applications.
 
-<img src="../images/case_study_6_tech_analysis_microservices.png"
-     alt="case_study_6_tech_analysis_microservices.png"
+<img src="../Images/Case_Study_6_Tech_Analysis_Microservices.png"
+     alt="Case_Study_6_Tech_Analysis_Microservices.png"
      style="float: left; margin-right: 10px;" />
 
 
 
 ### Designing a solution infrastructure that meets technical requirements
 
-<img src="../images/case_study_6_tech_analysis_microservices_impletation.png"
-     alt="case_study_6_tech_analysis_microservices_implementation.png"
+<img src="../Images/case_study_6_tech_analysis_microservices_impletation.png"
+     alt="Case_Study_6_Tech_Analysis_Microservices_Implementation.png"
      style="float: left; margin-right: 10px;" />
 
 This is how we implemented that technical requirement. Google Kubernetes Engine, microservices deployed into a shared cluster. Surging rolling deployments with Kubernetes deployment resource, and Stackdriver, custom metrics, a wrapper library around Stackdriver client libraries and that enabled us to expose common metrics, and expose custom metrics. So, the solution was to use Stackdriver exposing the metrics that could be done through dashboards, exposed metrics through Prometheus standards scraped from API's and sent to Stackdriver, where it could be exposed through the dashboards. They use custom metrics and Stackdriver, so they were able to monitor and scale their microservices based on those metrics.
 
 
-<img src="../images/case_study_6.png"
-     alt="case_study_6.png"
+<img src="../Images/Case_Study_6.png"
+     alt="Case_Study_6.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -1653,7 +1653,7 @@ A Challenge Lab has minimal instructions. It explains a circumstance and the exp
 
 subject: PCA Prep -- **Update and Scale Out a Containerized Application on a Kubernetes Cluster**
 
-This lab is similar to a Challenge Lab in the "Challenge: GCP Architecture" Quest: [Managing Deployments Using Kubernetes Engine](./qwiklabs/Managing_Deployments_Using_Kubernetes_Engine.md)
+This lab is similar to a Challenge Lab in the "Challenge: GCP Architecture" Quest: [Managing Deployments Using Kubernetes Engine](./Qwiklabs/Managing_Deployments_Using_Kubernetes_Engine.md)
 
 For this Challenge Lab, you must complete a series of tasks within a limited time period. Instead of following step-by-step instructions, you'll be given a scenario and task - you figure out how to complete it on your own! An automated scoring system (shown on this page) will provide feedback on whether you have completed your tasks correctly.
 
@@ -1663,7 +1663,7 @@ For this Challenge Lab, you must complete a series of tasks within a limited tim
 * Deploy the updated application version to a Kubernetes cluster.
 * Scale out the application so that it is running 2 replicas.
 
-[**lab notes**](./lab_graded_ScaleOut_containerized_app_on_GKE.md)
+[**lab notes**](./Lab_Graded_ScaleOut_Containerized_App_on_GKE.md)
 
 ## Challenge Labs #3
 

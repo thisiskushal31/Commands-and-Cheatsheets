@@ -62,8 +62,8 @@ In this lab, you will learn to:
 
 Mechanically, the actions you will perform in this lab are almost identical to the previous lab, with a few differences. But look at the deployment you are launching:
 
-<img src="../images/lab_full_production_architecture_sketch.png"
-     alt="lab_full_production_architecture_sketch.png"
+<img src="../Images/Lab_Full_Production_Architecture_Sketch.png"
+     alt="Lab_Full_Production_Architecture_Sketch.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -233,8 +233,8 @@ The application will not be operational until several steps are completed. First
 * Click on Create Firewall Rule and specify the following:
 
 
-<img src="../images/lab_full_production_01.png"
-     alt="lab_full_production_01.png"
+<img src="../Images/Lab_Full_Production_01.png"
+     alt="Lab_Full_Production_01.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -285,8 +285,8 @@ Now that the application is running, you will setup Stackdriver Alerts and some 
 
 The Stackdriver will create a new workspace for your project and will collect data for your workspace. You might have to wait for 2 to 3 minutes to see Stackdriver Monitoring welcome page. You should now see the Stackdriver Monitoring console. The information on the console varies depending on the resources you are monitoring.
 
-<img src="../images/lab_full_production_02.png"
-     alt="lab_full_production_02.png"
+<img src="../Images/Lab_Full_Production_02.png"
+     alt="Lab_Full_Production_02.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -299,14 +299,14 @@ Now that the application is running, you will setup Stackdriver Alerts and some 
 1. On the Stackdriver window or tab, click on Uptime Checks menu, click Uptime Checks Overview. Click on Add Uptime Check.
 2. Specify the following:
 
-<img src="../images/lab_full_production_03.png"
-     alt="lab_full_production_03.png"
+<img src="../Images/Lab_Full_Production_03.png"
+     alt="Lab_Full_Production_03.png"
      style="float: left; margin-right: 10px;" />
 
 3. Click Advanced Options and specify the following, leaving the remaining settings at the default values.
 
-    <img src="../images/lab_full_production_04.png"
-     alt="lab_full_production_04.png"
+    <img src="../Images/Lab_Full_Production_04.png"
+     alt="Lab_Full_Production_04.png"
      style="float: left; margin-right: 10px;" />
 
 4. Click Test. If the test fails, make sure that the service is still working. Also check to see that the firewall rule exists and is correct. If the test succeeds, click Save.
@@ -316,8 +316,8 @@ Now that the application is running, you will setup Stackdriver Alerts and some 
 
 6. Click Create Alert Policy.
 
-<img src="../images/lab_full_production_05.png"
-     alt="lab_full_production_05.png"
+<img src="../Images/Lab_Full_Production_05.png"
+     alt="Lab_Full_Production_05.png"
      style="float: left; margin-right: 10px;" />
 
 7. Go to Metric tab, give a display name in the Untitled Condition.
@@ -343,16 +343,16 @@ Now that the application is running, you will setup Stackdriver Alerts and some 
 * Click on the Untitled Dashboard and give it a name like ArchDP Dash.
 * Click Add Chart.
 
-<img src="../images/lab_full_production_06.png"
-     alt="lab_full_production_06.png"
+<img src="../Images/Lab_Full_Production_06.png"
+     alt="Lab_Full_Production_06.png"
      style="float: left; margin-right: 10px;" />
 
 
 * Click Save.
 * Click Add Chart and add another chart to the dashboard with the following properties:
 
-<img src="../images/lab_full_production_07.png"
-     alt="lab_full_production_07.png"
+<img src="../Images/Lab_Full_Production_07.png"
+     alt="Lab_Full_Production_07.png"
      style="float: left; margin-right: 10px;" />
 
 * Click Save.
@@ -416,8 +416,8 @@ sudo apt-get -y install apache2-utils
 4. View the results on the Dashboard in Stackdriver.
 5. You can also view the instance groups in Console to see if autoscaling has been triggered. On the Navigation menu, click Compute Engine > Instance groups. Your results may look similar to the image below:
 
-<img src="../images/lab_full_production_08.png"
-     alt="lab_full_production_08.png"
+<img src="../Images/Lab_Full_Production_08.png"
+     alt="Lab_Full_Production_08.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -428,8 +428,8 @@ sudo apt-get -y install apache2-utils
 1. On the Navigation menu, click VPC Network > Firewall rules.
 2. As shown in the image below, select the firewall rule that is allowing TCP 8080 traffic, and click Delete.
 
-<img src="../images/lab_full_production_09.png"
-     alt="lab_full_production_09.png"
+<img src="../Images/Lab_Full_Production_09.png"
+     alt="Lab_Full_Production_09.png"
      style="float: left; margin-right: 10px;" />
 
 3. After some time, you should receive a notification email. The notification latency setting determines how long after a policy is triggered before a notification is sent.

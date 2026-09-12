@@ -43,8 +43,8 @@ To use Stackdriver Monitoring with your project, do the following:
 
 Stackdriver will create a new workspace for your project and will collect data for your workspace. You might have to wait for 2 to 3 minutes to see Stackdriver Monitoring welcome page. The information on this page depends on the resources that you are monitoring.
 
-<img src="../images/lab_StackDriver_wlcm_page.png"
-        alt="lab_StackDriver_wlcm_page.png"
+<img src="../Images/Lab_StackDriver_Wlcm_Page.png"
+        alt="Lab_StackDriver_Wlcm_Page.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -145,8 +145,8 @@ Create alerting policies
 2. Click Add Uptime Check.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_StackDriver_table01.png"
-        alt="lab_StackDriver_table01.png"
+<img src="../Images/Lab_StackDriver_Table01.png"
+        alt="Lab_StackDriver_Table01.png"
         style="float: left; margin-right: 10px;" />
 
 

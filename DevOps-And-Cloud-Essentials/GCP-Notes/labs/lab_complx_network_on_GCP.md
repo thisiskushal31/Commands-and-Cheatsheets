@@ -19,22 +19,22 @@ In this lab, you learn how to perform the following tasks:
 
 ### Task 1: Create the network topology
 
-<img src="../images/lab_network_diagram.png"
-        alt="lab_network_diagram.png"
+<img src="../Images/Lab_Network_Diagram.png"
+        alt="Lab_Network_Diagram.png"
         style="float: left; margin-right: 10px;" />
 
 ### Task 2: Create the VM instances
 
 
 
-<img src="../images/lab_network_launch_VMs_in_various_networks.png"
-        alt="lab_network_launch_VMs_in_various_networks.png"
+<img src="../Images/Lab_Network_Launch_VMs_in_Various_Networks.png"
+        alt="Lab_Network_Launch_VMs_in_Various_Networks.png"
         style="float: left; margin-right: 10px;" />
 
 ### Task 3: Work with routes and firewall rules
 
-<img src="../images/lab_network_ping_various_part_of_network.png"
-        alt="lab_network_ping_various_part_of_network.png"
+<img src="../Images/Lab_Network_Ping_Various_Part_of_Network.png"
+        alt="Lab_Network_Ping_Various_Part_of_Network.png"
         style="float: left; margin-right: 10px;" />
 
 The scoping and connectivity relationships between zones, regions, networks, and subnets are different from networking in other public clouds.
@@ -80,8 +80,8 @@ Notice that a route was created for each subnetwork, and one global route was cr
 - Click Create VPC network.
 - Specify the following:
 
-<img src="../images/lab_network_parameters.png"
-        alt="lab_network_parameters.png"
+<img src="../Images/Lab_Network_Parameters.png"
+        alt="Lab_Network_Parameters.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -124,8 +124,8 @@ In this subtask, you create a custom-mode network named learncustom with three s
 * (subnet-2) 192.168.7.0/24 in a different region
 
 
-<img src="../images/lab_network_learncustom.png"
-        alt="lab_network_learncustom.png"
+<img src="../Images/Lab_Network_Learncustom.png"
+        alt="Lab_Network_Learncustom.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -133,8 +133,8 @@ In this subtask, you create a custom-mode network named learncustom with three s
 2. Click Create VPC network.
 3. Specify the following:
 
-<img src="../images/lab_network_parameters_learncurstom.png"
-        alt="lab_network_parameters_learncurstom.png"
+<img src="../Images/Lab_Network_Parameters_Learncurstom.png"
+        alt="Lab_Network_Parameters_Learncurstom.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -142,22 +142,22 @@ Use the dialog to add three subnets as follows.
 
 4. For the first subnet, specify the following:
 
-<img src="../images/lab_network_parameters_learncurstom_subnet_a.png"
-        alt="lab_network_parameters_learncurstom_subnet_a.png"
+<img src="../Images/Lab_Network_Parameters_Learncurstom_Subnet_a.png"
+        alt="Lab_Network_Parameters_Learncurstom_Subnet_a.png"
         style="float: left; margin-right: 10px;" />
 
 5. Click Add subnet.
 6. For the second subnet, specify the following:
 
-<img src="../images/lab_network_parameters_learncurstom_subnet_1b.png"
-        alt="lab_network_parameters_learncurstom_subnet_1b.png"
+<img src="../Images/Lab_Network_Parameters_Learncurstom_Subnet_1b.png"
+        alt="Lab_Network_Parameters_Learncurstom_Subnet_1b.png"
         style="float: left; margin-right: 10px;" />
 
 7. Click Add subnet.
 8. For the third subnet, specify the following:
 
-<img src="../images/lab_network_parameters_learncurstom_subnet_2.png"
-        alt="lab_network_parameters_learncurstom_subnet_2.png"
+<img src="../Images/Lab_Network_Parameters_Learncurstom_Subnet_2.png"
+        alt="Lab_Network_Parameters_Learncurstom_Subnet_2.png"
         style="float: left; margin-right: 10px;" />
 
 9. Click Create.
@@ -181,8 +181,8 @@ Notice that for the other networks, the default network and the learnauto networ
 1. Click Create firewall rule.
 2. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_parameters_learncurstom_firewall.png"
-        alt="lab_network_parameters_learncurstom_firewall.png"
+<img src="../Images/Lab_Network_Parameters_Learncurstom_Firewall.png"
+        alt="Lab_Network_Parameters_Learncurstom_Firewall.png"
         style="float: left; margin-right: 10px;" />
 
 3.For tcp, specify ports 22 and 3389.
@@ -205,8 +205,8 @@ In this subtask, you attempt to modify the network by adding a subnet with an ov
 3. Click Add subnet.
 4. Specify the following, leaving all other values with their defaults:
 
-<img src="../images/lab_network_parameters_learncurstom_overlapping_subnet.png"
-        alt="lab_network_parameters_learncurstom_overlapping_subnet.png"
+<img src="../Images/Lab_Network_Parameters_Learncurstom_Overlapping_Subnet.png"
+        alt="Lab_Network_Parameters_Learncurstom_Overlapping_Subnet.png"
         style="float: left; margin-right: 10px;" />
 
 > The IP address range label is displayed in red with the following error message: "This IP address range overlaps with a subnet you already added. Enter an address range that doesn't overlap."
@@ -220,12 +220,12 @@ In this subtask, you attempt to modify the network by adding a subnet with an ov
 
 To explore the Cloud Virtual Network, you create five micro VMs in different locations in the network. You will not install any additional software on them. They will not run any applications. You will just use them to explore the connectivity across the topologies in the network.
 
-<img src="../images/lab_network_VMs_diagram.png"
-        alt="lab_network_VMs_diagram.png"
+<img src="../Images/Lab_Network_VMs_Diagram.png"
+        alt="Lab_Network_VMs_Diagram.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/lab_network_VMs_table.png"
-        alt="lab_network_VMs_table.png"
+<img src="../Images/Lab_Network_VMs_Table.png"
+        alt="Lab_Network_VMs_Table.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -235,8 +235,8 @@ To explore the Cloud Virtual Network, you create five micro VMs in different loc
 2. Click Create.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_VMs_parameters.png"
-        alt="lab_network_VMs_parameters.png"
+<img src="../Images/Lab_Network_VMs_Parameters.png"
+        alt="Lab_Network_VMs_Parameters.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -250,8 +250,8 @@ To explore the Cloud Virtual Network, you create five micro VMs in different loc
 1. Click Create instance.
 2. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_VMs_learn-2.png"
-        alt="lab_network_VMs_learn-2.png"
+<img src="../Images/Lab_Network_VMs_Learn_2.png"
+        alt="Lab_Network_VMs_Learn_2.png"
         style="float: left; margin-right: 10px;" />
 
 3. Click Management, security, disks, networking, sole tenancy to access the advanced options.
@@ -259,8 +259,8 @@ To explore the Cloud Virtual Network, you create five micro VMs in different loc
 5. Click the pencil icon to edit Network interfaces.
 6. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_VMs_learn-2_param.png"
-        alt="lab_network_VMs_learn-2_param.png"
+<img src="../Images/Lab_Network_VMs_Learn_2_Param.png"
+        alt="Lab_Network_VMs_Learn_2_Param.png"
         style="float: left; margin-right: 10px;" />
 
 7. Click Done.
@@ -271,8 +271,8 @@ To explore the Cloud Virtual Network, you create five micro VMs in different loc
 1. Click Create instance.
 2. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_VMs_learn-3.png"
-        alt="lab_network_VMs_learn-3.png"
+<img src="../Images/Lab_Network_VMs_Learn_3.png"
+        alt="Lab_Network_VMs_Learn_3.png"
         style="float: left; margin-right: 10px;" />
 
 3. Click Management, security, disks, networking, sole tenancy to access the advanced options.
@@ -280,8 +280,8 @@ To explore the Cloud Virtual Network, you create five micro VMs in different loc
 5. Click the pencil icon to edit Network interfaces.
 6. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_VMs_learn-3_network.png"
-        alt="lab_network_VMs_learn-3_network.png"
+<img src="../Images/Lab_Network_VMs_Learn_3_Network.png"
+        alt="Lab_Network_VMs_Learn_3_Network.png"
         style="float: left; margin-right: 10px;" />
 
 7. Click Done.
@@ -292,8 +292,8 @@ To explore the Cloud Virtual Network, you create five micro VMs in different loc
 1. Click Create instance.
 2. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_VMs_learn-4.png"
-        alt="lab_network_VMs_learn-4.png"
+<img src="../Images/Lab_Network_VMs_Learn_4.png"
+        alt="Lab_Network_VMs_Learn_4.png"
         style="float: left; margin-right: 10px;" />
 
 3. Click Management, security, disks, networking, sole tenancy to access the advanced options.
@@ -301,8 +301,8 @@ To explore the Cloud Virtual Network, you create five micro VMs in different loc
 5. Click the pencil icon to edit Network interfaces.
 6. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_VMs_learn-4_network.png"
-        alt="lab_network_VMs_learn-4_network.png"
+<img src="../Images/Lab_Network_VMs_Learn_4_Network.png"
+        alt="Lab_Network_VMs_Learn_4_Network.png"
         style="float: left; margin-right: 10px;" />
 
 7. Click Done.
@@ -313,8 +313,8 @@ To explore the Cloud Virtual Network, you create five micro VMs in different loc
 1. Click Create instance.
 2. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_VMs_learn-5.png"
-        alt="lab_network_VMs_learn-5.png"
+<img src="../Images/Lab_Network_VMs_Learn_5.png"
+        alt="Lab_Network_VMs_Learn_5.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -323,8 +323,8 @@ To explore the Cloud Virtual Network, you create five micro VMs in different loc
 5. Click the pencil icon to edit Network interfaces.
 6. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_VMs_learn-5_network.png"
-        alt="lab_network_VMs_learn-5_network.png"
+<img src="../Images/Lab_Network_VMs_Learn_5_Network.png"
+        alt="Lab_Network_VMs_Learn_5_Network.png"
         style="float: left; margin-right: 10px;" />
 
 7. Click Done.
@@ -516,8 +516,8 @@ To implement the policy, you delete the learnauto us-central1 subnetwork and cre
 6. Click Add subnet.
 7. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_delete_subnet.png"
-        alt="lab_network_delete_subnet.png"
+<img src="../Images/Lab_Network_Delete_Subnet.png"
+        alt="Lab_Network_Delete_Subnet.png"
         style="float: left; margin-right: 10px;" />
 
 8. Click Add.

@@ -48,7 +48,7 @@
 
 
 
-This course builds on the [Essential Cloud Infrastructure: Core Services](./course_3_Essential_Cloud_Infrastructure__Core_Services.md) course and enhances your study of architecting with Compute Engine.
+This course builds on the [Essential Cloud Infrastructure: Core Services](./Course_3_Essential_Cloud_Infrastructure_Core_Services.md) course and enhances your study of architecting with Compute Engine.
 
 In this course, we start by going over:
 
@@ -73,19 +73,19 @@ In this course, we start by going over:
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/oEOJj/cloud-vpn)
 
-<img src="../images/Cloud_VPN.png"
+<img src="../Images/Cloud_VPN.png"
     alt="Cloud_VPN.png"
     style="float: left; margin-right: 10px;" />
 
 Example:
 
-<img src="../images/Cloud_VPN_example.png"
+<img src="../Images/Cloud_VPN_example.png"
     alt="Cloud_VPN_example.png"
     style="float: left; margin-right: 10px;" />
 
 Dynamic routes with **Cloud Router**
 
-<img src="../images/Cloud_VPN_dynamic_routes_with_Cloud_Router.png"
+<img src="../Images/Cloud_VPN_dynamic_routes_with_Cloud_Router.png"
     alt="Cloud_VPN_dynamic_routes_with_Cloud_Router.png"
     style="float: left; margin-right: 10px;" />
 
@@ -112,7 +112,7 @@ The services are:
 * **Dedicated Interconnect**, 
 * and **Partner Interconnect**.
 
-<img src="../images/Cloud_Interconnect_and_Peering.png"
+<img src="../Images/Cloud_Interconnect_and_Peering.png"
     alt="Cloud_Interconnect_and_Peering.png"
     style="float: left; margin-right: 10px;" />
 
@@ -128,7 +128,7 @@ The services are:
 
 [Documentation](https://cloud.google.com/interconnect/docs/concepts/dedicated-overview#redundancy)
 
-<img src="../images/Cloud_Interconnect_and_Peering_dedicated_interconnect.png"
+<img src="../Images/Cloud_Interconnect_and_Peering_dedicated_interconnect.png"
     alt="Cloud_Interconnect_and_Peering_dedicated_interconnect.png"
     style="float: left; margin-right: 10px;" />
 
@@ -142,7 +142,7 @@ Definition **SLA***: Service Level Agreement
 
 Google locations for physically interconnecting between Google's network and a private network:
 
-<img src="../images/Cloud_Interconnect_physical_Google_location_for_physically_interconnecting_with_private_network.png"
+<img src="../Images/Cloud_Interconnect_physical_Google_location_for_physically_interconnecting_with_private_network.png"
     alt="Cloud_Interconnect_physical_Google_location_for_physically_interconnecting_with_private_network.png"
     style="float: left; margin-right: 10px;" />
 
@@ -157,14 +157,14 @@ If you are no-where near one of this "Colocation Facility Locations", consider *
 
 [Documentation](https://cloud.google.com/interconnect/docs/concepts/partner-overview#redundancy)
 
-<img src="../images/Cloud_Interconnect_partner_interconnect.png"
+<img src="../Images/Cloud_Interconnect_partner_interconnect.png"
     alt="Cloud_Interconnect_partner_interconnect.png"
     style="float: left; margin-right: 10px;" />
 
 
 #### Comparison of capacity/location's requirements
 
-<img src="../images/Cloud_Interconnect_comparison.png"
+<img src="../Images/Cloud_Interconnect_comparison.png"
     alt="Cloud_Interconnect_comparison.png"
     style="float: left; margin-right: 10px;" />
 
@@ -185,11 +185,11 @@ There is 2 kinds of Peering:
 
 #### Direct Peering 
 
-<img src="../images/Cloud_Peering_Direct_peering.png"
+<img src="../Images/Cloud_Peering_Direct_peering.png"
     alt="Cloud_Peering_Direct_peering.png"
     style="float: left; margin-right: 10px;" />
 
-<img src="../images/Cloud_Peering_Direct_peering_edge_points.png"
+<img src="../Images/Cloud_Peering_Direct_peering_edge_points.png"
     alt="Cloud_Peering_Direct_peering_edge_points.png"
     style="float: left; margin-right: 10px;" />
 
@@ -197,13 +197,13 @@ There is 2 kinds of Peering:
 
 If you are no-where near these Google locations, you might consider "**Carrier Peering**".
 
-<img src="../images/Cloud_Peering_Carrier_peering.png"
+<img src="../Images/Cloud_Peering_Carrier_peering.png"
     alt="Cloud_Peering_Carrier_peering.png"
     style="float: left; margin-right: 10px;" />
 
 #### Comparison of Peering options
 
-<img src="../images/Cloud_Peering_Carrier_comparison_of_options.png"
+<img src="../Images/Cloud_Peering_Carrier_comparison_of_options.png"
     alt="Cloud_Peering_Carrier_comparison_of_options.png"
     style="float: left; margin-right: 10px;" />
 
@@ -211,11 +211,11 @@ If you are no-where near these Google locations, you might consider "**Carrier P
 
 The 5 different ways to connect your infrastructure to GCP:
 
-<img src="../images/Cloud_Interconnect_and_Peering.png"
+<img src="../Images/Cloud_Interconnect_and_Peering.png"
     alt="Cloud_Interconnect_and_Peering.png"
     style="float: left; margin-right: 10px;" />
 
-<img src="../images/Cloud_Interconnect_5_ways.png"
+<img src="../Images/Cloud_Interconnect_5_ways.png"
     alt="Cloud_Interconnect_5_ways.png"
     style="float: left; margin-right: 10px;" />
 
@@ -226,13 +226,13 @@ Another way to organize these sources is by:
 - and by **peering services**: Peering services in contrast offer access to Google public IP addresses only without an SLA. 
 
  
-<img src="../images/Cloud_Peering_Carrier_choose_a_network_connection.png"
+<img src="../Images/Cloud_Peering_Carrier_choose_a_network_connection.png"
     alt="Cloud_Peering_Carrier_choose_a_network_connection.png"
     style="float: left; margin-right: 10px;" />
 
 #### Flow diagram to decide which connection to choose
 
-<img src="../images/Cloud_Interconnect_decision_diagram.png"
+<img src="../Images/Cloud_Interconnect_decision_diagram.png"
     alt="Cloud_Interconnect_decision_diagram.png"
     style="float: left; margin-right: 10px;" />
 
@@ -248,7 +248,7 @@ Another way to organize these sources is by:
 
 #### Shared VPC
 
-<img src="../images/Sharing_VPC_networkd_shared_VPC.png"
+<img src="../Images/Sharing_VPC_networkd_shared_VPC.png"
     alt="Sharing_VPC_networkd_shared_VPC.png"
     style="float: left; margin-right: 10px;" />
 
@@ -256,19 +256,19 @@ Another way to organize these sources is by:
 
 VPC Network Peering is a decentralized or distributed approach to multiproject networking. Because each VPC network, may remain under the control of separate administrator groups, and maintains its own global firewall, and routing tables.
 
-<img src="../images/Sharing_VPC_networkd_VPC_peering.png"
+<img src="../Images/Sharing_VPC_networkd_VPC_peering.png"
     alt="Sharing_VPC_networkd_VPC_peering.png"
     style="float: left; margin-right: 10px;" />
 
 #### Comparison Shared VPC vs VPC Peering
 
-<img src="../images/Sharing_VPC_comparison.png"
+<img src="../Images/Sharing_VPC_comparison.png"
     alt="Sharing_VPC_comparison.png"
     style="float: left; margin-right: 10px;" />
 
 Differences in Network administration models:
 
-<img src="../images/Sharing_VPC_comparison_network_administration_models.png"
+<img src="../Images/Sharing_VPC_comparison_network_administration_models.png"
     alt="Sharing_VPC_comparison_network_administration_models.png"
     style="float: left; margin-right: 10px;" />
 
@@ -289,7 +289,7 @@ Different types of load balancers that can be divided into two categories:
 - **global**
 - **regional**
 
-<img src="../images/Load_balancing_different_kinds.png"
+<img src="../Images/Load_balancing_different_kinds.png"
     alt="Load_balancing_different_kinds.png"
     style="float: left; margin-right: 10px;" />
 
@@ -311,19 +311,19 @@ The internal load balancer uses Andromeda which is GCP's software defined networ
 
 **Definition**: A managed instance group is a **collection of identical virtual machine instances** that you control as a single entity using an **instance template**.
 
-<img src="../images/Load_balancing_Managed_instances.png"
+<img src="../Images/Load_balancing_Managed_instances.png"
     alt="Load_balancing_Managed_instances.png"
     style="float: left; margin-right: 10px;" />
 
 You will need to create/use Instance Templates: 
 
-<img src="../images/Load_balancing_instance_template.png"
+<img src="../Images/Load_balancing_instance_template.png"
     alt="Load_balancing_instance_template.png"
     style="float: left; margin-right: 10px;" />
 
 Define "rules" for your instance group:
 
-<img src="../images/Load_balancing_manage_instance_groups.png"
+<img src="../Images/Load_balancing_manage_instance_groups.png"
     alt="Load_balancing_manage_instance_groups.png"
     style="float: left; margin-right: 10px;" />
 
@@ -335,20 +335,20 @@ In practice, you are just creating VMs but applying much more rules to that inst
 
 Based on utilization and your thresholds:
 
-<img src="../images/Load_balancing_manage_instance_groups_autoscaling.png"
+<img src="../Images/Load_balancing_manage_instance_groups_autoscaling.png"
     alt="Load_balancing_manage_instance_groups_autoscaling.png"
     style="float: left; margin-right: 10px;" />
 
 How to decide on a threshold?
 
-<img src="../images/Load_balancing_manage_instance_groups_autoscaling_how_to_set_thresholds.png"
+<img src="../Images/Load_balancing_manage_instance_groups_autoscaling_how_to_set_thresholds.png"
     alt="Load_balancing_manage_instance_groups_autoscaling_how_to_set_thresholds.png"
     style="float: left; margin-right: 10px;" />
 
 
 Another tool: Health Check, similar to Uptime checks in Stackdriver:
 
-<img src="../images/Load_balancing_manage_instance_groups_autoscaling_create_health_check.png"
+<img src="../Images/Load_balancing_manage_instance_groups_autoscaling_create_health_check.png"
     alt="Load_balancing_manage_instance_groups_autoscaling_create_health_check.png"
     style="float: left; margin-right: 10px;" />
 
@@ -357,26 +357,26 @@ Another tool: Health Check, similar to Uptime checks in Stackdriver:
 
 [overview video](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/suxVg/overview-of-http-s-load-balancing)
 
-<img src="../images/Load_balancing_HTTPS_load_balancing.png"
+<img src="../Images/Load_balancing_HTTPS_load_balancing.png"
     alt="Load_balancing_HTTPS_load_balancing.png"
     style="float: left; margin-right: 10px;" />
 
 
 Architecture of an HTTP(S) load balancer
 
-<img src="../images/Load_balancing_HTTPS_architecture.png"
+<img src="../Images/Load_balancing_HTTPS_architecture.png"
     alt="Load_balancing_HTTPS_architecture.png"
     style="float: left; margin-right: 10px;" />
 
 Backend services provided by a load balancer:
 
-<img src="../images/Load_balancing_HTTPS_recall_of_services.png"
+<img src="../Images/Load_balancing_HTTPS_recall_of_services.png"
     alt="Load_balancing_HTTPS_recall_of_services.png"
     style="float: left; margin-right: 10px;" />
 
 Example #1: HTTP load balancer on a single global IP ([video](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/RodYr/example-http-load-balancer))
 
-<img src="../images/Load_balancing_example.png"
+<img src="../Images/Load_balancing_example.png"
     alt="Load_balancing_example.png"
     style="float: left; margin-right: 10px;" />
 
@@ -386,7 +386,7 @@ Example #2: HTTP load balancer (Content-based load balancer)
 - 2 backends service: WEB (`/<whatever>`) or VIDEO (`/video`) traffic
 - traffic is split by the URL header, as specified by the URL map
 
-<img src="../images/Load_balancing_example_2.png"
+<img src="../Images/Load_balancing_example_2.png"
     alt="Load_balancing_example_2.png"
     style="float: left; margin-right: 10px;" />
 
@@ -396,13 +396,13 @@ HTTPS load balancer ([video](HTTP(S) load balancing))
 - SSL certificate
 - QUIC transport layer protocol
 
-<img src="../images/Load_balancing_httpS.png"
+<img src="../Images/Load_balancing_httpS.png"
     alt="Load_balancing_httpS.png"
     style="float: left; margin-right: 10px;" />
 
 SSL certificate:
 
-<img src="../images/Load_balancing_httpS_SSL_certificate.png"
+<img src="../Images/Load_balancing_httpS_SSL_certificate.png"
     alt="Load_balancing_httpS_SSL_certificate.png"
     style="float: left; margin-right: 10px;" />
 
@@ -411,11 +411,11 @@ SSL certificate:
 ### Lab: Configuring an HTTP Load Balancer with Autoscaling
 
 - [intro video](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/WBXBJ/lab-intro-configuring-an-http-load-balancer-with-autoscaling)
-- [lab notes](../labs/lab_Load_balancer_with_Autoscaling.md)
+- [lab notes](../Labs/Lab_Load_Balancer_with_Autoscaling.md)
 - [review video](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/cF54y/lab-review-configuring-an-http-load-balancer-with-autoscaling)
 
-<img src="../images/lab_Load_balancing_autoscaling.png"
-    alt="lab_Load_balancing_autoscaling.png"
+<img src="../Images/Lab_Load_Balancing_Autoscaling.png"
+    alt="Lab_Load_Balancing_Autoscaling.png"
     style="float: left; margin-right: 10px;" />
 
 - 2 backends in different regions: us_central_1 & europe_west_1
@@ -432,7 +432,7 @@ SSL certificate:
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/CNZxs/ssl-proxy-load-balancing)
 
-<img src="../images/SSL_proxy.png"
+<img src="../Images/SSL_proxy.png"
     alt="SSL_proxy.png"
     style="float: left; margin-right: 10px;" />
 
@@ -441,7 +441,7 @@ More on [SSL Proxy Load Balancing Concepts](https://cloud.google.com/load-balanc
 
 Example using SSL Proxy load balancing (recommended over TCP load balancing)
 
-<img src="../images/SSL_proxy_example.png"
+<img src="../Images/SSL_proxy_example.png"
     alt="SSL_proxy_example.png"
     style="float: left; margin-right: 10px;" />
 
@@ -452,14 +452,14 @@ Example using SSL Proxy load balancing (recommended over TCP load balancing)
 
 > NOT ENCRYPTED!!!!
 
-<img src="../images/TCP_proxy.png"
+<img src="../Images/TCP_proxy.png"
     alt="TCP_proxy.png"
     style="float: left; margin-right: 10px;" />
 
 
 Example using TCP Proxy load balancing:
 
-<img src="../images/TCP_proxy_example.png"
+<img src="../Images/TCP_proxy_example.png"
     alt="TCP_proxy_example.png"
     style="float: left; margin-right: 10px;" />
 
@@ -473,8 +473,8 @@ Network load balancing is a **regional** **non-proxied** load balancing service.
 
 In other words, all traffic is passed through the load balancer instead of being proxied and **traffic can only be balanced between virtual machine instances that are in the same region unlike a global load balancer**.
 
-<img src="../images/network_load_balancer.png"
-    alt="network_load_balancer.png"
+<img src="../Images/Network_Load_Balancer.png"
+    alt="Network_Load_Balancer.png"
     style="float: left; margin-right: 10px;" />
 
 **When/Where to use it?**
@@ -485,14 +485,14 @@ The back ends of a network load balancer can be a **template-based instance grou
 
 #### What is a target pooled resource?
 
-<img src="../images/network_load_balancer_Target_pool_resource.png"
-    alt="network_load_balancer_Target_pool_resource.png"
+<img src="../Images/Network_Load_Balancer_Target_Pool_Resource.png"
+    alt="Network_Load_Balancer_Target_Pool_Resource.png"
     style="float: left; margin-right: 10px;" />
 
 They have limitations:
 
-<img src="../images/network_load_balancer_Target_pool_resource_limitations.png"
-    alt="network_load_balancer_Target_pool_resource_limitations.png"
+<img src="../Images/Network_Load_Balancer_Target_Pool_Resource_Limitations.png"
+    alt="Network_Load_Balancer_Target_Pool_Resource_Limitations.png"
     style="float: left; margin-right: 10px;" />
 
 
@@ -500,8 +500,8 @@ They have limitations:
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/Ys411/internal-load-balancing)
 
-<img src="../images/internal_load_balancer.png"
-    alt="internal_load_balancer.png"
+<img src="../Images/Internal_Load_Balancer.png"
+    alt="Internal_Load_Balancer.png"
     style="float: left; margin-right: 10px;" />
 
 **Internal load balancing** is a **regional**, private load balancing service for TCP and UDP based traffic. 
@@ -509,24 +509,24 @@ They have limitations:
 In other words, this load balancer enables you to run and **scale your services behind a private load balancing IP address**. This means that it is only accessible through the **internal IP address of virtual machine instances that are in the same region**. Therefore, use internal load balancing to configure an internal load balancing IP address, to act as the front end to your private backend instances.
 
 
-<img src="../images/internal_load_balancer_software_solution.png"
-    alt="internal_load_balancer_software_solution.png"
+<img src="../Images/Internal_Load_Balancer_Software_Solution.png"
+    alt="Internal_Load_Balancer_Software_Solution.png"
     style="float: left; margin-right: 10px;" />
 
 **"3-tier web service" use case**
 
-<img src="../images/internal_load_balancer_3tier_balancer_use_case.png"
-    alt="internal_load_balancer_3tier_balancer_use_case.png"
+<img src="../Images/Internal_Load_Balancer_3tier_Balancer_Use_Case.png"
+    alt="Internal_Load_Balancer_3tier_Balancer_Use_Case.png"
     style="float: left; margin-right: 10px;" />
 
 ### Lab: Configuring an Internal Load Balancer
 
 - [video intro](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/vt2PJ/lab-intro-configuring-an-internal-load-balancer)
-- [Lab notes](../labs/lab_Internal_Load_balancer.md) 
+- [Lab notes](../Labs/Lab_Internal_Load_Balancer.md) 
 - [Lab review video](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/WPl40/lab-review-configuring-an-internal-load-balancer)
 
-<img src="../images/lab_internal_load_balancer.png"
-    alt="lab_internal_load_balancer.png"
+<img src="../Images/Lab_Internal_Load_Balancer.png"
+    alt="Lab_Internal_Load_Balancer.png"
     style="float: left; margin-right: 10px;" />
 
 
@@ -538,7 +538,7 @@ In other words, this load balancer enables you to run and **scale your services 
 
 **One differentiator** between the different GCP load balancers is the **support for IPv6 clients**. Only the HTTPS, SSL proxy, and TCP proxy load balancing services support IPV6 clients
 
-<img src="../images/Load_balancing_what_to_choose.png"
+<img src="../Images/Load_balancing_what_to_choose.png"
     alt="Load_balancing_what_to_choose.png"
     style="float: left; margin-right: 10px;" />
 
@@ -548,11 +548,11 @@ In other words, this load balancer enables you to run and **scale your services 
 - external vs internal load balancing,
 - and the traffic type
 
-<img src="../images/Load_balancing_decision_tree.png"
+<img src="../Images/Load_balancing_decision_tree.png"
     alt="Load_balancing_decision_tree.png"
     style="float: left; margin-right: 10px;" />
 
-<img src="../images/Load_balancing_comparison_table.png"
+<img src="../Images/Load_balancing_comparison_table.png"
     alt="Load_balancing_comparison_table.png"
     style="float: left; margin-right: 10px;" />
 
@@ -581,27 +581,27 @@ Creating resources using GCP:
 - Cloud Shell (Command line tool, if you know how to use the service)
 - Cloud SDK (programmatically... one step further)
 
-<img src="../images/infrastructure_management_console_cloudshell_deploymentManager.png"
+<img src="../Images/Infrastructure_Management_Console_Cloudshell_DeploymentManager.png"
     alt=""
     style="float: left; margin-right: 10px;" />
 
 
 Deployment Manager takes it one step further: a **declarative approach**.
 
-<img src="../images/infrastructure_management_deploymentManager.png"
-    alt="infrastructure_management_deploymentManager.png"
+<img src="../Images/Infrastructure_Management_DeploymentManager.png"
+    alt="Infrastructure_Management_DeploymentManager.png"
     style="float: left; margin-right: 10px;" />
 
 #### Example: automode network with firewall rule 
 
-<img src="../images/infrastructure_management_deploymentManager_example_network_with_firewall.png"
-    alt="infrastructure_management_deploymentManager_example_network_with_firewall.png"
+<img src="../Images/Infrastructure_Management_DeploymentManager_Example_Network_with_Firewall.png"
+    alt="Infrastructure_Management_DeploymentManager_Example_Network_with_Firewall.png"
     style="float: left; margin-right: 10px;" />
 
 - automate using templates: one of the automode network, one for the firewall rule.
 
-<img src="../images/infrastructure_management_deploymentManager_example_network_with_firewall_02.png"
-    alt="infrastructure_management_deploymentManager_example_network_with_firewall_02.png"
+<img src="../Images/Infrastructure_Management_DeploymentManager_Example_Network_with_Firewall_02.png"
+    alt="Infrastructure_Management_DeploymentManager_Example_Network_with_Firewall_02.png"
     style="float: left; margin-right: 10px;" />
 
 - [Supported resources type for Deployment Manager](https://cloud.google.com/deployment-manager/docs/configuration/supported-resource-types)
@@ -618,8 +618,8 @@ Deployment Manager takes it one step further: a **declarative approach**.
 
 Many of them works across other Cloud provider, e.g. Terraform!
 
-<img src="../images/infrastructure_management_other_tools_than_deploymentManager.png"
-    alt="infrastructure_management_other_tools_than_deploymentManager.png"
+<img src="../Images/Infrastructure_Management_Other_Tools_Than_DeploymentManager.png"
+    alt="Infrastructure_Management_Other_Tools_Than_DeploymentManager.png"
     style="float: left; margin-right: 10px;" />
 
 - Other tools similar to Deployment Manager: [Infrastructure as Code (IaC) tools for Google Cloud](https://cloud.google.com/solutions/infrastructure-as-code/#cards)
@@ -628,18 +628,18 @@ Many of them works across other Cloud provider, e.g. Terraform!
 #### Lab Intro: Automating the Infrastructure of Networks Using Deployment Manager and/or Terraform
 
 - [overview video](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/lqJj0/lab-intro-automating-the-infrastructure-of-networks-using-deployment-manager-or)
-- [lab notes](../labs/lab_deployment_manager_from_templates_automode_network_with_firewall.md)
+- [lab notes](../Labs/Lab_Deployment_Manager_from_Templates_Automode_Network_with_Firewall.md)
 - [lab review video](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/rAynt/lab-review-automating-the-infrastructure-of-networks-using-deployment-manager)
 
 
-<img src="../images/lab_infrastructure_management_as_code.png"
-    alt="lab_infrastructure_management_as_code.png"
+<img src="../Images/Lab_Infrastructure_Management_As_Code.png"
+    alt="Lab_Infrastructure_Management_As_Code.png"
     style="float: left; margin-right: 10px;" />
 
 #### Lab: Automating the Infrastructure of networks using Terraform
 
 - [overview video](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/lqJj0/lab-intro-automating-the-infrastructure-of-networks-using-deployment-manager-or)
-- [lab notes](../labs/lab_deployment_infrastructure_using_Terraform_automode_network_with_firewall.md)
+- [lab notes](../Labs/Lab_Deployment_Infrastructure_Using_Terraform_Automode_Network_with_Firewall.md)
 - [lab review video](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/z1lV3/lab-review-automating-the-infrastructure-of-networks-using-terraform)
 
 
@@ -647,8 +647,8 @@ Many of them works across other Cloud provider, e.g. Terraform!
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/NUkQL/gcp-marketplace)
 
-<img src="../images/infrastructure_management_GCP_Marketplace.png"
-    alt="infrastructure_management_GCP_Marketplace.png"
+<img src="../Images/Infrastructure_Management_GCP_Marketplace.png"
+    alt="Infrastructure_Management_GCP_Marketplace.png"
     style="float: left; margin-right: 10px;" />
 
 GCP marketplace lets you quickly deploy functional software packages that run on GCP. Essentially, GCP marketplace offers production grade solutions from third-party vendors who have already created their own deployment configurations based on Deployment Manager.
@@ -671,35 +671,35 @@ Managed services are partial or complete solutions offered as a service. They ex
  In this module, we give you an overview of **BigQuery**, **Cloud Dataflow**, **Cloud Dataprep** by **Trifecta** and **Cloud Dataproc**. Now, all of these services are for data analytics purposes. And since that's not the focus of this course series, there won't be any labs on this module. Instead we'll have a quick demo to illustrate how easy it is to use managed services.
 
 - [1min about BigQuery](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/1XYDI/bigquery)
-   <img src="../images/Managed_Services_BigQuery.png"
+   <img src="../Images/Managed_Services_BigQuery.png"
     alt="Managed_Services_BigQuery.png"
     style="float: left; margin-right: 10px;" />
-   <img src="../images/Managed_Services_BigQuery_02.png"
+   <img src="../Images/Managed_Services_BigQuery_02.png"
     alt="Managed_Services_BigQuery_02.png"
     style="float: left; margin-right: 10px;" />
 
 - [1min about Cloud Dataflow](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/k3C1g/cloud-dataflow)
-   <img src="../images/Managed_Services_CloudDataflow.png"
+   <img src="../Images/Managed_Services_CloudDataflow.png"
     alt="Managed_Services_CloudDataflow.png"
     style="float: left; margin-right: 10px;" />
-   <img src="../images/Managed_Services_CloudDataflow_02.png"
+   <img src="../Images/Managed_Services_CloudDataflow_02.png"
     alt="Managed_Services_CloudDataflow_02.png"
     style="float: left; margin-right: 10px;" />
 
 - [1min about Cloud Dataprep](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/ycy9w/cloud-dataprep) by Trifacta
-   <img src="../images/Managed_Services_CloudDataPrep.png"
+   <img src="../Images/Managed_Services_CloudDataPrep.png"
     alt="Managed_Services_CloudDataPrep.png"
     style="float: left; margin-right: 10px;" />
-   <img src="../images/Managed_Services_CloudDataPrep_02.png"
+   <img src="../Images/Managed_Services_CloudDataPrep_02.png"
     alt="Managed_Services_CloudDataPrep_02.png"
     style="float: left; margin-right: 10px;" />
 
 
 - [1min about Cloud Dataproc](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation/lecture/7veQ3/cloud-dataproc)
-   <img src="../images/Managed_Services_CloudDataproc.png"
+   <img src="../Images/Managed_Services_CloudDataproc.png"
     alt="Managed_Services_CloudDataproc.png"
     style="float: left; margin-right: 10px;" />
-   <img src="../images/Managed_Services_CloudDataproc_02.png"
+   <img src="../Images/Managed_Services_CloudDataproc_02.png"
     alt="Managed_Services_CloudDataproc_02.png"
     style="float: left; margin-right: 10px;" />
 

@@ -30,8 +30,8 @@ In this lab, you learn how to perform the following tasks:
 
 4. Specify the following:
 
-<img src="../images/lab_Billing_with_BigQuery_01.png"
-        alt="lab_Billing_with_BigQuery_01.png"
+<img src="../Images/Lab_Billing_with_BigQuery_01.png"
+        alt="Lab_Billing_with_BigQuery_01.png"
         style="float: left; margin-right: 10px;" />
 
 5. Click Create Dataset. You should see imported_billing_data in the left pane.
@@ -41,15 +41,15 @@ In this lab, you learn how to perform the following tasks:
 1. Point to imported_billing_data, and then click Create Table to create a new table.
 2. For Source, specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Billing_with_BigQuery_02.png"
-        alt="lab_Billing_with_BigQuery_02.png"
+<img src="../Images/Lab_Billing_with_BigQuery_02.png"
+        alt="Lab_Billing_with_BigQuery_02.png"
         style="float: left; margin-right: 10px;" />
 
 
 3. For Destination, specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_Billing_with_BigQuery_03.png"
-        alt="lab_Billing_with_BigQuery_03.png"
+<img src="../Images/Lab_Billing_with_BigQuery_03.png"
+        alt="Lab_Billing_with_BigQuery_03.png"
         style="float: left; margin-right: 10px;" />
         
 4. Under Schema for Auto detect click Schema and input parameters .
@@ -81,8 +81,8 @@ WHERE Description = "Network Internet Ingress from EMEA to Americas";
 
 > What was the total consumption and units consumed?
 
-<img src="../images/lab_Billing_with_BigQuery_04.png"
-        alt="lab_Billing_with_BigQuery_04.png"
+<img src="../Images/Lab_Billing_with_BigQuery_04.png"
+        alt="Lab_Billing_with_BigQuery_04.png"
         style="float: left; margin-right: 10px;" />
 
 5. Scroll to the Cost column.
@@ -99,8 +99,8 @@ WHERE Description = "Network Internet Egress from Americas to China";
 
 Can you interpret the information?
 
-<img src="../images/lab_Billing_with_BigQuery_05.png"
-        alt="lab_Billing_with_BigQuery_05.png"
+<img src="../Images/Lab_Billing_with_BigQuery_05.png"
+        alt="Lab_Billing_with_BigQuery_05.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -129,8 +129,8 @@ Now construct a simple query based on the Cost field.
 
 How many rows had cost greater than 0?
 
-<img src="../images/lab_Billing_with_BigQuery_06.png"
-        alt="lab_Billing_with_BigQuery_06.png"
+<img src="../Images/Lab_Billing_with_BigQuery_06.png"
+        alt="Lab_Billing_with_BigQuery_06.png"
         style="float: left; margin-right: 10px;" />
 
 > How many rows involved non-zero charges?
@@ -233,8 +233,8 @@ ORDER BY billing_records DESC
 
 Which product had the most billing records?
 
-<img src="../images/lab_Billing_with_BigQuery_07.png"
-        alt="lab_Billing_with_BigQuery_07.png"
+<img src="../Images/Lab_Billing_with_BigQuery_07.png"
+        alt="Lab_Billing_with_BigQuery_07.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -258,8 +258,8 @@ ORDER BY
 
 Which product had the most billing records of over $1
 
-<img src="../images/lab_Billing_with_BigQuery_08.png"
-        alt="lab_Billing_with_BigQuery_08.png"
+<img src="../Images/Lab_Billing_with_BigQuery_08.png"
+        alt="Lab_Billing_with_BigQuery_08.png"
         style="float: left; margin-right: 10px;" />
 
 11. To find the most commonly charged unit of measure, for Compose New Query, paste the following in Query Editor:
@@ -281,8 +281,8 @@ ORDER BY
 
 What was the most commonly charged unit of measure?
 
-<img src="../images/lab_Billing_with_BigQuery_09.png"
-        alt="lab_Billing_with_BigQuery_09.png"
+<img src="../Images/Lab_Billing_with_BigQuery_09.png"
+        alt="Lab_Billing_with_BigQuery_09.png"
         style="float: left; margin-right: 10px;" />
 
 13. To find the product with the highest aggregate cost, for New Query, paste the following in Query Editor:
@@ -304,8 +304,8 @@ ORDER BY
 Which product has the highest total cost?
 
 
-<img src="../images/lab_Billing_with_BigQuery_10.png"
-        alt="lab_Billing_with_BigQuery_10.png"
+<img src="../Images/Lab_Billing_with_BigQuery_10.png"
+        alt="Lab_Billing_with_BigQuery_10.png"
         style="float: left; margin-right: 10px;" />
 
 

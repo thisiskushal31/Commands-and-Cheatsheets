@@ -80,7 +80,7 @@ Create a utility virtual machine
 2. Click Create instance.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/Compute_engine_lab_VM_param.png"
+<img src="../Images/Compute_engine_lab_VM_param.png"
         alt="Compute_engine_lab_VM_param.png"
         style="float: left; margin-right: 10px;" />
 
@@ -121,7 +121,7 @@ Create a Windows virtual machine
 2. Click Create instance.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/Compute_engine_lab_VM_param_custom.png"
+<img src="../Images/Compute_engine_lab_VM_param_custom.png"
         alt="Compute_engine_lab_VM_param_custom.png"
         style="float: left; margin-right: 10px;" />
 

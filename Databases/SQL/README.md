@@ -596,7 +596,7 @@ e_id	e_name	e_salary   e_age   e_gender	e_dept
 It clear only data but structure of table remain constanst.
 
 # JOIN
-![Example of Joins.](./assets/join.png "Example of Joins.")
+![Example of Joins.](./Assets/Join.png "Example of Joins.")
 First create two table
 
 ```sql

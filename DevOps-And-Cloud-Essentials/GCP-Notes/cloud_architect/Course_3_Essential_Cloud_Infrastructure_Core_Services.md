@@ -9,7 +9,7 @@ The goal of these courses is:
 * to evaluate different options, and 
 * to create your own services.
 
-This course builds on the [Essential Cloud Infrastructure: Foundation](./cloud_architect/course_2_Essential_Cloud_Infrastructure__Foundation.md) course and enhances your study of architecting with Compute Engine. In this course, we start by talking about Cloud IAM, and you will administer Identity and Access Management for resources. Next, we’ll cover the different data storage services in GCP, and you will implement some of those services. Then, we’ll go over resource management, where you will manage and examine billing of GCP resources. Lastly, we’ll talk about resource monitoring, and you will monitor GCP resources using Stackdriver services. 
+This course builds on the [Essential Cloud Infrastructure: Foundation](./Cloud_Architect/Course_2_Essential_Cloud_Infrastructure_Foundation.md) course and enhances your study of architecting with Compute Engine. In this course, we start by talking about Cloud IAM, and you will administer Identity and Access Management for resources. Next, we’ll cover the different data storage services in GCP, and you will implement some of those services. Then, we’ll go over resource management, where you will manage and examine billing of GCP resources. Lastly, we’ll talk about resource monitoring, and you will monitor GCP resources using Stackdriver services. 
 
 
 > "We want to welcome you to Architecting with Compute Engine".
@@ -17,7 +17,7 @@ This course builds on the [Essential Cloud Infrastructure: Foundation](./cloud_a
 ## Content
 
 - [course intro video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/6Zi73/course-introduction)
-- [course review video on storage/database services](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/EismW/module-review)
+- [course review video on Storage/database services](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/EismW/module-review)
 - [Module review video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/tLWuy/course-review)
 
 
@@ -67,8 +67,8 @@ This course builds on the [Essential Cloud Infrastructure: Foundation](./cloud_a
 
 GCP offers a **range of Compute Services**
 
-<img src="../images/core_services_Compute_Services.png"
-        alt="core_services_Compute_Services.png"
+<img src="../Images/Core_Services_Compute_Services.png"
+        alt="Core_Services_Compute_Services.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -88,22 +88,22 @@ Components within Cloud IAM which are **organizations**, **roles**, **members** 
 
 Who can do What on Which resources:
 
-<img src="../images/core_services_Cloud_IAM_Who_DoWhat_WhichResource.png"
-        alt="core_services_Cloud_IAM_Who_DoWhat_WhichResource.png"
+<img src="../Images/Core_Services_Cloud_IAM_Who_DoWhat_WhichResource.png"
+        alt="Core_Services_Cloud_IAM_Who_DoWhat_WhichResource.png"
         style="float: left; margin-right: 10px;" />
 
 
 Cloud IAM objects: 
 
-<img src="../images/core_services_Cloud_IAM_objects.png"
-        alt="core_services_Cloud_IAM_objects.png"
+<img src="../Images/Core_Services_Cloud_IAM_Objects.png"
+        alt="Core_Services_Cloud_IAM_Objects.png"
         style="float: left; margin-right: 10px;" />
 
 
 Cloud IAM resource hierarchy:
 
-<img src="../images/core_services_Cloud_IAM_resource_hierarchy.png"
-        alt="core_services_Cloud_IAM_resource_hierarchy.png"
+<img src="../Images/Core_Services_Cloud_IAM_Resource_Hierarchy.png"
+        alt="Core_Services_Cloud_IAM_Resource_Hierarchy.png"
         style="float: left; margin-right: 10px;" />
 
 > Apply the **Principle of Least Priviledges**: Always select the smallest scope that's necessary for the task in order to reduce your exposure to risk!
@@ -115,8 +115,8 @@ Cloud IAM resource hierarchy:
 - **"Organization Admin"**
 - **"Project Creator"**
 
-<img src="../images/core_services_Cloud_IAM_resource_Organization.png"
-        alt="core_services_Cloud_IAM_resource_Organization.png"
+<img src="../Images/Core_Services_Cloud_IAM_Resource_Organization.png"
+        alt="Core_Services_Cloud_IAM_Resource_Organization.png"
         style="float: left; margin-right: 10px;" />
 
 Responsabilities of:
@@ -124,8 +124,8 @@ Responsabilities of:
 - **"Cloud Identity account manager"**
 - **"Organization Admin"**
 
-<img src="../images/core_services_GCP_resources.png"
-        alt="core_services_GCP_resources.png"
+<img src="../Images/Core_Services_GCP_Resources.png"
+        alt="Core_Services_GCP_Resources.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -133,12 +133,12 @@ Responsabilities of:
 
 Folders can act as a sub-organization wihtin the organization.
 
-<img src="../images/core_services_Cloud_IAM_resource_Folders.png"
-        alt="core_services_Cloud_IAM_resource_Folders.png"
+<img src="../Images/Core_Services_Cloud_IAM_Resource_Folders.png"
+        alt="Core_Services_Cloud_IAM_Resource_Folders.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/core_services_Cloud_IAM_resource_every_Roles_of_a_project.png"
-        alt="core_services_Cloud_IAM_resource_every_Roles_of_a_project.png"
+<img src="../Images/Core_Services_Cloud_IAM_Resource_Every_Roles_of_a_Project.png"
+        alt="Core_Services_Cloud_IAM_Resource_Every_Roles_of_a_Project.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -151,42 +151,42 @@ Folders can act as a sub-organization wihtin the organization.
 
 There are three types of roles in Cloud IAM; **Primitive roles**, **predefined roles**, and **custom roles**:
 
-<img src="../images/core_services_Cloud_IAM_Roles.png"
-        alt="core_services_Cloud_IAM_Roles.png"
+<img src="../Images/Core_Services_Cloud_IAM_Roles.png"
+        alt="Core_Services_Cloud_IAM_Roles.png"
         style="float: left; margin-right: 10px;" />
 
 - **Primitive roles** are the original roles that were available in the GCP console, but they are broad. You apply them to a GCP project and they affect all resources in that project.
 
-<img src="../images/core_services_Cloud_IAM_Roles_primitive.png"
-        alt="core_services_Cloud_IAM_Roles_primitive.png"
+<img src="../Images/Core_Services_Cloud_IAM_Roles_Primitive.png"
+        alt="Core_Services_Cloud_IAM_Roles_Primitive.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/core_services_Cloud_IAM_Roles_primitive_coarse_grained.png"
-        alt="core_services_Cloud_IAM_Roles_primitive_coarse_grained.png"
+<img src="../Images/Core_Services_Cloud_IAM_Roles_Primitive_Coarse_Grained.png"
+        alt="Core_Services_Cloud_IAM_Roles_Primitive_Coarse_Grained.png"
         style="float: left; margin-right: 10px;" />
 
 - **Predefined roles** define where those roles can be applied. This provides members with granular access to specific GCP resources and prevents unwanted access to other resources. These roles are collections of permissions because to do any meaningful operations, you usually need more than one permission.
 
-<img src="../images/core_services_Cloud_IAM_Roles_predefined.png"
-        alt="core_services_Cloud_IAM_Roles_predefined.png"
+<img src="../Images/Core_Services_Cloud_IAM_Roles_Predefined.png"
+        alt="Core_Services_Cloud_IAM_Roles_Predefined.png"
         style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/core_services_Cloud_IAM_Roles_predefined_ex.png"
-        alt="core_services_Cloud_IAM_Roles_predefined_ex.png"
+<img src="../Images/Core_Services_Cloud_IAM_Roles_Predefined_Ex.png"
+        alt="Core_Services_Cloud_IAM_Roles_Predefined_Ex.png"
         style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/core_services_Cloud_IAM_Roles_predefined_all.png"
-        alt="core_services_Cloud_IAM_Roles_predefined_all.png"
+<img src="../Images/Core_Services_Cloud_IAM_Roles_Predefined_All.png"
+        alt="Core_Services_Cloud_IAM_Roles_Predefined_All.png"
         style="float: left; margin-right: 10px;" />
 
 But what if one of those roles does not have enough permissions or you need something even finer-grained?
 
 That's what **Custom Roles** permit: a lot of companies use the **least privileged model** in which each person in your organization is given the minimal amount of privilege needed to do their job.
 
-<img src="../images/core_services_Cloud_IAM_Roles_custom.png"
-        alt="core_services_Cloud_IAM_Roles_custom.png"
+<img src="../Images/Core_Services_Cloud_IAM_Roles_Custom.png"
+        alt="Core_Services_Cloud_IAM_Roles_Custom.png"
         style="float: left; margin-right: 10px;" />
 
 #### Demo: Create a Custom role in GCP
@@ -201,8 +201,8 @@ That's what **Custom Roles** permit: a lot of companies use the **least privileg
 
 = **Members** define the who part, of who can do what, on which resource.
 
-<img src="../images/core_services_Cloud_IAM_Members.png"
-        alt="core_services_Cloud_IAM_Members.png"
+<img src="../Images/Core_Services_Cloud_IAM_Members.png"
+        alt="Core_Services_Cloud_IAM_Members.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -221,15 +221,15 @@ There are 5 different types of members:
  
 Use **Google Cloud Directory Sync**!!
 
-<img src="../images/core_services_Cloud_IAM_remote_LDAP_Members.png"
-        alt="core_services_Cloud_IAM_remote_LDAP_Members.png"
+<img src="../Images/Core_Services_Cloud_IAM_Remote_LDAP_Members.png"
+        alt="Core_Services_Cloud_IAM_Remote_LDAP_Members.png"
         style="float: left; margin-right: 10px;" />
 
 
 Many ways to sync your remote account:
 
-<img src="../images/core_services_Cloud_IAM_remote_LDAP_Members_SSO.png"
-        alt="core_services_Cloud_IAM_remote_LDAP_Members_SSO.png"
+<img src="../Images/Core_Services_Cloud_IAM_Remote_LDAP_Members_SSO.png"
+        alt="Core_Services_Cloud_IAM_Remote_LDAP_Members_SSO.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -242,31 +242,31 @@ Many ways to sync your remote account:
 
  A service account is an account that belongs to your application instead of to an individual end user
 
-<img src="../images/core_services_Cloud_IAM_service_account_id.png"
-        alt="core_services_Cloud_IAM_service_account_id.png"
+<img src="../Images/Core_Services_Cloud_IAM_Service_Account_Id.png"
+        alt="Core_Services_Cloud_IAM_Service_Account_Id.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/core_services_Cloud_IAM_service_account_default_for_app_engine.png"
-        alt="core_services_Cloud_IAM_service_account_default_for_app_engine.png"
+<img src="../Images/Core_Services_Cloud_IAM_Service_Account_Default_for_App_Engine.png"
+        alt="Core_Services_Cloud_IAM_Service_Account_Default_for_App_Engine.png"
         style="float: left; margin-right: 10px;" />
 
  
 #### Scopes
 
-<img src="../images/core_services_Cloud_IAM_service_account_scope.png"
-        alt="core_services_Cloud_IAM_service_account_scope.png"
+<img src="../Images/Core_Services_Cloud_IAM_Service_Account_Scope.png"
+        alt="Core_Services_Cloud_IAM_Service_Account_Scope.png"
         style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/core_services_Cloud_IAM_user_created_service_accounts_only_predefined_roles.png"
-        alt="core_services_Cloud_IAM_user_created_service_accounts_only_predefined_roles.png"
+<img src="../Images/Core_Services_Cloud_IAM_User_Created_Service_Accounts_Only_Predefined_Roles.png"
+        alt="Core_Services_Cloud_IAM_User_Created_Service_Accounts_Only_Predefined_Roles.png"
         style="float: left; margin-right: 10px;" />
 
 
 Services Accounts use keys:
 
-<img src="../images/core_services_Cloud_IAM_service_accounts_use_keys.png"
-        alt="core_services_Cloud_IAM_service_accounts_use_keys.png"
+<img src="../Images/Core_Services_Cloud_IAM_Service_Accounts_Use_Keys.png"
+        alt="Core_Services_Cloud_IAM_Service_Accounts_Use_Keys.png"
         style="float: left; margin-right: 10px;" />
 
 ### Cloud IAM best practices
@@ -274,21 +274,21 @@ Services Accounts use keys:
 - [Module intro video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/xghL2/cloud-iam-best-practices)
 - [Module Review video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/u8ETv/module-review)
 
-<img src="../images/core_services_Cloud_IAM_best_practices_resource_hierarchy.png"
-        alt="core_services_Cloud_IAM_best_practices_resource_hierarchy.png"
+<img src="../Images/Core_Services_Cloud_IAM_Best_Practices_Resource_Hierarchy.png"
+        alt="Core_Services_Cloud_IAM_Best_Practices_Resource_Hierarchy.png"
         style="float: left; margin-right: 10px;" />
 
 Grant roles to groups instead of individuals:
 
-<img src="../images/core_services_Cloud_IAM_best_practices_groups.png"
-        alt="core_services_Cloud_IAM_best_practices_groups.png"
+<img src="../Images/Core_Services_Cloud_IAM_Best_Practices_Groups.png"
+        alt="Core_Services_Cloud_IAM_Best_Practices_Groups.png"
         style="float: left; margin-right: 10px;" />
 
 
 Example of best practices when using Service Accounts:
 
-<img src="../images/core_services_Cloud_IAM_best_practices_example_service_Accounts.png"
-        alt="core_services_Cloud_IAM_best_practices_example_service_Accounts.png"
+<img src="../Images/Core_Services_Cloud_IAM_Best_Practices_Example_Service_Accounts.png"
+        alt="Core_Services_Cloud_IAM_Best_Practices_Example_Service_Accounts.png"
         style="float: left; margin-right: 10px;" />
 
 #### Cloud IAP
@@ -298,13 +298,13 @@ Cloud IAP lets you establish a central authorization layer for applications acce
 So you can use an application level access control model instead of relying on network level firewalls. Applications and resources protected by Cloud IAP can only be accessed through the proxy by users and groups with the correct Cloud IAM role. 
 
 
-<img src="../images/core_services_Cloud_IAM_best_practices_Cloud_IAP.png"
-        alt="core_services_Cloud_IAM_best_practices_Cloud_IAP.png"
+<img src="../Images/Core_Services_Cloud_IAM_Best_Practices_Cloud_IAP.png"
+        alt="Core_Services_Cloud_IAM_Best_Practices_Cloud_IAP.png"
         style="float: left; margin-right: 10px;" />
 
 ### Lab Intro: Cloud IAM
 
-- [lab notes](../labs/lab_Cloud_IAM.md)
+- [lab notes](../Labs/Lab_Cloud_IAM.md)
 - [walkthrough video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/mpXBr/lab-review-cloud-iam)
 
 
@@ -318,8 +318,8 @@ The purpose of this module is to explain which services are available and when t
 
 > "I want you to be able to set up and connect to a service without detailed knowledge of how to use a database system. If you want a deeper dive into the design, organizations, structures, schemas, and details on how data can be optimized,served, and stored properly within those different services, I recommend **Google Cloud's data engineering courses**"
 
-<img src="../images/core_services_Data_Storage_module_scope.png"
-        alt="core_services_Data_Storage_module_scope.png"
+<img src="../Images/Core_Services_Data_Storage_Module_Scope.png"
+        alt="Core_Services_Data_Storage_Module_Scope.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -331,15 +331,15 @@ Google offers several storage services to choose from:
 - Cloud Firestore
 - and Cloud Bigtable.
 
-<img src="../images/core_services_Data_Storage_services.png"
-        alt="core_services_Data_Storage_services.png"
+<img src="../Images/Core_Services_Data_Storage_Services.png"
+        alt="Core_Services_Data_Storage_Services.png"
         style="float: left; margin-right: 10px;" />
 
 
 Choose using this decision tree:
 
-<img src="../images/core_services_Data_Storage_services_decision_tree.png"
-        alt="core_services_Data_Storage_services_decision_tree.png"
+<img src="../Images/Core_Services_Data_Storage_Services_Decision_Tree.png"
+        alt="Core_Services_Data_Storage_Services_Decision_Tree.png"
         style="float: left; margin-right: 10px;" />
 
 ### Cloud Storage
@@ -353,8 +353,8 @@ Overview of storage classes:
 - Nearline
 - Coldline
 
-<img src="../images/core_services_Data_Storage_storage_classes.png"
-        alt="core_services_Data_Storage_storage_classes.png"
+<img src="../Images/Core_Services_Data_Storage_Storage_Classes.png"
+        alt="Core_Services_Data_Storage_Storage_Classes.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -364,25 +364,25 @@ Cloud Storage entities:
 - objects
 - access
 
-<img src="../images/core_services_Data_Storage_storage_entities.png"
-        alt="core_services_Data_Storage_storage_entities.png"
+<img src="../Images/Core_Services_Data_Storage_Storage_Entities.png"
+        alt="Core_Services_Data_Storage_Storage_Entities.png"
         style="float: left; margin-right: 10px;" />
 
 
 Changing default storage class:
 
-<img src="../images/core_services_Data_Storage_storage_changing_classes.png"
-        alt="core_services_Data_Storage_storage_changing_classes.png"
+<img src="../Images/Core_Services_Data_Storage_Storage_Changing_Classes.png"
+        alt="Core_Services_Data_Storage_Storage_Changing_Classes.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/core_services_Data_Storage_storage_access_control.png"
-        alt="core_services_Data_Storage_storage_access_control.png"
+<img src="../Images/Core_Services_Data_Storage_Storage_Access_Control.png"
+        alt="Core_Services_Data_Storage_Storage_Access_Control.png"
         style="float: left; margin-right: 10px;" />
 
 Zooming on ACL (Access Control Lists) = Who can access your bucket and what they can do (100 ACLs max). 
 
-<img src="../images/core_services_Data_Storage_storage_access_control_ACLs.png"
-        alt="core_services_Data_Storage_storage_access_control_ACLs.png"
+<img src="../Images/Core_Services_Data_Storage_Storage_Access_Control_ACLs.png"
+        alt="Core_Services_Data_Storage_Storage_Access_Control_ACLs.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -390,35 +390,35 @@ Limited-time access to a user:
 
 `gsutil signurl -d 10m path/to/privatekey.p12 gs://bucket/object`
 
-<img src="../images/core_services_Data_Storage_storage_limited_time_Access_to_user.png"
-        alt="core_services_Data_Storage_storage_limited_time_Access_to_user.png"
+<img src="../Images/Core_Services_Data_Storage_Storage_Limited_Time_Access_to_User.png"
+        alt="Core_Services_Data_Storage_Storage_Limited_Time_Access_to_User.png"
         style="float: left; margin-right: 10px;" />
 
 Cloud Storage Features
 
 ([video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/wKUHL/cloud-storage-features))
 
-<img src="../images/core_services_Data_Storage_storage_features.png"
-        alt="core_services_Data_Storage_storage_features.png"
+<img src="../Images/Core_Services_Data_Storage_Storage_Features.png"
+        alt="Core_Services_Data_Storage_Storage_Features.png"
         style="float: left; margin-right: 10px;" />
 
 
 Object versioning (OFF by default)
 
-<img src="../images/core_services_Data_Storage_storage_features_object_versioning.png"
-        alt="core_services_Data_Storage_storage_features_object_versioning.png"
+<img src="../Images/Core_Services_Data_Storage_Storage_Features_Object_Versioning.png"
+        alt="Core_Services_Data_Storage_Storage_Features_Object_Versioning.png"
         style="float: left; margin-right: 10px;" />
 
 Object lifecycle management (rule-based actions: e.g. delete an object after a year, ...)
 
-<img src="../images/core_services_Data_Storage_storage_features_object_lifecycle_management.png"
-        alt="core_services_Data_Storage_storage_features_object_lifecycle_management.png"
+<img src="../Images/Core_Services_Data_Storage_Storage_Features_Object_Lifecycle_Management.png"
+        alt="Core_Services_Data_Storage_Storage_Features_Object_Lifecycle_Management.png"
         style="float: left; margin-right: 10px;" />
 
 Object Notification with webhooks
 
-<img src="../images/core_services_Data_Storage_storage_features_object_change_notifications.png"
-        alt="core_services_Data_Storage_storage_features_object_change_notifications.png"
+<img src="../Images/Core_Services_Data_Storage_Storage_Features_Object_Change_Notifications.png"
+        alt="Core_Services_Data_Storage_Storage_Features_Object_Change_Notifications.png"
         style="float: left; margin-right: 10px;" />
 
 Data Import services (TeraBytes of data):
@@ -427,21 +427,21 @@ Data Import services (TeraBytes of data):
 - **Storage Transfer Service** (from online data, e.g. from AWS bucket)
 - **Offline Media Import**: 3rd party provider uploads data from physical media 
 
-<img src="../images/core_services_Data_Storage_storage_features_data_import_services.png"
-        alt="core_services_Data_Storage_storage_features_data_import_services.png"
+<img src="../Images/Core_Services_Data_Storage_Storage_Features_Data_Import_Services.png"
+        alt="Core_Services_Data_Storage_Storage_Features_Data_Import_Services.png"
         style="float: left; margin-right: 10px;" />
 
 Decision tree to choose your storage class
 
-<img src="../images/core_services_Data_Storage_storage_decision_tree_class_storage.png"
-        alt="core_services_Data_Storage_storage_decision_tree_class_storage.png"
+<img src="../Images/Core_Services_Data_Storage_Storage_Decision_Tree_Class_Storage.png"
+        alt="Core_Services_Data_Storage_Storage_Decision_Tree_Class_Storage.png"
         style="float: left; margin-right: 10px;" />
 
 
 ### Cloud Storage lab
 
 - [lab tasks description](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/bcncM/lab-intro-cloud-storage)
-- [lab notes](../labs/lab_Cloud_Storage.md)
+- [lab notes](../Labs/Lab_Cloud_Storage.md)
 - [Lab Review: Cloud Storage](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/6IAAh/lab-review-cloud-storage)
 
 ### Cloud SQL
@@ -450,42 +450,42 @@ Decision tree to choose your storage class
 
 Cloud SQL is a **"managed service"** offering an _SQL database_ **service**.
 
-<img src="../images/core_services_cloudSQL_manage_service.png"
-        alt="core_services_cloudSQL_manage_service.png"
+<img src="../Images/Core_Services_CloudSQL_Manage_Service.png"
+        alt="Core_Services_CloudSQL_Manage_Service.png"
         style="float: left; margin-right: 10px;" />
 
 Performances
-<img src="../images/core_services_cloudSQL_performance.png"
-        alt="core_services_cloudSQL_performance.png"
+<img src="../Images/Core_Services_CloudSQL_Performance.png"
+        alt="Core_Services_CloudSQL_Performance.png"
         style="float: left; margin-right: 10px;" />
 
 Optional features (backup, automatic failover, import/export and scaling)
 
-<img src="../images/core_services_cloudSQL_optional_features.png"
-        alt="core_services_cloudSQL_optional_features.png"
+<img src="../Images/Core_Services_CloudSQL_Optional_Features.png"
+        alt="Core_Services_CloudSQL_Optional_Features.png"
         style="float: left; margin-right: 10px;" />
 
 Connecting to a Cloud SQL instance (Summarized in a decision tree for Best Practices)
 
-<img src="../images/core_services_cloudSQL_connecting_to_CloudSQL_instance.png"
-        alt="core_services_cloudSQL_connecting_to_CloudSQL_instance.png"
+<img src="../Images/Core_Services_CloudSQL_Connecting_to_CloudSQL_Instance.png"
+        alt="Core_Services_CloudSQL_Connecting_to_CloudSQL_Instance.png"
         style="float: left; margin-right: 10px;" />
 
 Decision tree for your SQL storage
 
-<img src="../images/core_services_cloudSQL_choosing_your_SQL_storage.png"
-        alt="core_services_cloudSQL_choosing_your_SQL_storage.png"
+<img src="../Images/Core_Services_CloudSQL_Choosing_Your_SQL_Storage.png"
+        alt="Core_Services_CloudSQL_Choosing_Your_SQL_Storage.png"
         style="float: left; margin-right: 10px;" />
 
 
 ### Cloud SQL lab
 
 - [lab tasks description](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/caD6h/lab-intro-cloud-sql)
-- [lab notes](../labs/lab_Cloud_SQL.md)
+- [lab notes](../Labs/Lab_Cloud_SQL.md)
 - [Lab Review: Cloud SQL (MySQL)](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/1Il73/lab-review-cloud-sql)
 
-<img src="../images/lab_Cloud_SQL_01.png"
-        alt="lab_Cloud_SQL_01.png"
+<img src="../Images/Lab_Cloud_SQL_01.png"
+        alt="Lab_Cloud_SQL_01.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -494,25 +494,25 @@ Decision tree for your SQL storage
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/gu1Xc/cloud-spanner)
 
-<img src="../images/lab_Cloud_Spanner_features.png"
-        alt="lab_Cloud_Spanner_features.png"
+<img src="../Images/Lab_Cloud_Spanner_Features.png"
+        alt="Lab_Cloud_Spanner_Features.png"
         style="float: left; margin-right: 10px;" />
 
 Best of Relational & non-relational DB world
 
-<img src="../images/lab_Cloud_Spanner_characteristics_best_relational_non_relational_worlds.png"
-        alt="lab_Cloud_Spanner_characteristics_best_relational_non_relational_worlds.png"
+<img src="../Images/Lab_Cloud_Spanner_Characteristics_Best_Relational_Non_Relational_Worlds.png"
+        alt="Lab_Cloud_Spanner_Characteristics_Best_Relational_Non_Relational_Worlds.png"
         style="float: left; margin-right: 10px;" />
 
 This architecture allows for high availability and global placement:
 
-<img src="../images/lab_Cloud_Spanner_architecture.png"
-        alt="lab_Cloud_Spanner_architecture.png"
+<img src="../Images/Lab_Cloud_Spanner_Architecture.png"
+        alt="Lab_Cloud_Spanner_Architecture.png"
         style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/lab_Cloud_Spanner_Decision_tree_to_choose_Spanner.png"
-        alt="lab_Cloud_Spanner_Decision_tree_to_choose_Spanner.png"
+<img src="../Images/Lab_Cloud_Spanner_Decision_Tree_to_Choose_Spanner.png"
+        alt="Lab_Cloud_Spanner_Decision_Tree_to_Choose_Spanner.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -528,17 +528,17 @@ Cloud Firestore is a:
 - NoSQL document database,
 - that simplifies storing, sinking, and querying data for your mobile, web, and IoT apps at global scale
 
-<img src="../images/lab_Cloud_Firestore.png"
-        alt="lab_Cloud_Firestore.png"
+<img src="../Images/Lab_Cloud_Firestore.png"
+        alt="Lab_Cloud_Firestore.png"
         style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/lab_Cloud_Firestore_new_Datastore.png"
-        alt="lab_Cloud_Firestore_new_Datastore.png"
+<img src="../Images/Lab_Cloud_Firestore_New_Datastore.png"
+        alt="Lab_Cloud_Firestore_New_Datastore.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/lab_Cloud_FireStore_Decision_tree_to_choose_FireStore.png"
-        alt="lab_Cloud_FireStore_Decision_tree_to_choose_FireStore.png"
+<img src="../Images/Lab_Cloud_FireStore_Decision_Tree_to_Choose_FireStore.png"
+        alt="Lab_Cloud_FireStore_Decision_Tree_to_Choose_FireStore.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -546,8 +546,8 @@ Cloud Firestore is a:
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/98vuS/cloud-bigtable)
 
-<img src="../images/lab_Cloud_BigTable.png"
-        alt="lab_Cloud_BigTable.png"
+<img src="../Images/Lab_Cloud_BigTable.png"
+        alt="Lab_Cloud_BigTable.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -560,25 +560,25 @@ Cloud Bigtable stores data in massively scalable tables:
 - Each row column intersection can contain multiple cells or versions at different timestamps, providing a record of how the stored data has been altered over time. 
 
 
-<img src="../images/lab_Cloud_BigTable_storage_model.png"
-        alt="lab_Cloud_BigTable_storage_model.png"
+<img src="../Images/Lab_Cloud_BigTable_Storage_Model.png"
+        alt="Lab_Cloud_BigTable_Storage_Model.png"
         style="float: left; margin-right: 10px;" />
 
 Processing is separated from storage:
 
-<img src="../images/lab_Cloud_BigTable_storage_model_overal_architechture.png"
-        alt="lab_Cloud_BigTable_storage_model_overal_architechture.png"
+<img src="../Images/Lab_Cloud_BigTable_Storage_Model_Overal_Architechture.png"
+        alt="Lab_Cloud_BigTable_Storage_Model_Overal_Architechture.png"
         style="float: left; margin-right: 10px;" />
 
 
 Linear scaling of data re-distribution with number of nodes:
 
-<img src="../images/lab_Cloud_BigTable_storage_model_overal_architechture_auto_rebalance.png"
-        alt="lab_Cloud_BigTable_storage_model_overal_architechture_auto_rebalance.png"
+<img src="../Images/Lab_Cloud_BigTable_Storage_Model_Overal_Architechture_Auto_Rebalance.png"
+        alt="Lab_Cloud_BigTable_Storage_Model_Overal_Architechture_Auto_Rebalance.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/lab_Cloud_BigTable_Decision_tree_to_choose_BigTable.png"
-        alt="lab_Cloud_BigTable_Decision_tree_to_choose_BigTable.png"
+<img src="../Images/Lab_Cloud_BigTable_Decision_Tree_to_Choose_BigTable.png"
+        alt="Lab_Cloud_BigTable_Decision_Tree_to_Choose_BigTable.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -588,8 +588,8 @@ Linear scaling of data re-distribution with number of nodes:
 [video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/Vh6cS/cloud-memorystore)
 
 
-<img src="../images/lab_Cloud_MemoryStore_Redis.png"
-        alt="lab_Cloud_MemoryStore_Redis.png"
+<img src="../Images/Lab_Cloud_MemoryStore_Redis.png"
+        alt="Lab_Cloud_MemoryStore_Redis.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -610,14 +610,14 @@ Resources and GCP are billable, so **managing resources means controlling cost**
 
 Overview of Resource Manager ([video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/ubZCA/cloud-resource-manager))
 
-<img src="../images/lab_Cloud_ResourceManager.png"
-        alt="lab_Cloud_ResourceManager.png"
+<img src="../Images/Lab_Cloud_ResourceManager.png"
+        alt="Lab_Cloud_ResourceManager.png"
         style="float: left; margin-right: 10px;" />
 
 Root Node = Organization node:
 
-<img src="../images/lab_Cloud_ResourceManager_root_node_organization.png"
-        alt="lab_Cloud_ResourceManager_root_node_organization.png"
+<img src="../Images/Lab_Cloud_ResourceManager_Root_Node_Organization.png"
+        alt="Lab_Cloud_ResourceManager_Root_Node_Organization.png"
         style="float: left; margin-right: 10px;" />
 
 From a physical organization standpoint, resources are categorized as:
@@ -630,12 +630,12 @@ Let's look at some examples. Images, snapshots, and networks, are global resourc
 
 External IP addresses are regional resources, and instances and disks are zonal resources. However, regardless of the type, each resource is organized into a project. This enables each project to have its own billing and reporting.
 
-<img src="../images/lab_Cloud_ResourceManager_what_can_be_tracked.png"
-        alt="lab_Cloud_ResourceManager_what_can_be_tracked.png"
+<img src="../Images/Lab_Cloud_ResourceManager_What_Can_Be_Tracked.png"
+        alt="Lab_Cloud_ResourceManager_What_Can_Be_Tracked.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/lab_Cloud_ResourceManager_regional_zonal.png"
-        alt="lab_Cloud_ResourceManager_regional_zonal.png"
+<img src="../Images/Lab_Cloud_ResourceManager_Regional_Zonal.png"
+        alt="Lab_Cloud_ResourceManager_Regional_Zonal.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -643,8 +643,8 @@ External IP addresses are regional resources, and instances and disks are zonal 
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/cVawh/quotas)
 
-<img src="../images/lab_Resources_Quotas.png"
-        alt="lab_Resources_Quotas.png"
+<img src="../Images/Lab_Resources_Quotas.png"
+        alt="Lab_Resources_Quotas.png"
         style="float: left; margin-right: 10px;" />
 
 Why quotas?
@@ -653,8 +653,8 @@ Why quotas?
 - prevent billing spikes
 - forces sizing considerations
 
-<img src="../images/lab_Resources_Quotas_why.png"
-        alt="lab_Resources_Quotas_why.png"
+<img src="../Images/Lab_Resources_Quotas_Why.png"
+        alt="Lab_Resources_Quotas_Why.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -669,29 +669,29 @@ That's where labels and names come in.
 - **Labels are a utility for organizing GCP resources**.
 - **Labels are key value pairs** that you can attach to your resources like VMs, disks, snapshots, and images.
 
-<img src="../images/lab_Resources_Labels.png"
-        alt="lab_Resources_Labels.png"
+<img src="../Images/Lab_Resources_Labels.png"
+        alt="Lab_Resources_Labels.png"
         style="float: left; margin-right: 10px;" />
 
 What to use them for?
 
-<img src="../images/lab_Resources_Labels_example_usage.png"
-        alt="lab_Resources_Labels_example_usage.png"
+<img src="../Images/Lab_Resources_Labels_Example_Usage.png"
+        alt="Lab_Resources_Labels_Example_Usage.png"
         style="float: left; margin-right: 10px;" />
 
 
 Labels vs Tags
 
-<img src="../images/lab_Resources_Labels_vs_tags.png"
-        alt="lab_Resources_Labels_vs_tags.png"
+<img src="../Images/Lab_Resources_Labels_vs_Tags.png"
+        alt="Lab_Resources_Labels_vs_Tags.png"
         style="float: left; margin-right: 10px;" />
 
 ### Billing
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/PiRrk/billing)
 
-<img src="../images/lab_Resources_budget_creation_interface.png"
-        alt="lab_Resources_budget_creation_interface.png"
+<img src="../Images/Lab_Resources_Budget_Creation_Interface.png"
+        alt="Lab_Resources_Budget_Creation_Interface.png"
         style="float: left; margin-right: 10px;" />
 
 #### Use Labels to optimize spendings
@@ -704,21 +704,21 @@ In that case, you might consider relocating some of those instances or using a c
 
 > **Google recommends labeling all your resources and exporting your billing data to BigQuery to analyze your spend.**
 
-<img src="../images/lab_Resources_budget_use_Labels_to_optimize_spending.png"
-        alt="lab_Resources_budget_use_Labels_to_optimize_spending.png"
+<img src="../Images/Lab_Resources_Budget_Use_Labels_to_Optimize_Spending.png"
+        alt="Lab_Resources_Budget_Use_Labels_to_Optimize_Spending.png"
         style="float: left; margin-right: 10px;" />
 
 Visualize your spends with Data Studio
 
-<img src="../images/lab_Resources_budget_visualize_spendings_over_time_DataStudio.png"
-        alt="lab_Resources_budget_visualize_spendings_over_time_DataStudio.png"
+<img src="../Images/Lab_Resources_Budget_Visualize_Spendings_Over_Time_DataStudio.png"
+        alt="Lab_Resources_Budget_Visualize_Spendings_Over_Time_DataStudio.png"
         style="float: left; margin-right: 10px;" />
 
 ### Lab: Billing Administration
 
 - [video billing administration](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/xpHII/demo-billing-administration)
 - [video Lab Intro: Examining **Billing Data** with **BigQuery**](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/Nz755/lab-intro-examining-billing-data-with-bigquery)
-- [Lab notes: Billing data with BigQuery](../labs/lab_billing_data_with_BigQuery.md)
+- [Lab notes: Billing data with BigQuery](../Labs/Lab_Billing_Data_with_BigQuery.md)
 - [Lab Review: Examining Billing Data with BigQuery](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/As3u1/lab-review-examining-billing-data-with-bigquery)
 
 
@@ -735,7 +735,7 @@ Visualize your spends with Data Studio
 - **logging**, and
 - **diagnostics** for your applications
 
-<img src="../images/StackDriver.png"
+<img src="../Images/StackDriver.png"
         alt="StackDriver.png"
         style="float: left; margin-right: 10px;" />
 
@@ -744,20 +744,20 @@ Visualize your spends with Data Studio
 ([video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/xrHfO/stackdriver-overview))
 
 
-<img src="../images/StackDriver_overview.png"
+<img src="../Images/StackDriver_overview.png"
         alt="StackDriver_overview.png"
         style="float: left; margin-right: 10px;" />
 
 Multiple integrated products/tasks
 
-<img src="../images/StackDriver_multiple_integrated_products.png"
+<img src="../Images/StackDriver_multiple_integrated_products.png"
         alt="StackDriver_multiple_integrated_products.png"
         style="float: left; margin-right: 10px;" />
 
 
 Integrations partners (security, ...)
 
-<img src="../images/StackDriver_integrations_partners_on_top_of_StackDriver.png"
+<img src="../Images/StackDriver_integrations_partners_on_top_of_StackDriver.png"
         alt="StackDriver_integrations_partners_on_top_of_StackDriver.png"
         style="float: left; margin-right: 10px;" />
 
@@ -767,22 +767,22 @@ Integrations partners (security, ...)
 
 #### SRE: Site Reliability Engineering
 
-<img src="../images/StackDriver_SRE.png"
+<img src="../Images/StackDriver_SRE.png"
         alt="StackDriver_SRE.png"
         style="float: left; margin-right: 10px;" />
 
 
-<img src="../images/StackDriver_SRE_monitoring.png"
-        alt="StackDriver_SRE_monitoring.png"
+<img src="../Images/StackDriver_SRE_Monitoring.png"
+        alt="StackDriver_SRE_Monitoring.png"
         style="float: left; margin-right: 10px;" />
 
-<img src="../images/StackDriver_SRE_monitoring_workspace.png"
+<img src="../Images/StackDriver_SRE_monitoring_workspace.png"
         alt="StackDriver_SRE_monitoring_workspace.png"
         style="float: left; margin-right: 10px;" />
 
 Alerting policies
 
-<img src="../images/StackDriver_SRE_monitoring_alerts.png"
+<img src="../Images/StackDriver_SRE_monitoring_alerts.png"
         alt="StackDriver_SRE_monitoring_alerts.png"
         style="float: left; margin-right: 10px;" />
 
@@ -793,7 +793,7 @@ Best practices for monitoring and alerts:
 - **customize your alerts to the audiences need** by describing what actions need to be taken or what resources need to be examined. 
 - **avoid noise**, because this will cause alerts to be dismissed overtime. Specifically, adjust monitoring alerts so that they are actionable, and don't just set up alerts on everything possible. 
 
-<img src="../images/StackDriver_SRE_monitoring_alerts_creating_best_practices.png"
+<img src="../Images/StackDriver_SRE_monitoring_alerts_creating_best_practices.png"
         alt="StackDriver_SRE_monitoring_alerts_creating_best_practices.png"
         style="float: left; margin-right: 10px;" />
 
@@ -801,14 +801,14 @@ Uptime checks
 
 Uptime checks can be configured to test the availability of your public services from locations around the world. As you can see on this slide. The type of uptime check can be set to HTTP, HTTPS or TCP. The resource to be checked can be an app engine application, a computer engine instance, a URL of a host, or an AWS instance or Load Balancer. For each uptime check, you can create an alerting policy and view the latency of each global location. 
 
-<img src="../images/StackDriver_SRE_monitoring_alerts_uptime_checks.png"
-        alt="StackDriver_SRE_monitoring_alerts_uptime_checks.png"
+<img src="../Images/StackDriver_SRE_monitoring_alerts_Uptime_Checks.png"
+        alt="StackDriver_SRE_monitoring_alerts_Uptime_Checks.png"
         style="float: left; margin-right: 10px;" />
 
 
 Here is an example of an HTTP uptime check. The resources checked every minute with a 10 second timeout. Uptime checks that do not get a response within this timeout period are considered failures. So far there is a 100 percent uptime with no outages. 
 
-<img src="../images/StackDriver_SRE_monitoring_alerts_uptime_check_example.png"
+<img src="../Images/StackDriver_SRE_monitoring_alerts_uptime_check_example.png"
         alt="StackDriver_SRE_monitoring_alerts_uptime_check_example.png"
         style="float: left; margin-right: 10px;" />
 
@@ -819,7 +819,7 @@ For example, imagine a game server that has a capacity of 50 users what metric i
 But with a custom metric, you could actually pass the current number of users directly from your application into Stackdriver.
 
 
-<img src="../images/StackDriver_SRE_monitoring_custom_metrics.png"
+<img src="../Images/StackDriver_SRE_monitoring_custom_metrics.png"
         alt="StackDriver_SRE_monitoring_custom_metrics.png"
         style="float: left; margin-right: 10px;" />
 
@@ -827,7 +827,7 @@ But with a custom metric, you could actually pass the current number of users di
 ### Lab. Resource Monitoring with StackDriver
 
 - [video overview](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/IvHOD/lab-intro-resource-monitoring)
-- [lab notes](../labs/lab_monitoring_with_StackDriver.md)
+- [lab notes](../Labs/Lab_Monitoring_with_StackDriver.md)
 - [review of the lab: Resource Monitoring](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/vMsEK/lab-review-resource-monitoring)
 
 
@@ -835,19 +835,19 @@ But with a custom metric, you could actually pass the current number of users di
 
 - [video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/yXpyQ/logging)
 
-<img src="../images/StackDriver_LOGGING.png"
+<img src="../Images/StackDriver_LOGGING.png"
     alt="StackDriver_LOGGING.png"
     style="float: left; margin-right: 10px;" />
 
 Analyze logs and visualize them wiht **BigQuery** and **Data Studio**
 
-<img src="../images/StackDriver_LOGGING_analysis_with_BigQuery_Studio.png"
+<img src="../Images/StackDriver_LOGGING_analysis_with_BigQuery_Studio.png"
     alt="StackDriver_LOGGING_analysis_with_BigQuery_Studio.png"
     style="float: left; margin-right: 10px;" />
 
 How to install Logging agent on VM:
 
-<img src="../images/StackDriver_LOGGING_how_to_install_Logging_agent_on_VM.png"
+<img src="../Images/StackDriver_LOGGING_how_to_install_Logging_agent_on_VM.png"
     alt="StackDriver_LOGGING_how_to_install_Logging_agent_on_VM.png"
     style="float: left; margin-right: 10px;" />
 
@@ -855,7 +855,7 @@ How to install Logging agent on VM:
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/J3gb8/error-reporting)
 
-<img src="../images/StackDriver_ERROR_REPORTING.png"
+<img src="../Images/StackDriver_ERROR_REPORTING.png"
     alt="StackDriver_ERROR_REPORTING.png"
     style="float: left; margin-right: 10px;" />
 
@@ -863,7 +863,7 @@ How to install Logging agent on VM:
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/Whikg/tracing)
 
-<img src="../images/StackDriver_TRACING.png"
+<img src="../Images/StackDriver_TRACING.png"
     alt="StackDriver_TRACING.png"
     style="float: left; margin-right: 10px;" />
 
@@ -871,7 +871,7 @@ How to install Logging agent on VM:
 
 [video](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/j66MW/debugging)
 
-<img src="../images/StackDriver_DEBUGGER.png"
+<img src="../Images/StackDriver_DEBUGGER.png"
     alt="StackDriver_DEBUGGER.png"
     style="float: left; margin-right: 10px;" />
 
@@ -879,7 +879,7 @@ How to install Logging agent on VM:
 ### Lab: Error Reporting and Debugging with Stackdriver
 
 - [Lab Intro: Error Reporting and Debugging](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/yLquA/lab-intro-error-reporting-and-debugging)
-- [Lab notes](../labs/lab_Stackdriver_error_reporting_debugging.md)
+- [Lab notes](../Labs/Lab_Stackdriver_Error_Reporting_Debugging.md)
 - [Lab Review video: Error Reporting and Debugging](https://www.coursera.org/learn/gcp-infrastructure-core-services/lecture/E00hP/lab-review-error-reporting-and-debugging)
 
 

@@ -34,8 +34,8 @@
 
 In this lab, you create several VPC networks and VM instances and test connectivity across networks. Specifically, you create two custom mode networks (**managementnet** and **privatenet**) with firewall rules and VM instances as shown in this network diagram:
 
-<img src="../../images/qwiklabs_network_diagram.png"
-     alt="qwiklabs_network_diagram.png"
+<img src="../../Images/Qwiklabs_Network_Diagram.png"
+     alt="Qwiklabs_Network_Diagram.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -85,16 +85,16 @@ Create the **managementnet** network using the GCP Console.
 
 6. Set the following values, leave all other values at their defaults:
 
-<img src="../../images/qwiklabs_VPC_param_01.png"
-     alt="qwiklabs_VPC_param_01.png"
+<img src="../../Images/Qwiklabs_VPC_Param_01.png"
+     alt="Qwiklabs_VPC_Param_01.png"
      style="float: left; margin-right: 10px;" />
 
 7. Click Done.
 
 8. Click command line.
 
-<img src="../../images/qwiklabs_VPC_create_subnet.png.png"
-     alt="qwiklabs_VPC_create_subnet.png.png"
+<img src="../../Images/Qwiklabs_VPC_Create_Subnet.png.png"
+     alt="Qwiklabs_VPC_Create_Subnet.png.png"
      style="float: left; margin-right: 10px;" />
 
 These commands illustrate that networks and subnets can be created using the Cloud Shell command line. You will create the **privatenet** network using these commands with similar parameters.
@@ -198,8 +198,8 @@ Create firewall rules to allow **SSH**, **ICMP**, and **RDP** ingress traffic to
 
 3. Set the following values, leave all other values at their defaults:
 
-   <img src="../../images/qwiklabs_VPC_param_02.png"
-     alt="qwiklabs_VPC_param_02.png"
+   <img src="../../Images/Qwiklabs_VPC_Param_02.png"
+     alt="Qwiklabs_VPC_Param_02.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -276,8 +276,8 @@ Create the managementnet-us-vm instance using the GCP Console.
 
 3. Set the following values, leave all other values at their defaults:
 
-<img src="../../images/qwiklabs_VPC_param_03.png"
-     alt="qwiklabs_VPC_param_03.png"
+<img src="../../Images/Qwiklabs_VPC_Param_03.png"
+     alt="Qwiklabs_VPC_Param_03.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -289,8 +289,8 @@ Create the managementnet-us-vm instance using the GCP Console.
 
 7. Set the following values, leave all other values at their defaults:
 
-   <img src="../../images/qwiklabs_VPC_param_04.png"
-     alt="qwiklabs_VPC_param_04.png"
+   <img src="../../Images/Qwiklabs_VPC_Param_04.png"
+     alt="Qwiklabs_VPC_Param_04.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -427,8 +427,8 @@ Create the **vm-appliance** instance with network interfaces in **privatesubnet-
 
 3. Set the following values, leave all other values at their defaults:
 
-<img src="../../images/qwiklabs_VPC_param_05.png"
-     alt="qwiklabs_VPC_param_05.png"
+<img src="../../Images/Qwiklabs_VPC_Param_05.png"
+     alt="Qwiklabs_VPC_Param_05.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -442,8 +442,8 @@ Create the **vm-appliance** instance with network interfaces in **privatesubnet-
 
 7. Set the following values, leave all other values at their defaults:
 
-   <img src="../../images/qwiklabs_VPC_param_06.png"
-     alt="qwiklabs_VPC_param_06.png"
+   <img src="../../Images/Qwiklabs_VPC_Param_06.png"
+     alt="Qwiklabs_VPC_Param_06.png"
      style="float: left; margin-right: 10px;" />
 
 8. Click Done.
@@ -452,8 +452,8 @@ Create the **vm-appliance** instance with network interfaces in **privatesubnet-
 
 10. Set the following values, leave all other values at their defaults:
 
-   <img src="../../images/qwiklabs_VPC_param_07.png"
-     alt="qwiklabs_VPC_param_07.png"
+   <img src="../../Images/Qwiklabs_VPC_Param_07.png"
+     alt="Qwiklabs_VPC_Param_07.png"
      style="float: left; margin-right: 10px;" />
 
 11. Click Done.
@@ -462,8 +462,8 @@ Create the **vm-appliance** instance with network interfaces in **privatesubnet-
 
 13. Set the following values, leave all other values at their defaults:
 
-   <img src="../../images/qwiklabs_VPC_param_08.png"
-     alt="qwiklabs_VPC_param_08.png"
+   <img src="../../Images/Qwiklabs_VPC_Param_08.png"
+     alt="Qwiklabs_VPC_Param_08.png"
      style="float: left; margin-right: 10px;" />
 
 14. Click Done.

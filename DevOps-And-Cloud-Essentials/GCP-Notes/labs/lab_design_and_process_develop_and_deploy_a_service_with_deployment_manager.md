@@ -79,8 +79,8 @@ In this lab, you will learn how to perform the following tasks:
 
 In this class you have been introduced to a photo application ("thumbnail application"). The application development team has informed you that the application will be written in Python. During a team meeting they have agreed to a specific directory structure. When the application is ready it will be provided in the ~/echolb/echo/echo directory. You will create the deployment manager templates in the `~/echolb/deployment-manager-examples` directory. Here is an image of that structure:
 
-<img src="../images/lab_design_process_deployment_manager_develop_deploy_service.png"
-     alt="lab_design_process_deployment_manager_develop_deploy_service.png"
+<img src="../Images/Lab_Design_Process_Deployment_Manager_Develop_Deploy_Service.png"
+     alt="Lab_Design_Process_Deployment_Manager_Develop_Deploy_Service.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -690,8 +690,8 @@ On the Navigation menu, click Compute Engine > VM Instance, and click Create.
 
 In the Create an instance page, specify the following:
 
-<img src="../images/lab_design_process_deployment_manager_develop_deploy_service_01.png"
-     alt="lab_design_process_deployment_manager_develop_deploy_service_01.png"
+<img src="../Images/Lab_Design_Process_Deployment_Manager_Develop_Deploy_Service_01.png"
+     alt="Lab_Design_Process_Deployment_Manager_Develop_Deploy_Service_01.png"
      style="float: left; margin-right: 10px;" />
 
 
@@ -801,8 +801,8 @@ You should see a message that the deployment was successfully completed.
 3. Click on Create Firewall Rule and specify the following:
 
 
-<img src="../images/lab_design_process_deployment_manager_develop_deploy_service_02.png"
-     alt="dummylab_design_process_deployment_manager_develop_deploy_service_02.pngpng"
+<img src="../Images/Lab_Design_Process_Deployment_Manager_Develop_Deploy_Service_02.png"
+     alt="dummyLab_Design_Process_Deployment_Manager_Develop_Deploy_Service_02.pngpng"
      style="float: left; margin-right: 10px;" />
 
 

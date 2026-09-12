@@ -579,8 +579,8 @@ Run the sed script on the `instance-properties.txt` file. This transforms the fi
 
 This gives you a YAML prototype, something like this:
 
-<img src="../images/app_photo_service_deployment_manager_json_to_yaml.png"
-     alt="app_photo_service_deployment_manager_json_to_yaml.png"
+<img src="../Images/App_Photo_Service_Deployment_Manager_JSON_to_YAML.png"
+     alt="App_Photo_Service_Deployment_Manager_JSON_to_YAML.png"
      style="float: left; margin-right: 10px;" />
 
 The indentation is correct in the YAML version. However, a quick look at the dashes shows they are out of place and do not reflect the correct syntax for lists as required by the API.
@@ -589,8 +589,8 @@ Since you understand the bracket notation for lists, you can correct the locatio
 
 The pruning process is simply to read the documentation for each property, and determine whether it is required for your application. To save time, the pruning process has been done for you. The blue highlights below are properties you will set in the lab. The other properties are not needed for this deployment.
 
-<img src="../images/app_photo_service_deployment_manager_other_properties.png"
-     alt="app_photo_service_deployment_manager_other_properties.png"
+<img src="../Images/App_Photo_Service_Deployment_Manager_Other_Properties.png"
+     alt="App_Photo_Service_Deployment_Manager_Other_Properties.png"
      style="float: left; margin-right: 10px;" />
 
 To save time, this reduced set of properties has been prepared for you.

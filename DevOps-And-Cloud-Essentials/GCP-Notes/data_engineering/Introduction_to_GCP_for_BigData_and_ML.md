@@ -438,7 +438,7 @@ git clone https://github.com/GoogleCloudPlatform/training-data-analyst
 cd training-data-analyst/courses/unstructured/
 ```
 
-Use [this script](./labs/replace_and_upload.sh) to rename the bucket name with yours in the lab's scripts:
+Use [this script](./Labs/replace_and_upload.sh) to rename the bucket name with yours in the lab's scripts:
 
 ```shell
 bash replace_and_upload.sh <YOUR-BUCKET-NAME>
@@ -594,7 +594,7 @@ Click the **Create credentials** button and select **API key**. Once created, cl
 
 ### Invoking ML APIs from Datalab
 
-You can find a demo notebook under [ML APIs](./labs/lab04_BigQuery_ML_APIs).
+You can find a demo notebook under [ML APIs](./Labs/Lab04_BigQuery_ML_APIs).
 
 
 ## More links

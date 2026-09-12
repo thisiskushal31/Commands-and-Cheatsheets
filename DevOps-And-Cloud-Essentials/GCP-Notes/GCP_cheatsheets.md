@@ -14,7 +14,7 @@
 ## General overview of GCP
 
 An interactive [map](https://coggle.it/diagram/W1hzfKfTAj0VEwcM/t/gcp-products) of GCP products
-![products](./images/GCP_Products.png)
+![products](./Images/GCP_Products.png)
 
 
 The Google Cloud Developer Cheat [GSheet](https://drive.google.com/open?id=1OkFbizpnc_iyzcApqRrqsNtUVazKJDtCyH5vw3352xM) ([Post on Medium](https://medium.com/google-cloud/the-google-cloud-developer-cheat-sheet-429775bd6d11))

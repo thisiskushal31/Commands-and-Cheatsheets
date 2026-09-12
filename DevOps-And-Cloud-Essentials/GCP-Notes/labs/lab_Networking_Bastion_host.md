@@ -6,8 +6,8 @@
 
 A best practice for infrastructure administration is to limit access to the resources. In this lab, you learn one method of hardening an infrastructure called a Bastion Host.
 
-<img src="../images/lab_network_bastion_host_architecture.png"
-        alt="lab_network_bastion_host_architecture.png"
+<img src="../Images/Lab_Network_Bastion_Host_Architecture.png"
+        alt="Lab_Network_Bastion_Host_Architecture.png"
         style="float: left; margin-right: 10px;" />
 
 
@@ -30,8 +30,8 @@ In this lab, you learn how to perform the following tasks:
 2. Click Create.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_bastion_host_architecture_VM1.png"
-        alt="lab_network_bastion_host_architecture_VM1.png"
+<img src="../Images/Lab_Network_Bastion_Host_Architecture_VM1.png"
+        alt="Lab_Network_Bastion_Host_Architecture_VM1.png"
         style="float: left; margin-right: 10px;" />
 
 4. Click Create.
@@ -72,8 +72,8 @@ Find the IP address of the computer you are using. One easy way to do this is to
 2. Click the default-allow-ssh rule, and then click Edit.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_bastion_host_architecture_param.png.png"
-        alt="lab_network_bastion_host_architecture_param.png"
+<img src="../Images/Lab_Network_Bastion_Host_Architecture_Param.png.png"
+        alt="Lab_Network_Bastion_Host_Architecture_Param.png"
         style="float: left; margin-right: 10px;" />
 
 4. Click Save. Wait until the firewall rule is updated (the status in the bottom pane is Updating firewall rule; when it closes, you can continue).
@@ -95,8 +95,8 @@ Find the IP address of the computer you are using. One easy way to do this is to
 2. Click the default-allow-ssh rule, and then click Edit.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_bastion_host_architecture_firewall_param.png"
-        alt="lab_network_bastion_host_architecture_firewall_param.png"
+<img src="../Images/Lab_Network_Bastion_Host_Architecture_Firewall_Param.png"
+        alt="Lab_Network_Bastion_Host_Architecture_Firewall_Param.png"
         style="float: left; margin-right: 10px;" />
 
 4. Click Save. Wait until the firewall rule is updated (the status in the bottom pane is Updating firewall rule; when it closes, you can continue).
@@ -146,8 +146,8 @@ Restrict access to the web interface by changing the source IP address in the de
 2. Click the default-allow-http rule, and then click Edit.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_bastion_host_restrict_http_access.png"
-        alt="lab_network_bastion_host_restrict_http_access.png"
+<img src="../Images/Lab_Network_Bastion_Host_Restrict_HTTP_Access.png"
+        alt="Lab_Network_Bastion_Host_Restrict_HTTP_Access.png"
         style="float: left; margin-right: 10px;" />
 
 4. Click Save. Wait until the firewall rule is updated (the status in the bottom pane is Updating firewall rule; when it closes, you can continue).
@@ -189,8 +189,8 @@ Restrict access to the VM from the internet
 1. Click Create instance.
 2. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/lab_network_bastion_host_architecture_VM2.png"
-        alt="lab_network_bastion_host_architecture_VM2.png"
+<img src="../Images/Lab_Network_Bastion_Host_Architecture_VM2.png"
+        alt="Lab_Network_Bastion_Host_Architecture_VM2.png"
         style="float: left; margin-right: 10px;" />
 
 

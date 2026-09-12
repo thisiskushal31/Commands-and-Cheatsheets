@@ -12,8 +12,8 @@ Terraform enables you to safely and predictably create, change, and improve infr
 
 In this lab, you create a Terraform configuration with a module to automate the deployment of GCP infrastructure. Specifically, you deploy one auto mode network with a firewall rule and two VM instances, as shown in this diagram:
 
-<img src="../images/lab_infrastructure_management_as_code.png"
-    alt="lab_infrastructure_management_as_code.png"
+<img src="../Images/Lab_Infrastructure_Management_As_Code.png"
+    alt="Lab_Infrastructure_Management_As_Code.png"
     style="float: left; margin-right: 10px;" />
 
 ### Objectives
@@ -203,8 +203,8 @@ Define the VM instances by creating a VM instance module. A module is a reusable
 
 You should have the following folder structure in Cloud Shell:
 
-<img src="../images/lab_infrastructure_management_as_code_terraform01.png"
-    alt="lab_infrastructure_management_as_code_terraform01.png"
+<img src="../Images/Lab_Infrastructure_Management_As_Code_Terraform01.png"
+    alt="Lab_Infrastructure_Management_As_Code_Terraform01.png"
     style="float: left; margin-right: 10px;" />
 
 5. Copy the following base code into main.tf:
@@ -351,8 +351,8 @@ Plan: 4 to add, 0 to change, 0 to destroy.
 
 Terraform determined that the following 4 resources need to be added:
 
-<img src="../images/lab_infrastructure_management_as_code_terraform02.png"
-    alt="lab_infrastructure_management_as_code_terraform02.png"
+<img src="../Images/Lab_Infrastructure_Management_As_Code_Terraform02.png"
+    alt="Lab_Infrastructure_Management_As_Code_Terraform02.png"
     style="float: left; margin-right: 10px;" />
 
 4. To apply the desired changes, run the following command:

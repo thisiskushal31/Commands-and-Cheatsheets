@@ -29,7 +29,7 @@ In this lab, you learn how to perform the following tasks:
 2. Click Create. Don't click the final Create until you have set the SCOPES.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/Compute_engine_actions_lab_VM_param.png"
+<img src="../Images/Compute_engine_actions_lab_VM_param.png"
         alt="Compute_engine_actions_lab_VM_param.png"
         style="float: left; margin-right: 10px;" />
 
@@ -39,7 +39,7 @@ In this lab, you learn how to perform the following tasks:
 6. Click Add new disk.
 7. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/Compute_engine_actions_lab_minecraft_disk.png"
+<img src="../Images/Compute_engine_actions_lab_minecraft_disk.png"
         alt="Compute_engine_actions_lab_minecraft_disk.png"
         style="float: left; margin-right: 10px;" />
 
@@ -50,7 +50,7 @@ In this lab, you learn how to perform the following tasks:
 1. Click Networking.
 2. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/Compute_engine_actions_lab_minecraft_external_static_IP.png"
+<img src="../Images/Compute_engine_actions_lab_minecraft_external_static_IP.png"
         alt="Compute_engine_actions_lab_minecraft_external_static_IP.png"
         style="float: left; margin-right: 10px;" />
 
@@ -228,7 +228,7 @@ Up to this point, the server has an external static IP address, but it can recei
 2. Click Create firewall rule.
 3. Specify the following, and leave the remaining settings as their defaults:
 
-<img src="../images/Compute_engine_actions_lab_minecraftfirewall_rules.png"
+<img src="../Images/Compute_engine_actions_lab_minecraftfirewall_rules.png"
         alt="Compute_engine_actions_lab_minecraftfirewall_rules.png"
         style="float: left; margin-right: 10px;" />
 

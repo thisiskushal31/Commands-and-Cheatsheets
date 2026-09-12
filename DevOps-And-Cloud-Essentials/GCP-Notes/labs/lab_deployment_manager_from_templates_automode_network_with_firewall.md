@@ -11,8 +11,8 @@ Deployment Manager is an infrastructure deployment service that automates the cr
 
 In this lab, you create a Deployment Manager configuration with a template to automate the deployment of GCP infrastructure. Specifically, you deploy one auto mode network with a firewall rule and two VM instances, as shown in this diagram:
 
-<img src="../images/lab_infrastructure_management_as_code.png"
-    alt="lab_infrastructure_management_as_code.png"
+<img src="../Images/Lab_Infrastructure_Management_As_Code.png"
+    alt="Lab_Infrastructure_Management_As_Code.png"
     style="float: left; margin-right: 10px;" />
 
 
