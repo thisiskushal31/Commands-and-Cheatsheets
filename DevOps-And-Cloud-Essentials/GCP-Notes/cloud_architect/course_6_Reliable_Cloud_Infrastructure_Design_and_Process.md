@@ -175,7 +175,7 @@ Learned in the labs:
 
 <img src="../Images/Course_6_Design_and_Process_List_Labs.png"
      alt="Course_6_Design_and_Process_List_Labs.png"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" /> 
 
 
 ## Modules covered
