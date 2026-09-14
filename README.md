@@ -25,7 +25,7 @@ You can find here all the commands and cheatsheets that I have collected and cur
 | Markdown Resources | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/Markdown-Resources) |
 | Machine Learning | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/Machine-Learning) |
 
-## Sister repositories
+## Related repositories
 
 | If you need the *why* | Open |
 |-----------------------|------|
