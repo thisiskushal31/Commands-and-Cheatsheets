@@ -1,4 +1,4 @@
-![Banner](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/Assets/Item_Description_Banner.jpg?raw=true)
+![Banner](./Assets/Item_Description_Banner.jpg)
 
 ### Hi Folks 👋
 
@@ -12,18 +12,18 @@ You can find here all the commands and cheatsheets that I have collected and cur
 
 | Topic  | Link |
 | ----- | ----- |
-| C/C++ | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/Languages/Cpp) |
-| Java | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/Languages/Java) |
-| Python | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/Languages/Python) |
-| CSS3 | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/Languages/CSS) |
-| HTML5 | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/Languages/HTML) |
-| JavaScript | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/Languages/JavaScript) |
-| React JS | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/Web-Dev-Essentials/React) |
-| Node JS | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/Web-Dev-Essentials/Nodejs) |
-| Databases | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/Databases) |
-| DevOps And Cloud Essentials  | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/DevOps-And-Cloud-Essentials) |
-| Markdown Resources | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/blob/main/Markdown-Resources) |
-| Machine Learning | [Click Here](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/Machine-Learning) |
+| C/C++ | [Click Here](./Languages/Cpp) |
+| Java | [Click Here](./Languages/Java) |
+| Python | [Click Here](./Languages/Python) |
+| CSS3 | [Click Here](./Languages/CSS) |
+| HTML5 | [Click Here](./Languages/HTML) |
+| JavaScript | [Click Here](./Languages/JavaScript) |
+| React JS | [Click Here](./Web-Dev-Essentials/React) |
+| Node JS | [Click Here](./Web-Dev-Essentials/Nodejs) |
+| Databases | [Click Here](./Databases) |
+| DevOps And Cloud Essentials  | [Click Here](./DevOps-And-Cloud-Essentials) |
+| Markdown Resources | [Click Here](./Markdown-Resources) |
+| Machine Learning | [Click Here](./Machine-Learning) |
 
 ## Related repositories
 

@@ -1,10 +1,10 @@
 #### Google Cloud Notes 
 
-- [Google Cloud Notes from Coursera and Qwiklabs Courses](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/DevOps-And-Cloud-Essentials/GCP-Notes) by [Patechoc](https://github.com/Patechoc/GCP_memo)
+- [Google Cloud Notes from Coursera and Qwiklabs Courses](./GCP-Notes) by [Patechoc](https://github.com/Patechoc/GCP_memo)
 
 #### AWS Notes
 
-- List of [AWS Notes](https://github.com/thisiskushal31/Commands-and-Cheatsheets/tree/main/DevOps-And-Cloud-Essentials/AWS-Notes)
+- List of [AWS Notes](./AWS-Notes)
 
 #### Docker and Kubernetes
 
